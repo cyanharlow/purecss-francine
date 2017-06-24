@@ -1,11 +1,12 @@
 // out: francine.css, sourcemap: true, compress: true
 /* francine */
+
 .vendor(@property, @value) {
     @{property}: @value;
 }
 @dresscolor: #2d8da7;
 @wrapcolor: #92b9c4;
-@lacecolor: rgba(133, 189, 204, 0.48);
+@lacecolor: rgba(133, 189, 204, 0.5);
 
 .pseudoclear {
     content: "";
@@ -86,8 +87,6 @@ body {
                             transform: rotateZ(27deg);
                         }
                     }
-
-                    .leaf {}
 
                     .flowerbody {
                         &.f1 {
@@ -3350,7 +3349,6 @@ body {
         }
     }
 }
-//}
 
 .clear {
     clear: both;
