@@ -5,29 +5,28 @@
     <style>
         /*# sourceMappingURL=francine.css.map */
     </style>
-<script>
-var start = null;
-var element = document.getElementById('nothing');
-element.style.position = 'absolute';
+    <script>
+        var start = null;
+        var element = document.getElementById('nothing');
+        element.style.position = 'absolute';
 
-function step(timestamp) {
-  if (!start) start = timestamp;
-  var progress = timestamp - start;
-  element.style.left = Math.min(progress / 10, 200) + 'px';
-  if (progress < 2000) {
-    window.requestAnimationFrame(step);
-  }
-}
+        function step(timestamp) {
+            if (!start) start = timestamp;
+            var progress = timestamp - start;
+            element.style.left = Math.min(progress / 10, 200) + 'px';
+            if (progress < 2000) {
+                window.requestAnimationFrame(step);
+            }
+        }
 
-window.requestAnimationFrame(step);
-
-</script>
+        window.requestAnimationFrame(step);
+    </script>
     <link rel="stylesheet" href="francine.css" type="text/css">
 
 </head>
 
 <body data-feedly-mini="yes">
-<div id="nothing"></div>
+    <div id="nothing"></div>
     <div class="paper">
 
         <div class="container">
@@ -832,6 +831,13 @@ window.requestAnimationFrame(step);
 
                             <div class="sideshadow"></div>
                             <div class="belt">
+                                <svg preserveAspectRatio="none" viewBox="0 0 300 100" style="width: 100%; height: 100%;">
+                                    <defs>
+                                        <clipPath id="belt-shape">
+                                            <path d="M 0 0 T 58 23 257 0 L 300 100 L0 100 Z"></path>
+                        	           </clipPath>
+                                   </defs>
+                                </svg>
                                 <div class="uppershadow"></div>
                             </div>
                             <div class="leftshirtshadow"></div>
@@ -958,6 +964,13 @@ window.requestAnimationFrame(step);
                     </div>
 
                     <div class="neck">
+                        <svg preserveAspectRatio="none" viewBox="0 0 150 160" style="width: 100%; height: 100%;">
+                            <defs>
+                                <clipPath id="neck-shape">
+                                    <path d="M 0 141 T 24 91 L 26 0 L 133 0 T 135 122 L 159 160 T 120 200 Z"></path>
+                                </clipPath>
+                             </defs>
+                        </svg>
                         <div class="inner"></div>
                     </div>
                     <div class="cord"></div>

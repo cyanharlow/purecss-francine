@@ -17,7 +17,7 @@
     .vendor(filter, opacity(1));
 }
 
-div {
+div, svg {
     position: absolute;
     -webkit-print-color-adjust: exact;
     -webkit-filter:opacity(1);
@@ -1955,7 +1955,7 @@ body {
                             right: 8%;
                             background-color: #87b2be;
                             background-image: linear-gradient(to right, #175a6d, #87b4c2 27%, #80aebb 60%, #176176);
-                            .vendor(clip-path, polygon(0 0, 20% 22%, 47% 29%, 75% 25%, 100% 0, 100% 100%, 0 100%));
+                            .vendor(clip-path, url("#belt-shape"));
                             .vendor(border-radius, ~'0 0 50% 50% / 0 0 75% 55%');
                             box-shadow: inset 0 -3em 9em 2em rgba(173, 216, 230, 0.28);
 
@@ -2409,14 +2409,15 @@ body {
                     width: 31%;
                     height: 27%;
                     z-index: 9;
-                    .vendor(clip-path, polygon(18% 0, 100% 0, 100% 88%, 141% 150%, 0 100%, 16% 60%));
+                    overflow: hidden;
+                    .vendor(clip-path, url("#neck-shape"));
                     .vendor(transform, rotateZ(7deg));
 
                     .inner {
                         background-color: #e5d7d7;
                         margin: auto;
                         overflow: hidden;
-                        width: 106%;
+                        width: 100%;
                         height: 100%;
                         .vendor(border-radius, ~'1% 8% 13% 62% / 27% 90% 7% 48%');
                         box-shadow: inset 11em -25em 19em -15em #dcc8c7, inset -19em 0 14em -3em rgba(99, 54, 46, 0.54), inset -37em 0 57em 0 #725045, inset 44em 36em 35em -9em rgba(165, 125, 118, 0.66), -1em 8em 5em -2em #dac5c4, 15em -12em 17em -5em rgba(75, 29, 13, 0.51);
