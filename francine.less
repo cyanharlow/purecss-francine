@@ -6,7 +6,7 @@
     @{property}: @value;
 }
 @dresscolor: #2d8da7;
-@wrapcolor: #92b9c4;
+@wrapcolor: #8db8c5;
 @lacecolor: rgba(133, 189, 204, 0.49);
 
 .pseudoclear {
@@ -1937,7 +1937,7 @@ body {
                     left: 7%;
                     height: 64%;
                     width: 84%;
-                    .vendor(clip-path, polygon(0 0, 108% 0, 89% 55%, 79% 100%, 29% 100%));
+                    .vendor(clip-path, polygon(0 0, 100% 0, 89% 55%, 79% 100%, 29% 100%));
 
                     .shirt {
                         width: 96%;
@@ -2023,10 +2023,10 @@ body {
 
                         .sideshadow {
                             bottom: 0;
-                            height: 54%;
-                            right: 11%;
-                            .vendor(transform, rotateZ(11deg));
-                            box-shadow: 0 0 55em 15em rgba(0, 0, 0, 0.49);
+                            height: 75%;
+                            right: 9%;
+                            .vendor(transform, rotateZ(15deg));
+                            box-shadow: 0 0 11em 5em darken(@dresscolor, 20%), 0 0 55em 27em darken(@dresscolor, 15%);
                         }
 
                         .boob {
@@ -2157,7 +2157,7 @@ body {
                         .wrapinner {
                             background-color: #a5cacb;
                             box-shadow: inset -1em -4em 3em -1em rgba(36, 96, 112, 0.26), inset 6em -15em 19em -3em rgba(255, 255, 255, 0.23);
-                            background-image: linear-gradient(99deg, @wrapcolor, lighten(@wrapcolor, 20%) 16%, @wrapcolor);
+                            background-image: linear-gradient(99deg, @wrapcolor, lighten(@wrapcolor, 14%) 16%, @wrapcolor);
                         }
                     }
 
@@ -2212,7 +2212,7 @@ body {
 
                         .wrapinner {
                             background-color: #a5cacb;
-                            background-image: linear-gradient(to right, #97bcc6, #80aebb 76%, #5e8894);
+                            background-image: linear-gradient(99deg, @wrapcolor, darken(@wrapcolor, 10%));
                         }
                     }
 
@@ -2409,7 +2409,6 @@ body {
                     width: 31%;
                     height: 27%;
                     z-index: 9;
-                    overflow: hidden;
                     .vendor(clip-path, polygon(18% 0, 100% 0, 100% 88%, 141% 150%, 0 100%, 16% 60%));
                     .vendor(transform, rotateZ(7deg));
 
