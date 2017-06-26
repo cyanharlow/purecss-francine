@@ -1,6 +1,5 @@
 // out: francine.css, sourcemap: true, compress: true
 /* francine */
-
 .vendor(@property, @value) {
     -webkit-@{property}: @value;
     @{property}: @value;
@@ -17,7 +16,8 @@
     .vendor(filter, opacity(1));
 }
 
-div, svg {
+div,
+svg {
     position: absolute;
     -webkit-print-color-adjust: exact;
     -webkit-filter:opacity(1);
@@ -121,7 +121,7 @@ body {
                             height: 50%;
                             box-shadow: inset 0 -8em 10em 1em #ad4a68;
                             background: pink;
-                            .vendor(border-radius, ~'50% 50% 50% 50% / 20% 20% 80% 80%');
+                            .vendor(border-radius, ~ '50% 50% 50% 50% / 20% 20% 80% 80%');
                             .vendor(transform-origin, 50% 100%);
                             left: 50%;
                             top: 0;
@@ -180,7 +180,7 @@ body {
                 }
 
                 .pearlstring {
-                    .vendor(border-radius, ~'0 0 50% 50% / 0 0 100% 100%');
+                    .vendor(border-radius, ~ '0 0 50% 50% / 0 0 100% 100%');
                     border-color: rgba(107, 78, 29, 0.5);
                     // border-style: solid;
                     border-width: 0 1em 1em 1em;
@@ -424,7 +424,7 @@ body {
                         z-index: 2;
                         height: 10%;
                         box-shadow: inset -3em 1em 0 0 rgba(23, 105, 114, 0.28), inset -3em 2em 0 0 rgba(255, 255, 255, 0.2), inset -7em -3em 0 -1em rgba(11, 40, 50, 0.14), 7em 1em 5em 1em rgba(87, 63, 37, 0.51);
-                        .vendor(border-radius, ~'92% 8% 9% 9% / 59% 90% 11% 15%');
+                        .vendor(border-radius, ~ '92% 8% 9% 9% / 59% 90% 11% 15%');
 
                         &.left {
                             width: 132%;
@@ -458,7 +458,7 @@ body {
                         }
 
                         .metal {
-                            .vendor(border-radius, ~'35% 35% 50% 50% / 5% 5% 95% 95%');
+                            .vendor(border-radius, ~ '35% 35% 50% 50% / 5% 5% 95% 95%');
 
                             &.middle {
                                 right: 0;
@@ -588,7 +588,7 @@ body {
                         }
 
                         .featherside {
-                            .vendor(border-radius, ~'0% 50% 0% 0 / 0% 100% 0% 0');
+                            .vendor(border-radius, ~ '0% 50% 0% 0 / 0% 100% 0% 0');
                             height: 51%;
                             width: 100%;
 
@@ -1259,14 +1259,14 @@ body {
                         bottom: 21%;
                         height: 114%;
                         width: 83%;
-                        .vendor(border-radius, ~'15% 85% 100% 0% / 39% 35% 65% 35%');
+                        .vendor(border-radius, ~ '15% 85% 100% 0% / 39% 35% 65% 35%');
 
                         &.rightback {
                             right: -29%;
                             top: -52%;
                             height: 40%;
                             width: 78%;
-                            .vendor(border-radius, ~'13% 70% 37% 12%/ 99% 90% 6% 0');
+                            .vendor(border-radius, ~ '13% 70% 37% 12%/ 99% 90% 6% 0');
 
                             &:after {
                                 box-shadow: inset -70em 29em 40em -31em rgba(72, 51, 24, 0.72);
@@ -1279,7 +1279,7 @@ body {
                             top: -55%;
                             height: 40%;
                             width: 95%;
-                            .vendor(border-radius, ~'28% 70% 37% 12%/ 99% 90% 11% 0');
+                            .vendor(border-radius, ~ '28% 70% 37% 12%/ 99% 90% 11% 0');
 
                             &:after {
                                 right: 5%;
@@ -1293,7 +1293,7 @@ body {
                             bottom: 20%;
                             width: 142%;
                             height: 104%;
-                            .vendor(border-radius, ~'54% 42% 37% 19% / 39% 38% 59% 52%');
+                            .vendor(border-radius, ~ '54% 42% 37% 19% / 39% 38% 59% 52%');
 
                             &:after {
                                 background-color: rgba(105, 82, 48, 0.67);
@@ -1319,7 +1319,7 @@ body {
                             right: -33%;
                             width: 111%;
                             height: 72%;
-                            .vendor(border-radius, ~'10% 40% 39% 52% / 9% 52% 48% 86%');
+                            .vendor(border-radius, ~ '10% 40% 39% 52% / 9% 52% 48% 86%');
                             box-shadow: 15em 2em 11em -3em rgba(93, 74, 41, 0.52);
 
                             &:after {
@@ -1346,7 +1346,7 @@ body {
                             width: 31%;
                             height: 8%;
                             .vendor(transform, rotateZ(-46deg));
-                            .vendor(border-radius, ~'18% 18% 18% 18% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '18% 18% 18% 18% / 50% 50% 50% 50%');
                         }
 
                         &.curl2 {
@@ -1355,7 +1355,7 @@ body {
                             width: 31%;
                             height: 9%;
                             .vendor(transform, rotateZ(50deg) scaleX(-1));
-                            .vendor(border-radius, ~'18% 18% 18% 18% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '18% 18% 18% 18% / 50% 50% 50% 50%');
                         }
 
                         &.curl3 {
@@ -1364,7 +1364,7 @@ body {
                             width: 71%;
                             height: 80%;
                             .vendor(transform, rotateZ(-55deg) scaleX(-1));
-                            .vendor(border-radius, ~'0% 95% 96% 0% / 0% 50% 50% 0%');
+                            .vendor(border-radius, ~ '0% 95% 96% 0% / 0% 50% 50% 0%');
 
                             &:after {
                                 background: rgba(114, 93, 64, 0.62);
@@ -1378,7 +1378,7 @@ body {
                             width: 42%;
                             height: 11%;
                             .vendor(transform, rotateZ(54deg) scaleY(-1));
-                            .vendor(border-radius, ~'18% 18% 18% 18% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '18% 18% 18% 18% / 50% 50% 50% 50%');
 
                             .strand {
                                 background: rgba(104, 81, 49, 0.56);
@@ -1391,7 +1391,7 @@ body {
                             width: 85%;
                             height: 108%;
                             .vendor(transform, rotateZ(-13deg) scaleX(-1));
-                            .vendor(border-radius, ~'0% 97% 97% 0% / 0% 50% 50% 0%');
+                            .vendor(border-radius, ~ '0% 97% 97% 0% / 0% 50% 50% 0%');
 
                             &:after {
                                 box-shadow: inset -32em -29em 30em -13em rgba(92, 75, 46, 0.33);
@@ -1404,7 +1404,7 @@ body {
                             width: 110%;
                             height: 108%;
                             .vendor(transform, rotateZ(-36deg) scaleX(-1));
-                            .vendor(border-radius, ~'0% 89% 99% 0% / 0% 50% 51% 0%');
+                            .vendor(border-radius, ~ '0% 89% 99% 0% / 0% 50% 51% 0%');
                             box-shadow: -13em 35em 30em -9em rgba(98, 77, 45, 0.74);
 
                             &:after {
@@ -1418,7 +1418,7 @@ body {
                             width: 51%;
                             height: 90%;
                             .vendor(transform, rotateZ(-5deg) scaleX(-1));
-                            .vendor(border-radius, ~'0% 95% 96% 0% / 0% 50% 50% 0%');
+                            .vendor(border-radius, ~ '0% 95% 96% 0% / 0% 50% 50% 0%');
 
                             &:after {
                                 background: rgba(113, 90, 59, 0.56);
@@ -1431,7 +1431,7 @@ body {
                             width: 50%;
                             height: 14%;
                             left: -49%;
-                            .vendor(border-radius, ~'30% 30% 30% 30% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '30% 30% 30% 30% / 50% 50% 50% 50%');
                             .vendor(transform, scaleX(-1) rotateZ(-10deg));
                         }
 
@@ -1441,7 +1441,7 @@ body {
                             width: 50%;
                             height: 14%;
                             .vendor(transform, rotateZ(20deg) scaleX(-1));
-                            .vendor(border-radius, ~'18% 18% 18% 18% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '18% 18% 18% 18% / 50% 50% 50% 50%');
                         }
 
                         &.rightbottom {
@@ -1449,7 +1449,7 @@ body {
                             width: 50%;
                             height: 14%;
                             right: -49%;
-                            .vendor(border-radius, ~'15% 20% 18% 18% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '15% 20% 18% 18% / 50% 50% 50% 50%');
                             .vendor(transform, rotateZ(-10deg));
                         }
 
@@ -1459,7 +1459,7 @@ body {
                             width: 50%;
                             height: 18%;
                             .vendor(transform, rotateZ(-16deg));
-                            .vendor(border-radius, ~'18% 27% 22% 21% / 50% 50% 50% 50%');
+                            .vendor(border-radius, ~ '18% 27% 22% 21% / 50% 50% 50% 50%');
                         }
                     }
                 }
@@ -1470,7 +1470,7 @@ body {
                     height: 30%;
                     left: -10%;
                     top: 33%;
-                    .vendor(border-radius, ~'50% 50% 12% 89% / 50% 46% 22% 50%');
+                    .vendor(border-radius, ~ '50% 50% 12% 89% / 50% 46% 22% 50%');
                     box-shadow: inset -3em -3em 1em 5em #bda898, inset 0 -9em 3em 6em #af9181, 0 5em 15em 1em rgba(84, 43, 22, 0.43);
 
                     .earring {
@@ -1494,7 +1494,7 @@ body {
                     width: 12%;
                     height: 20%;
                     bottom: -8%;
-                    .vendor(border-radius, ~'0 0 50% 50% / 0 0 90% 90%');
+                    .vendor(border-radius, ~ '0 0 50% 50% / 0 0 90% 90%');
                     border-color: @lacecolor;
 
                     &:before {
@@ -1528,7 +1528,7 @@ body {
                         height: 6%;
                         right: 6%;
                         top: 29%;
-                        .vendor(border-radius, ~'0 100% 100% 0 / 0 50% 50% 0');
+                        .vendor(border-radius, ~ '0 100% 100% 0 / 0 50% 50% 0');
                         box-shadow: inset -5em 1em 3em -3em #767676, inset -12em 1em 8em -3em #a0a1a3;
                     }
 
@@ -1537,7 +1537,7 @@ body {
                         height: 5%;
                         right: 5%;
                         top: 34%;
-                        .vendor(border-radius, ~'0 100% 100% 0 / 0 50% 50% 0');
+                        .vendor(border-radius, ~ '0 100% 100% 0 / 0 50% 50% 0');
                         box-shadow: inset -5em 1em 3em -3em #767676, inset -12em 1em 7em -3em #a0a1a3;
                     }
 
@@ -1617,7 +1617,7 @@ body {
                         top: 17%;
                         height: 55%;
                         .vendor(transform, rotateZ(42deg));
-                        .vendor(border-radius, ~'0 100% 50% 50%/ 0 64% 35% 62%');
+                        .vendor(border-radius, ~ '0 100% 50% 50%/ 0 64% 35% 62%');
                         box-shadow: inset 0 -2em 5em 2em tint(@dresscolor, 15%), inset 5em 9em 7em 2em darken(@dresscolor, 22%), 0 5em 17em 2em tint(@dresscolor, 15%);
                     }
 
@@ -1637,7 +1637,7 @@ body {
                         top: 36%;
                         height: 24%;
                         .vendor(transform, rotateZ(18deg));
-                        .vendor(border-radius, ~'0 100% 50% 50%/ 0 75% 26% 50%');
+                        .vendor(border-radius, ~ '0 100% 50% 50%/ 0 75% 26% 50%');
                         box-shadow: inset 0 -2em 5em 3em tint(@dresscolor, 10%), inset 0 8em 7em 2em darken(@dresscolor, 20%), 0 5em 7em 2em tint(@dresscolor, 10%);
                     }
 
@@ -1677,7 +1677,7 @@ body {
                     .vendor(transform, rotateZ(-17deg));
                     right: 3%;
                     top: 23%;
-                    .vendor(border-radius, ~'0 72% 64% 41% / 5% 21% 30% 29%');
+                    .vendor(border-radius, ~ '0 72% 64% 41% / 5% 21% 30% 29%');
 
                     .upperarm {
                         width: 100%;
@@ -1719,7 +1719,7 @@ body {
                             .forearmin {
                                 width: 100%;
                                 height: 100%;
-                                .vendor(border-radius, ~'0 0 45% 31% / 0 0 34% 95%');
+                                .vendor(border-radius, ~ '0 0 45% 31% / 0 0 34% 95%');
                                 background: #cecece;
                                 overflow: hidden;
                                 box-shadow: inset -9em -13em 18em 1em #7c7d80, inset -9em -33em 18em 22em #a3a6a9;
@@ -1753,7 +1753,7 @@ body {
                             height: 100%;
                             .vendor(transform, rotateZ(-3deg));
                             .vendor(transform-origin, 100% 0);
-                            .vendor(border-radius, ~'50% 50% 50% 50% / 80% 80% 20% 20%');
+                            .vendor(border-radius, ~ '50% 50% 50% 50% / 80% 80% 20% 20%');
                             background: #cccccc;
                             box-shadow: inset -28em -14em 13em -19em #8b8b8b, inset 13em -6em 20em -5em #b7b7b7, 5em 16em 4em -11em #8a8a8a;
                         }
@@ -1767,7 +1767,7 @@ body {
                                 right: 1%;
                                 width: 39%;
                                 height: 56%;
-                                .vendor(border-radius, ~'40% 15% 39% 40% / 40% 15% 12% 29%');
+                                .vendor(border-radius, ~ '40% 15% 39% 40% / 40% 15% 12% 29%');
                             }
 
                             &.segment2 {
@@ -1778,7 +1778,7 @@ body {
                                 height: 45%;
                                 overflow: hidden;
                                 z-index: 99999999999999999;
-                                .vendor(border-radius, ~'40% 15% 15% 40% / 40% 15% 14% 32%');
+                                .vendor(border-radius, ~ '40% 15% 15% 40% / 40% 15% 14% 32%');
                             }
 
                             &.segment3 {
@@ -1787,7 +1787,7 @@ body {
                                 width: 23%;
                                 height: 33%;
                                 z-index: 99999999999999999;
-                                .vendor(border-radius, ~'80% 20% 15% 40% / 37% 10% 15% 20%');
+                                .vendor(border-radius, ~ '80% 20% 15% 40% / 37% 10% 15% 20%');
                                 box-shadow: inset 6em 12em 5em -9em rgb(182, 182, 182), inset -8em 2em 5em -5em #898988, inset 11em 2em 9em -6em #a6a6a6;
                             }
                         }
@@ -1797,7 +1797,7 @@ body {
                             left: 2%;
                             width: 98%;
                             height: 73%;
-                            .vendor(border-radius, ~'24% 49% 80% 22% / 85% 30% 60% 22%');
+                            .vendor(border-radius, ~ '24% 49% 80% 22% / 85% 30% 60% 22%');
                             .vendor(transform, rotateZ(-15deg));
                             z-index: -8888888;
 
@@ -1900,7 +1900,7 @@ body {
                     width: 22%;
                     height: 63%;
                     .vendor(transform, rotateZ(3deg));
-                    .vendor(border-radius, ~'40% 0% 19% 11% / 39% 0% 97% 33%');
+                    .vendor(border-radius, ~ '40% 0% 19% 11% / 39% 0% 97% 33%');
 
                     .lace {
                         bottom: -8%;
@@ -1932,7 +1932,7 @@ body {
                         .forearmin {
                             width: 100%;
                             height: 100%;
-                            .vendor(border-radius, ~'50% 50% 0 0 / 6% 6% 0 0');
+                            .vendor(border-radius, ~ '50% 50% 0 0 / 6% 6% 0 0');
                             .vendor(clip-path, polygon(0% 0%, 100% 0, 70% 100%, 30% 100%));
                             background: #d9dde5;
                             box-shadow: inset 0 8em 1em 0 rgba(218, 218, 218, 0.32), inset -9em -13em 18em 1em #7c7d80, inset -9em -33em 18em 22em #a3a6a9;
@@ -1951,7 +1951,7 @@ body {
                         width: 96%;
                         height: 100%;
                         overflow: hidden;
-                        .vendor(border-radius, ~'0 29% 50% 50% / 0 39% 30% 79%');
+                        .vendor(border-radius, ~ '0 29% 50% 50% / 0 39% 30% 79%');
                         background-color: #4c9396;
                         background-image: linear-gradient(170deg, tint(@dresscolor, 19%), @dresscolor 63%);
                         box-shadow: inset 0 -9em 30em 2em darken(@dresscolor, 5%), 0 3em 8em -2em darken(@dresscolor, 20%);
@@ -1963,8 +1963,8 @@ body {
                             right: 8%;
                             background-color: #87b2be;
                             background-image: linear-gradient(to right, #093542, #57a5bb 21%, #87b4c2, #80aebb 60%, #176176);
-                            .vendor(clip-path, url("#belt-shape"));
-                            .vendor(border-radius, ~'0 0 50% 50% / 0 0 75% 55%');
+                            .vendor(clip-path, url( "#belt-shape"));
+                            .vendor(border-radius, ~ '0 0 50% 50% / 0 0 75% 55%');
                             box-shadow: inset 0 -3em 9em 2em rgba(173, 216, 230, 0.28);
 
                             .uppershadow {
@@ -1980,7 +1980,7 @@ body {
                             &.left {
                                 height: 26%;
                                 width: 23%;
-                                .vendor(border-radius, ~'12% 77% 9% 10% / 12% 100% 0% 10%');
+                                .vendor(border-radius, ~ '12% 77% 9% 10% / 12% 100% 0% 10%');
                                 box-shadow: 0 0 5em 7em rgb(94, 145, 148), 0 0 14em 15em rgb(140, 186, 187);
                                 top: 15%;
                                 background: #317275;
@@ -2009,7 +2009,7 @@ body {
                                 height: 85%;
                                 left: 14%;
                                 .vendor(transform, rotateZ(-14deg));
-                                .vendor(border-radius, ~'0 90% 0 0 / 0 50% 0 0');
+                                .vendor(border-radius, ~ '0 90% 0 0 / 0 50% 0 0');
                             }
                         }
 
@@ -2054,7 +2054,7 @@ body {
                                 width: 21%;
                                 bottom: 0;
                                 border-left: 1em dashed rgba(255, 255, 255, 0.45);
-                                .vendor(border-radius, ~'0 0 0 100% / 0 0 0 100%');
+                                .vendor(border-radius, ~ '0 0 0 100% / 0 0 0 100%');
                                 box-shadow: inset 3em -3em 3em -3em rgba(255, 255, 255, 0.14), -3em 4em 1em -2em rgba(0, 0, 0, 0.1);
 
                                 &.one {
@@ -2098,7 +2098,7 @@ body {
 
                     &.left {
                         width: 67%;
-                        .vendor(border-radius, ~'7% 33% 31% 64% / 59% 22% 73% 37%');
+                        .vendor(border-radius, ~ '7% 33% 31% 64% / 59% 22% 73% 37%');
                         .vendor(transform, rotateZ(18deg));
                         left: 2%;
                         top: 32%;
@@ -2174,7 +2174,7 @@ body {
                         top: 30%;
                         width: 29%;
                         height: 18%;
-                        .vendor(border-radius, ~'0 21% 37% 54% / 0 17% 69% 52%');
+                        .vendor(border-radius, ~ '0 21% 37% 54% / 0 17% 69% 52%');
                         .vendor(transform, rotateZ(-44deg));
                         box-shadow: -16em 9em 8em -13em rgba(0, 0, 0, 0.15);
 
@@ -2251,7 +2251,7 @@ body {
                         width: 100%;
                         height: 100%;
                         z-index: 2;
-                        .vendor(border-radius, ~'40% 69% 38% 42% / 6% 16% 30% 56%');
+                        .vendor(border-radius, ~ '40% 69% 38% 42% / 6% 16% 30% 56%');
 
                         &:after,
                         &:before {
@@ -2271,7 +2271,7 @@ body {
                             width: 100%;
                             height: 100%;
                             .vendor(border-radius, inherit);
-                            box-shadow: inset -32em -10em 17em -27em rgba(115, 77, 69, 0.98), inset -32em 8em 57em -14em #c5a6a1, inset -2em -3em 8em 3em rgba(87,64,51,0.24);
+                            box-shadow: inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset -32em 8em 57em -14em #c5a6a1, inset -2em -3em 12em 3em rgba(87, 64, 51, 0.11);
                         }
 
                         .centershine {
@@ -2310,7 +2310,7 @@ body {
                             height: 48%;
                             top: 80%;
                             left: 20%;
-                            box-shadow: 0 7em 1em 0.2em rgba(113, 22, 22, 0.3), 0 -5em 15em 2em rgba(102, 58, 26, 0.67), -5em -15em 29em 6em rgba(88, 34, 3, 0.1), -12em -15em 56em 22em #c4aa9b, 44em 5em 45em 34em rgba(222, 212, 207, 0.75), -82em 0 54em 33em rgba(237, 228, 225, 0.71);
+                            box-shadow: 0 7em 1em 0.2em rgba(113,22,22,0.3), 0 -5em 17em 2em rgba(102,35,26,0.67), -5em -15em 29em 6em rgba(88,34,3,0.1), -12em -15em 56em 22em #d2bbae, 44em 5em 45em 34em rgba(222, 212, 207, 0.38), -60em 0 54em 33em rgb(237, 228, 225);
                             .vendor(border-radius, 90%);
                             .vendor(transform, rotateZ(38deg));
                         }
@@ -2328,9 +2328,9 @@ body {
 
                             &.right {
                                 bottom: -17%;
-                                right: 37%;
+                                right: 33%;
                                 .vendor(transform, rotateZ(29deg));
-                                box-shadow: 0 -5em 9em 1em rgba(83, 44, 15, 0.84), -9em -15em 25em 5em rgba(88, 34, 3, 0.28), 6em 4em 56em 22em rgba(167, 134, 125, 0.79), 36em -11em 35em 4em #e9e5e5;
+                                box-shadow: 0 -5em 9em 1em rgba(83, 28, 15, 0.84), -5em 4em 25em 16em rgba(88, 15, 3, 0.17), 24em -23em 56em 22em rgba(99, 49, 36, 0.95);
                             }
                         }
 
@@ -2400,7 +2400,7 @@ body {
                     height: 30%;
                     width: 121%;
                     overflow: hidden;
-                    .vendor(border-radius, ~'69% 16% 0% 0% / 100% 100% 0% 0%');
+                    .vendor(border-radius, ~ '69% 16% 0% 0% / 100% 100% 0% 0%');
                 }
 
                 .shouldershine {
@@ -2417,7 +2417,7 @@ body {
                     width: 33%;
                     height: 27%;
                     z-index: 9;
-                    .vendor(clip-path, url("#neck-shape"));
+                    .vendor(clip-path, url( "#neck-shape"));
                     .vendor(transform, rotateZ(7deg));
 
                     .inner {
@@ -2426,7 +2426,7 @@ body {
                         overflow: hidden;
                         width: 100%;
                         height: 100%;
-                        .vendor(border-radius, ~'1% 8% 13% 62% / 27% 90% 7% 48%');
+                        .vendor(border-radius, ~ '1% 8% 13% 62% / 27% 90% 7% 48%');
                         box-shadow: inset 11em -25em 19em -15em #dcc8c7, inset -19em 0 14em -3em rgba(99, 54, 46, 0.54), inset -37em 0 57em 0 #725045, inset 44em 36em 35em -9em rgba(165, 125, 118, 0.66), -1em 8em 5em -2em #dac5c4, 15em -12em 17em -5em rgba(75, 29, 13, 0.51);
 
                         &:before {
@@ -2487,7 +2487,7 @@ body {
                 height: 33%;
                 width: 7%;
                 background: #846459;
-                .vendor(border-radius, ~'0% 95% 100% 0 / 0% 40% 60% 0%');
+                .vendor(border-radius, ~ '0% 95% 100% 0 / 0% 40% 60% 0%');
                 box-shadow: inset -1em -10em 8em -3em #6c4d43, inset -15em 0 9em -10em #5c3b2e;
 
                 &:before {
@@ -2513,7 +2513,7 @@ body {
                 .vendor(transform, rotateZ(-18deg));
                 height: 41%;
                 width: 8%;
-                .vendor(border-radius, ~'3% 95% 94% 0 / 9% 66% 33% 8%');
+                .vendor(border-radius, ~ '3% 95% 94% 0 / 9% 66% 33% 8%');
                 box-shadow: inset 5em -14em 9em -11em #662c25, inset 0 54em 26em -29em rgba(190, 162, 149, 0.64), inset -13em -9em 10em -7em #815c4d;
             }
 
@@ -2523,7 +2523,7 @@ body {
                 width: 24%;
                 height: 30%;
                 box-shadow: -7em -12em 6em -9em #dbd1cc, 6em -15em 6em -12em rgba(172, 144, 127, 0.53), -23em -30em 21em -16em rgba(248, 244, 236, 0.39), 64em -61em 21em -53em rgba(95, 58, 22, 0.32), -23em 22em 9em -27em #c9b6ad;
-                .vendor(border-radius, ~'42% 30% 41% 55% / 44% 38% 59% 45%');
+                .vendor(border-radius, ~ '42% 30% 41% 55% / 44% 38% 59% 45%');
 
                 &:after {
                     .pseudoclear;
@@ -2607,7 +2607,7 @@ body {
                         height: 14%;
                         z-index: 9;
                         .vendor(filter, blur(2em));
-                        .vendor(border-radius, ~'10% 54% 0% 0 / 10% 59% 34% 0');
+                        .vendor(border-radius, ~ '10% 54% 0% 0 / 10% 59% 34% 0');
 
                         &:before {
                             .pseudoclear;
@@ -2686,7 +2686,7 @@ body {
                             left: -12%;
                             height: 86%;
                             z-index: 9999999999999;
-                            .vendor(border-radius, ~'7% 5% 50% 50% / 5% 6% 88% 92%');
+                            .vendor(border-radius, ~ '7% 5% 50% 50% / 5% 6% 88% 92%');
                             box-shadow: -1em 3em 5em 0 #5a0404, inset 11em -5em 5em -5em #740909;
                         }
 
@@ -2877,7 +2877,7 @@ body {
                         opacity: 0.9;
                         top: 36%;
                         left: 74%;
-                        .vendor(border-radius, ~'60% 0 0 0 / 47% 0 0 0');
+                        .vendor(border-radius, ~ '60% 0 0 0 / 47% 0 0 0');
                         box-shadow: inset 9em -8em 9em -2em rgba(77, 36, 14, 0.86), -6em -2em 4em -2em rgba(84, 35, 8, 0.83);
                         .vendor(transform, rotateZ(-16deg));
                     }
@@ -2917,7 +2917,7 @@ body {
                             margin: auto;
                             width: 49%;
                             height: 86%;
-                            .vendor(border-radius, ~'61% 35% 36% 45% / 62% 34% 19% 3%');
+                            .vendor(border-radius, ~ '61% 35% 36% 45% / 62% 34% 19% 3%');
                             right: 27%;
                             bottom: 5%;
                             .vendor(transform, rotateZ(-14deg));
@@ -2938,7 +2938,7 @@ body {
                         .side {
                             width: 47%;
                             height: 35%;
-                            .vendor(border-radius, ~'50% 50% 35% 35% / 60% 60% 30% 30%');
+                            .vendor(border-radius, ~ '50% 50% 35% 35% / 60% 60% 30% 30%');
                             box-shadow: inset 0 -5em 5em 1em rgba(247, 230, 228, 0.22), inset -2em -8em 6em -4em rgba(123, 55, 55, 0.87), inset 0 -5em 3em 2em rgba(154, 123, 76, 0.22), inset 0 -10em 4em 0 rgba(247, 234, 216, 0.55);
                             background-color: #e2c4c0;
                             margin: auto;
@@ -3006,7 +3006,7 @@ body {
                         .toplips {
                             width: 100%;
                             height: 74%;
-                            .vendor(border-radius, ~'0 0 50% 50% / 0 0 12% 24%');
+                            .vendor(border-radius, ~ '0 0 50% 50% / 0 0 12% 24%');
                             box-shadow: 0 13em 5em -11em #7b1b0f;
                             bottom: 53%;
                             z-index: 5555555555555;
@@ -3030,7 +3030,7 @@ body {
                                     width: 68%;
                                     height: 65%;
                                     box-shadow: -6em -3em 4em 0 rgba(251, 249, 247, 0.57), inset 0 2em 2em 0 rgba(255, 255, 255, 0.45);
-                                    .vendor(border-radius, ~'0% 23% 10% 0% / 0% 50% 38% 0%');
+                                    .vendor(border-radius, ~ '0% 23% 10% 0% / 0% 50% 38% 0%');
                                     background-image: linear-gradient(-174deg, #e1b4ad, #a1473a);
                                     .vendor(transform, rotateZ(-39deg));
                                 }
@@ -3047,7 +3047,7 @@ body {
                         }
 
                         .bottomlip {
-                            .vendor(border-radius, ~'0 0 31% 66% / 2% 2% 91% 91%');
+                            .vendor(border-radius, ~ '0 0 31% 66% / 2% 2% 91% 91%');
                             border-top: 2em solid #66011c;
                             height: 43%;
                             width: 74%;
