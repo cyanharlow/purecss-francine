@@ -1504,7 +1504,7 @@ body {
                         .vendor(border-radius, inherit);
                         box-sizing: border-box;
                         background: rgba(24, 1, 1, 0.11);
-                        .vendor(filter, blur(2px));
+                        .vendor(filter, blur(2em));
                     }
 
                     &:after {
@@ -1584,7 +1584,7 @@ body {
                     &.wrinkle9 {
                         width: 14%;
                         height: 11%;
-                        left: 11%;
+                        left: 16%;
                         top: 34%;
                         .vendor(transform, rotateZ(35deg));
                         .vendor(border-radius, 96% 0);
@@ -1594,7 +1594,7 @@ body {
                     &.wrinkle10 {
                         width: 17%;
                         height: 8%;
-                        left: 9%;
+                        left: 12%;
                         top: 41%;
                         .vendor(transform, rotateZ(36deg));
                         .vendor(border-radius, 96% 0);
@@ -1675,7 +1675,7 @@ body {
                     width: 20%;
                     height: 66%;
                     .vendor(transform, rotateZ(-17deg));
-                    right: -1%;
+                    right: 3%;
                     top: 23%;
                     .vendor(border-radius, ~'0 72% 64% 41% / 5% 21% 30% 29%');
 
@@ -1691,7 +1691,15 @@ body {
                             height: 140%;
                             margin-top: -40%;
                             background-color: #5ba0a3;
-                            background-image: radial-gradient(ellipse farthest-corner at 66% 33%, #bb9b96 9%, #644235 71%);
+                            background-image: radial-gradient(ellipse farthest-corner at 66% 33%, #bb9b96 9%, #522f2c 71%);
+
+                            .uppershadow {
+                                width: 0;
+                                height: 51%;
+                                top: 25%;
+                                .vendor(transform, rotateZ(35deg));
+                                box-shadow: 0 0 12em 8em #462626, 0 0 17em 21em rgba(98, 64, 61, 0.5);
+                            }
                         }
                     }
 
@@ -1910,7 +1918,7 @@ body {
                             height: 186%;
                             top: -32%;
                             width: 100%;
-                            background-image: radial-gradient(ellipse farthest-corner at 40% 51%, #e3d4d2 5%, #c2afaf 32%, #774e4a 62%);
+                            background-image: radial-gradient(ellipse farthest-corner at 40% 42%, #e3d4d2 3%, #c2afaf 32%, #794742 65%);
                         }
                     }
 
@@ -1954,7 +1962,7 @@ body {
                             bottom: 0;
                             right: 8%;
                             background-color: #87b2be;
-                            background-image: linear-gradient(to right, #175a6d, #87b4c2 27%, #80aebb 60%, #176176);
+                            background-image: linear-gradient(to right, #093542, #57a5bb 21%, #87b4c2, #80aebb 60%, #176176);
                             .vendor(clip-path, url("#belt-shape"));
                             .vendor(border-radius, ~'0 0 50% 50% / 0 0 75% 55%');
                             box-shadow: inset 0 -3em 9em 2em rgba(173, 216, 230, 0.28);
@@ -2006,7 +2014,7 @@ body {
                         }
 
                         .armshadow {
-                            top: 34%;
+                            top: 29%;
                             bottom: 30%;
                             left: 14%;
                             .vendor(transform, rotateZ(7deg));
@@ -2092,7 +2100,7 @@ body {
                         width: 67%;
                         .vendor(border-radius, ~'7% 33% 31% 64% / 59% 22% 73% 37%');
                         .vendor(transform, rotateZ(18deg));
-                        left: 0;
+                        left: 2%;
                         top: 32%;
                         height: 18%;
                         box-shadow: 13em 15em 8em -13em rgba(0, 0, 0, 0.15);
@@ -2162,9 +2170,9 @@ body {
                     }
 
                     &.right {
-                        right: 3%;
-                        top: 29%;
-                        width: 31%;
+                        right: 6%;
+                        top: 30%;
+                        width: 29%;
                         height: 18%;
                         .vendor(border-radius, ~'0 21% 37% 54% / 0 17% 69% 52%');
                         .vendor(transform, rotateZ(-44deg));
@@ -2212,7 +2220,7 @@ body {
 
                         .wrapinner {
                             background-color: #a5cacb;
-                            background-image: linear-gradient(99deg, @wrapcolor, darken(@wrapcolor, 10%));
+                            background-image: linear-gradient(103deg, @wrapcolor, darken(@wrapcolor, 12%) 75%, darken(@wrapcolor, 40%));
                         }
                     }
 
@@ -2236,14 +2244,14 @@ body {
                         left: 0;
                         right: 0;
                         background-color: #dacec7;
-                        box-shadow: -4em 3em 3em 3em rgba(226, 237, 241, 0.33);
+                        box-shadow: -5em 5em 3em -1em rgba(247, 250, 251, 0.18);
                         background-image: linear-gradient(143deg, #ddc9c9 63%, #c7a09d, #93766b 103%);
                         margin: auto;
                         overflow: hidden;
                         width: 100%;
                         height: 100%;
                         z-index: 2;
-                        .vendor(border-radius, ~'40% 69% 38% 42% / 6% 16% 17% 56%');
+                        .vendor(border-radius, ~'40% 69% 38% 42% / 6% 16% 30% 56%');
 
                         &:after,
                         &:before {
@@ -2263,7 +2271,7 @@ body {
                             width: 100%;
                             height: 100%;
                             .vendor(border-radius, inherit);
-                            box-shadow: inset -32em 8em 17em -27em rgba(87, 55, 49, 0.5), inset -32em 8em 57em -14em #c5a6a1, inset -2em -3em 8em 3em rgba(87, 64, 51, 0.24);
+                            box-shadow: inset -32em -10em 17em -27em rgba(115, 77, 69, 0.98), inset -32em 8em 57em -14em #c5a6a1, inset -2em -3em 8em 3em rgba(87,64,51,0.24);
                         }
 
                         .centershine {
@@ -2406,10 +2414,9 @@ body {
                 .neck {
                     top: -7%;
                     left: 34.5%;
-                    width: 31%;
+                    width: 33%;
                     height: 27%;
                     z-index: 9;
-                    overflow: hidden;
                     .vendor(clip-path, url("#neck-shape"));
                     .vendor(transform, rotateZ(7deg));
 
@@ -2599,7 +2606,7 @@ body {
                         width: 39%;
                         height: 14%;
                         z-index: 9;
-                        .vendor(filter, blur(2px));
+                        .vendor(filter, blur(2em));
                         .vendor(border-radius, ~'10% 54% 0% 0 / 10% 59% 34% 0');
 
                         &:before {
@@ -2680,7 +2687,7 @@ body {
                             height: 86%;
                             z-index: 9999999999999;
                             .vendor(border-radius, ~'7% 5% 50% 50% / 5% 6% 88% 92%');
-                            box-shadow: -1px 3px 5px 0 #5a0404, inset 11px -5px 5px -5px #740909;
+                            box-shadow: -1em 3em 5em 0 #5a0404, inset 11em -5em 5em -5em #740909;
                         }
 
                         .lash {
@@ -2982,7 +2989,7 @@ body {
                                 .pseudoclear;
                                 right: 13%;
                                 bottom: 50%;
-                                box-shadow: 0 0 30px 13px rgba(197, 9, 23, 0.19);
+                                box-shadow: 0 0 30em 13em rgba(197, 9, 23, 0.19);
                             }
                         }
                     }
@@ -3000,7 +3007,7 @@ body {
                             width: 100%;
                             height: 74%;
                             .vendor(border-radius, ~'0 0 50% 50% / 0 0 12% 24%');
-                            box-shadow: 0 13px 5px -11px #7b1b0f;
+                            box-shadow: 0 13em 5em -11em #7b1b0f;
                             bottom: 53%;
                             z-index: 5555555555555;
                             overflow: hidden;
@@ -3011,7 +3018,7 @@ body {
                                 right: 13%;
                                 left: 20%;
                                 margin: auto;
-                                box-shadow: 0 0 9px 2px #6f0018;
+                                box-shadow: 0 0 9em 2em #6f0018;
                             }
 
                             .toplip {
