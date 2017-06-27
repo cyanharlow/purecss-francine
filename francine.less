@@ -1493,7 +1493,7 @@ body {
                 .lace {
                     width: 12%;
                     height: 20%;
-                    bottom: -14%;
+                    top: 96%;
                     border-radius: ~ '0 0 50% 50% / 0 0 90% 90%';
                     border-color: @lacecolor;
                     border-style: dotted;
@@ -1653,13 +1653,14 @@ body {
                         box-shadow: 11em -1em 18em -7em darken(@dresscolor, 16%), inset -8em -5em 8em -5em darken(@dresscolor, 10%), inset -12em -7em 24em -5em tint(@dresscolor, 10%);
                     }
 
-                    &.wrinkle43 {
-                        width: 20%;
-                        height: 110%;
-                        bottom: 11%;
-                        left: 28%;
-                        border-radius: 50%;
-                        background-image: radial-gradient(ellipse farthest-corner at center center, rgba(8, 29, 35, 0.18), transparent 68%);
+                    &.wrinkle40 {
+                        left: 14%;
+                        top: 51%;
+                        width: 46%;
+                        height: 13%;
+                        border-radius: ~'90% 8% 8% 90% / 74% 0 0 15%';
+                        box-shadow: inset 15em 0em 5em -5em rgba(4,45,58,0.49), -9em 0em 5em 2em rgba(223, 242, 247, 0.18);
+                        transform:rotateZ(9deg);
                     }
 
                     &.wrinkle41 {
@@ -1670,6 +1671,25 @@ body {
                         border-radius: 50%;
                         -webkit-transform: rotateZ(9deg);
                         background-image: radial-gradient(ellipse farthest-corner at center center, rgba(8, 29, 35, 0.18), transparent 68%);
+                    }
+
+                    &.wrinkle43 {
+                        width: 20%;
+                        height: 110%;
+                        bottom: 11%;
+                        left: 28%;
+                        border-radius: 50%;
+                        background-image: radial-gradient(ellipse farthest-corner at center center, rgba(8, 29, 35, 0.18), transparent 68%);
+                    }
+
+                    &.wrinkle44 {
+                        right: 0;
+                        top: 34%;
+                        width: 30%;
+                        height: 17%;
+                        border-radius: ~'8% 90% 90% 8% / 0 15% 74% 0';
+                        box-shadow: inset -20em 1em 5em -3em rgba(4, 45, 58, 0.49), 2em -3em 5em -3em rgba(223, 242, 247, 0.63);
+                        transform: rotateZ(-21deg);
                     }
                 }
 
@@ -1965,7 +1985,7 @@ body {
                             right: 8%;
                             background-color: #87b2be;
                             background-image: linear-gradient(to right, #093542, #57a5bb 21%, #87b4c2, #80aebb 60%, #176176);
-                            -webkit-clip-path: url( "#belt-shape");
+                            -webkit-clip-path: url("#belt-shape");
                             border-radius: ~ '0 0 50% 50% / 0 0 75% 55%';
                             box-shadow: inset 0 -3em 9em 2em rgba(173, 216, 230, 0.28);
 
@@ -2100,32 +2120,32 @@ body {
 
                     &.left {
                         width: 64%;
-                        border-radius: ~ '7% 33% 31% 64% / 59% 22% 73% 37%';
+                        border-radius: ~ '7% 33% 53% 3% / 59% 5% 95% 37%';
                         -webkit-transform: rotateZ(18deg);
                         left: 2%;
                         top: 32%;
-                        height: 18%;
-                        box-shadow: 23em 20em 5em -13em rgba(0,0,0,0.15);
+                        height: 15%;
+                        box-shadow: 16em 21em 5em -13em rgba(0,0,0,0.15);
 
                         .lace0 {
                             left: 2%;
-                            bottom: 6%;
-                            -webkit-transform: rotateZ(14deg);
+                            top: 95%;
+                            -webkit-transform: rotateZ(5deg);
                         }
 
                         .lace1 {
                             left: 9%;
-                            bottom: -4%;
+                            top: 95%;
                         }
 
                         .lace2 {
                             left: 19%;
-                            bottom: -10%;
+                            top: 96%;
                         }
 
                         .lace3 {
                             left: 29%;
-                            bottom: -12%;
+                            top: 95%;
                         }
 
                         .lace4 {
@@ -2134,33 +2154,38 @@ body {
 
                         .lace5 {
                             left: 49%;
+                            top: 95%;
+                            transform: rotateZ(-9deg);
                         }
 
                         .lace6 {
                             left: 59%;
+                            top: 91%;
+                            transform: rotateZ(-9deg);
                         }
 
                         .lace7 {
                             left: 69%;
-                            -webkit-transform: rotateZ(-6deg);
+                            top: 82%;
+                            -webkit-transform: rotateZ(-16deg);
                         }
 
                         .lace8 {
                             left: 79%;
-                            bottom: -4%;
+                            top: 68%;
                             -webkit-transform: rotateZ(-28deg);
                         }
 
                         .lace9 {
                             left: 88%;
-                            bottom: 12%;
+                            top: 46%;
                             -webkit-transform: rotateZ(-43deg);
                         }
 
                         .lace10 {
                             left: 93%;
                             bottom: 38%;
-                            -webkit-transform: rotateZ(-66deg);
+                            -webkit-transform: rotateZ(-60deg);
                         }
 
                         .wrapinner {
@@ -2171,52 +2196,45 @@ body {
                     }
 
                     &.right {
-                        right: 6%;
+                        right: 8%;
                         top: 30%;
                         width: 28%;
-                        height: 18%;
-                        border-radius: ~ '0 21% 37% 54% / 0 17% 69% 52%';
-                        -webkit-transform: rotateZ(-44deg);
+                        height: 16%;
+                        border-radius: ~ '0 21% 12% 80% / 0 17% 69% 95%';
+                        -webkit-transform: rotateZ(-28deg);
                         box-shadow: -27em 19em 8em -13em rgba(0,0,0,0.15);
 
                         .lace {
                             width: 23%;
-                            height: 23%;
+                            height: 20%;
                         }
 
                         .lace11 {
-                            left: -13%;
-                            bottom: 40%;
-                            -webkit-transform: rotateZ(77deg);
+                            left: 6%;
+                            top: 61%;
+                            -webkit-transform: rotateZ(35deg);
                         }
 
                         .lace12 {
-                            left: -5%;
-                            bottom: 16%;
-                            -webkit-transform: rotateZ(57deg);
+                            left: 18%;
+                            top: 75%;
+                            -webkit-transform: rotateZ(36deg);
                         }
 
                         .lace13 {
-                            left: 10%;
-                            bottom: -4%;
-                            -webkit-transform: rotateZ(30deg);
+                            left: 32%;
+                            top: 85%;
+                            -webkit-transform: rotateZ(27deg);
                         }
 
                         .lace14 {
-                            left: 27%;
+                            right: 26%;
+                            top: 91%;
+                            transform: rotateZ(-9deg);
                         }
 
                         .lace15 {
-                            left: 44%;
-                        }
-
-                        .lace16 {
-                            left: 60%;
-                            bottom: -8%;
-                        }
-
-                        .lace17 {
-                            left: 66%;
+                            right: 10%;
                         }
 
                         .wrapinner {
@@ -2439,7 +2457,7 @@ body {
                     width: 33%;
                     height: 27%;
                     z-index: 9;
-                    -webkit-clip-path: url( "#neck-shape");
+                    -webkit-clip-path: url("#neck-shape");
                     -webkit-transform: rotateZ(7deg);
 
                     .inner {
@@ -3036,7 +3054,7 @@ body {
 
                             &:after {
                                 .pseudoclear;
-                                bottom: 0%;
+                                bottom: 0;
                                 right: 42%;
                                 left: 53%;
                                 box-shadow: 0 13em 7em 16em #5f071e;
@@ -3059,7 +3077,7 @@ body {
                                 &.right {
                                     left: 57%;
                                     top: 49%;
-                                    box-shadow: inset 0em 3em 3em -2em rgb(206, 171, 161);
+                                    box-shadow: inset 0 3em 3em -2em rgb(206, 171, 161);
                                     border-radius: 50%;
                                     width: 27%;
                                     background: linear-gradient(104deg, #a51b4b, #790624 55%, #000);
