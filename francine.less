@@ -2273,7 +2273,7 @@ body {
                         right: 0;
                         background-color: #dacec7;
                         box-shadow: -5em 5em 3em -1em rgba(247, 250, 251, 0.18);
-                        background-image: linear-gradient(143deg, #dec5c5 63%, #c7a09d, #93766b 103%);
+                        background-image: linear-gradient(119deg, #dec5c5 53%, #c7a09d 71%, #af857f 80%, #f3ebea);
                         margin: auto;
                         overflow: hidden;
                         width: 100%;
@@ -2299,7 +2299,7 @@ body {
                             width: 100%;
                             height: 100%;
                             border-radius: inherit;
-                            box-shadow: inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset -32em 8em 57em -14em #c5a6a1, inset -2em -3em 12em 3em rgba(87, 64, 51, 0.11);
+                            box-shadow: inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset -9em 8em 57em -14em #885a4d, inset -2em -3em 12em 3em rgba(87,64,51,0.11);
                         }
 
                         .centershine {
@@ -2313,26 +2313,6 @@ body {
                             width: 44%;
                             border-radius: 20% 20% 0 0;
                             box-shadow: inset 0 -33em 10em 2em #fffbfa, 0 0 33em 21em #f8e9e3;
-                        }
-
-                        .collarbone {
-                            border-radius: 90%;
-
-                            &.right {
-                                -webkit-transform: rotate(43deg);
-                                right: 9%;
-                                box-shadow: 0 0 49em 13em rgba(122, 70, 59, 0.37);
-                                width: 32%;
-                                top: 87%;
-                            }
-
-                            &.left {
-                                box-shadow: 0 0 26em 6em #ede1e0, 39em -16em 26em 5em #ccbbb6;
-                                -webkit-transform: rotate(32deg);
-                                right: 31%;
-                                width: 54%;
-                                top: 37%;
-                            }
                         }
 
                         .cleavage {
@@ -2446,7 +2426,6 @@ body {
                     left: 34.5%;
                     width: 33%;
                     height: 27%;
-                    z-index: 9;
                     -webkit-clip-path: url("#neck-shape");
                     -webkit-transform: rotate(7deg);
 
@@ -2457,7 +2436,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: ~ '1% 8% 13% 62% / 27% 90% 7% 48%';
-                        box-shadow: inset 11em -27em 19em -15em #dac3c2, inset -28em 0 23em -3em rgba(72, 37, 30, 0.56), inset -61em 0 57em 0 #a1817b, inset 49em 36em 35em -9em rgba(165,125,118,0.66), -1em 11em 13em -2em #ddc5c5, 15em -12em 17em -5em rgba(75,29,13,0.51);
+                        box-shadow: inset -42em 11em 23em -18em rgba(72,37,30,0.56), inset 0 -16em 22em 1em #d8bdbc, inset -61em 0 57em 0 #a1817b, inset 39em 43em 35em 4em rgba(165,125,118,0.66), inset 81em 36em 35em -9em #e6cfcf, inset 26em -40em 19em -32em #dac3c2, -19em 42em 13em -30em #d9c1c0;
 
                         &:before {
                             .pseudoclear;
@@ -2488,17 +2467,16 @@ body {
                 .cord {
                     height: 2%;
                     top: 19%;
-                    box-shadow: 0 0 13em 4em #a58681, -16em 0 15em 7em #e5d2cb;
-                    z-index: 14;
-                    right: 39%;
-                    -webkit-transform: rotate(-24deg);
+                    box-shadow: 8em 0em 17em 8em #caa3a1, 0em -7em 17em 8em #97716a, -6em 0 18em 17em #b79996;
+                    right: 40%;
+                    -webkit-transform: rotate(-11deg);
+                    border-radius: 99%;
                 }
 
                 .cordshadow {
                     height: 7%;
                     top: 15%;
                     box-shadow: 0 0 19em 5em #ca9587;
-                    z-index: 11;
 
                     &.left {
                         left: 43%;
@@ -2508,6 +2486,27 @@ body {
                         left: 56%;
                     }
                 }
+
+                .collarbone {
+                    border-radius: 90%;
+
+                    &.right {
+                        -webkit-transform: rotate(-5deg);
+                        right: 25%;
+                        box-shadow: 0 0 25em 8em rgba(124, 78, 68, 0.47);
+                        width: 10%;
+                        top: 27%;
+                    }
+
+                    &.left {
+                        box-shadow: 0 0 26em 6em #ede1e0, 39em 25em 26em 5em #ccbbb6;
+                        -webkit-transform: rotate(-6deg);
+                        left: 15%;
+                        width: 42%;
+                        top: 26%;
+                    }
+                }
+
             }
 
             .cheekridge {
@@ -2705,7 +2704,7 @@ body {
                         width: 24.5%;
                         height: 7.5%;
                         z-index: 3;
-                        border-radius: 62% 2% 75% 12%;
+                        border-radius: ~'81% 2% 56% 4% / 88% 0% 86% 0%';
                         box-shadow: 4em -1em 6em -1em rgba(57, 4, 4, 0.45), 2em 9em 9em 3em rgba(229, 229, 228, 0.17), -3em 1em 5em 3em rgba(253, 253, 253, 0.35), 0 -6em 1em 0 rgba(251, 239, 242, 0.1), 1em -6em 11em 7em rgba(99, 22, 37, 0.29), inset 0 7em 3em -6em rgba(0, 0, 0, 0.47);
 
                         &:after {
