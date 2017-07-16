@@ -1488,6 +1488,7 @@ body {
                     border-color: @lacecolor;
                     border-style: dotted;
                     border-width: 3em;
+                    border-top: 0;
 
                     &:before {
                         .pseudoclear;
@@ -2223,6 +2224,11 @@ body {
 
                         .lace15 {
                             right: 10%;
+                            border-radius: 0 0 0 90%;
+                            border-right-width: 0;
+                            &:after {
+                                border-right: 0;
+                            }
                         }
 
                         .wrapinner {
@@ -2436,7 +2442,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: ~ '1% 8% 13% 62% / 27% 90% 7% 48%';
-                        box-shadow: inset -42em 11em 23em -18em rgba(72,37,30,0.75), inset 0 -16em 22em 1em #d8bdbc, inset -61em 0 57em 0 #a1817b, inset 39em 43em 35em 4em rgba(165,125,118,0.66), inset 81em 36em 35em -9em #e6cfcf, inset 26em -40em 19em -32em #dac3c2, -19em 42em 13em -30em #d9c1c0;
+                        box-shadow: inset -42em 11em 23em -18em rgba(72, 37, 30, 0.96), inset 0 -16em 22em 1em #d8bdbc, inset -61em 0 57em 0 #8e6962, inset 39em 43em 35em 4em rgba(165,125,118,0.66), inset 81em 36em 35em -9em #e6cfcf, inset 26em -40em 19em -32em #dac3c2, -19em 42em 13em -30em #d9c1c0;
 
                         &:before {
                             .pseudoclear;
@@ -2486,7 +2492,7 @@ body {
                         right: 32%;
                         transform: rotate(-33deg);
                         border-radius: 52%;
-                        box-shadow: -16em 11em 13em -9em #c3a6a2, -15em 0 15em -2em #805e57;
+                        box-shadow: -16em 11em 13em -9em #c3a6a2, -15em 0 15em -2em #654038;
                     }
                 }
 
