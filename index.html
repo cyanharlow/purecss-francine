@@ -5,22 +5,7 @@
     <style>
         /*# sourceMappingURL=francine.css.map */
     </style>
-    <script>
-        var start = null;
-        var element = document.getElementById('nothing');
-        element.style.position = 'absolute';
 
-        function step(timestamp) {
-            if (!start) start = timestamp;
-            var progress = timestamp - start;
-            element.style.left = Math.min(progress / 10, 200) + 'px';
-            if (progress < 2000) {
-                window.requestAnimationFrame(step);
-            }
-        }
-
-        window.requestAnimationFrame(step);
-    </script>
     <link rel="stylesheet" href="francine.css" type="text/css">
 
 </head>
