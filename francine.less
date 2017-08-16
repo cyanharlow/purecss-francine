@@ -5,7 +5,7 @@
     @{property}: @value;
 }
 @dresscolor: #1485a3;
-@wrapcolor: #8db8c5;
+@wrapcolor: #81c0d3;
 @lacecolor: #85bdcc;
 
 .pseudoclear {
@@ -33,7 +33,7 @@ body {
         position: relative;
         margin: auto;
         background-color: #4e5442;
-        background-image: radial-gradient(circle farthest-corner at 54% 68%, #957257, #202028 67%);
+        background-image: radial-gradient(circle farthest-corner at 54% 50%, #6c533f, #0d0d10 95%);
         border: 40em solid #38381a;
         overflow: hidden;
         box-sizing: content-box;
@@ -1973,15 +1973,23 @@ body {
                         border-radius: ~ '0 29% 50% 50% / 0 39% 30% 79%';
                         background-color: #4c9396;
                         background-image: linear-gradient(170deg, tint(@dresscolor, 19%), @dresscolor 63%);
-                        box-shadow: inset 0 -9em 30em 2em darken(@dresscolor, 5%), 0 3em 8em -2em darken(@dresscolor, 20%);
 
+                        .beltshadow {
+                            box-shadow: 0 14em 23em 0 #000000, inset 0 -10em 4em -10em #000000;
+                            width: 71%;
+                            height: 7%;
+                            left: 21%;
+                            bottom: 20%;
+                            opacity: 0.1;
+                            border-radius: ~'0 0 66% 32% / 0 0 100% 100%';
+                        }
                         .belt {
                             width: 72%;
                             height: 26%;
                             bottom: 0;
                             right: 8%;
-                            background-color: #87b2be;
-                            background-image: linear-gradient(to right, #093542 7%, #57a5bb 21%, #87b4c2, #80aebb 60%, #176176);
+                            background-color: @wrapcolor;
+                            background-image: linear-gradient(65deg, darken(@wrapcolor, 40%) 16%, transparent 35%), linear-gradient(-80deg, darken(@wrapcolor, 65%), darken(@wrapcolor, 35%) 12%, transparent 62%);
                             -webkit-clip-path: url("#belt-shape");
                             border-radius: ~ '0 0 50% 50% / 0 0 75% 55%';
                             box-shadow: inset 0 -3em 9em 2em rgba(173, 216, 230, 0.28);
@@ -1989,8 +1997,8 @@ body {
                             .uppershadow {
                                 width: 100%;
                                 height: 85%;
-                                border-radius: 50%;
-                                box-shadow: 0 5em 2em 1em rgba(255,255,255,0.09);
+                                border-radius: ~'0 0 48% 47% / 0 0 61% 32%';
+                                box-shadow: 0 5em 14em 1em rgba(255,255,255,0.09);
                                 bottom: 73%;
                             }
                         }
@@ -2066,40 +2074,52 @@ body {
 
                         .stitches {
                             bottom: 14%;
-                            height: 23%;
+                            height: 27%;
 
                             .stitch {
                                 height: 100%;
-                                width: 21%;
+                                width: 27%;
                                 bottom: 0;
-                                border-left: 1em dashed rgba(255, 255, 255, 0.45);
-                                border-radius: ~ '25% 0 0 73% / 14% 0 0 66%';
-                                box-shadow: inset 3em -3em 3em -3em rgba(255,255,255,0.13), -3em 4em 3em -2em rgba(0, 0, 0, 0.13);
+                                // border-left: 1em dashed rgb(10, 69, 85);
+                                border-radius: ~ '0 0 78% 0 / 0 0 99% 0';
+                                box-shadow: 2em 3em 1em 0 #3c8699, 3em 11em 2em -2em rgba(3,49,60,0.81), 6em 3em 8em 0 rgba(3,49,60,0.23), inset -5em -18em 9em -7em #5aa0b4;
+
+                                &:before {
+                                    // .pseudoclear;
+                                    width: 100%;
+                                    height: 87%;
+                                    right: 12%;
+                                    bottom: 1%;
+                                    border-right: 1em dashed #0f4e5e;
+                                    border-radius: inherit;
+                                }
 
                                 &.one {
                                     left: 0;
+                                    transform: rotate(-5deg);
                                 }
 
                                 &.two {
                                     left: 15%;
-                                    height: 96%;
                                 }
 
                                 &.three {
                                     left: 30%;
-                                    height: 92%;
+                                    height: 96%;
+                                    transform: rotate(3deg);
                                 }
 
                                 &.four {
                                     left: 45%;
                                     height: 88%;
+                                    transform: rotate(9deg);
                                 }
                             }
 
                             &.left {
-                                left: 46%;
-                                width: 19%;
-                                -webkit-transform: rotate(-2deg);
+                                left: 42%;
+                                width: 31%;
+                                -webkit-transform: rotate(-13deg);
                             }
 
                             &.right {
@@ -2259,7 +2279,7 @@ body {
                     top: 40%;
                     -webkit-transform: rotate(-17deg);
                     border-radius: ~'18% 28% 29% 33% / 49% 50% 32% 31%';
-                    box-shadow: 4em 4em 4em -1em rgba(21,1,1,0.32), 3em 6em 4em 2em rgba(21,1,1,0.25);
+                    box-shadow: 4em 4em 4em -1em rgba(21,1,1,0.32), 3em 6em 4em -1em rgba(21,1,1,0.25);
 
                     .midpin {
                         border-radius: inherit;
@@ -2414,16 +2434,24 @@ body {
                     }
                 }
 
+                .waistshadow {
+                    box-shadow: 0 14em 23em 0em rgba(150, 201, 213, 0.47);
+                    width: 48%;
+                    height: 21%;
+                    border-radius: ~'0 0 66% 32% / 0 0 100% 100%';
+                    left: 34%;
+                    top: 13%;
+                }
                 .banner {
                     background-color: @dresscolor;
                     background-image: radial-gradient(ellipse closest-corner at 58% 59%, tint(@dresscolor, 15%) 3%, darken(@dresscolor, 12%) 97%);
-                    box-shadow: inset -34em 5em 34em -1em darken(@dresscolor, 15%);
+                    box-shadow: inset -34em 5em 34em -1em darken(@dresscolor, 15%),  0 0 3em 2em darken(@dresscolor, 15%);
                     top: 76%;
                     left: -2%;
                     height: 35%;
                     width: 92%;
                     overflow: hidden;
-                    border-radius: ~ '54% 36% 0% 0% / 100% 100% 0% 0%';
+                    border-radius: ~ '54% 43% 0% 0% / 100% 100% 0% 0%';
 
                     .forearmshadow {
                         top: 24%;
@@ -2466,7 +2494,7 @@ body {
                             background: #38150f;
                             box-shadow: 0 0 10em 6em #38150f;
                             top: 6%;
-                            opacity: 0.6;
+                            opacity: 0.4;
                             height: 57%;
                             border-radius: 20% 20% 20% 50%;
                             -webkit-transform: rotate(-40deg);
@@ -2539,16 +2567,16 @@ body {
                 -webkit-transform: rotate(13deg);
                 height: 33%;
                 width: 7%;
-                background: #846459;
-                border-radius: ~ '0% 95% 100% 0 / 0% 40% 60% 0%';
-                box-shadow: inset -1em -10em 8em -3em #6c4d43, inset -15em 0 9em -10em #5c3b2e;
+                background: #83554b;
+                border-radius: ~ '0% 95% 100% 0 / 0% 31% 69% 0%';
+                box-shadow: inset -14em 0 6em -11em #5f3b2d, inset -1em -35em 8em -3em #7c4b43;
 
                 &:before {
                     .pseudoclear;
                     left: -18%;
                     top: 12%;
                     bottom: 51%;
-                    box-shadow: 0 0 9em 2em #9e756d;
+                    box-shadow: 0 0 9em 2em #a77c75;
                 }
 
                 &:after {
@@ -2556,7 +2584,7 @@ body {
                     left: 0;
                     top: 22%;
                     bottom: 6%;
-                    box-shadow: 0 0 5em 1em #a2766d;
+                    box-shadow: 0 0 5em 1em #98685f;
                 }
             }
 
@@ -2622,7 +2650,7 @@ body {
                     overflow: hidden;
                     width: 100%;
                     height: 100%;
-                    box-shadow: inset -15em -3em 9em -12em rgba(91, 73, 62, 0.98), inset 31em 53em 26em -46em #dacec8, inset -38em -8em 29em -21em rgba(82, 48, 37, 0.34), inset -1em -14em 10em -4em rgba(166, 130, 121, 0.93), inset 0 -7em 51em 7em #b18a76;
+                    box-shadow: inset -15em -3em 9em -12em rgba(83, 58, 43, 0.98), inset 31em 53em 26em -46em #dacec8, inset -38em -8em 29em -21em rgba(82,48,37,0.34), inset -1em -14em 10em -4em rgba(166,130,121,0.93), inset 0 -7em 51em 7em #b18a76;
                     border-radius: inherit;
 
                     &:after,
@@ -2633,10 +2661,10 @@ body {
                     }
 
                     &:before {
-                        left: 3%;
+                        left: 38%;
                         bottom: 0;
                         width: 64%;
-                        box-shadow: 0 0 12em 6em rgba(115, 80, 67, 0.98);
+                        box-shadow: 0 0 16em 6em rgb(86, 53, 46);
                     }
 
                     &:after {
@@ -2656,8 +2684,8 @@ body {
                         }
 
                         &.right {
-                            right: -15%;
-                            box-shadow: 0 0 40em 31em rgba(249, 4, 32, 0.19);
+                            right: -3%;
+                            box-shadow: 0 0 40em 31em rgba(128, 44, 44, 0.48);
                         }
                     }
 
@@ -3083,6 +3111,14 @@ body {
                         }
                     }
 
+                    .mouthshadow {
+                        height: 25%;
+                        width: 0;
+                        box-shadow: 0 0 13em 6em rgba(90, 38, 36, 0.46);
+                        right: 22%;
+                        z-index: 99;
+                        bottom: 6%;
+                    }
                     .mouth {
                         top: 70.5%;
                         left: 45%;
