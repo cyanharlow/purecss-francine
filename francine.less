@@ -2337,7 +2337,19 @@ body {
                     width: 50%;
                     height: 39%;
                     -webkit-transform: rotate(-23deg) skewX(38deg) skewY(-5deg);
+                    border-radius: ~ '58% 15% 36% 60% / 19% 21% 40% 60%';
 
+                    &:after {
+                        .pseudoclear;
+                        z-index: -2;
+                        width: 98%;
+                        height: 100%;
+                        border: 1em dashed rgba(2, 53, 68, 0.35);
+                        box-shadow: inset 5em -6em 5em -3em rgba(3, 41, 51, 0.07), -9em 0em 3em -3em rgba(234, 246, 249, 0.32);
+                        border-radius: inherit;
+                        bottom: -3%;
+                        left: -3%;
+                    }
                     .shoulders {
                         bottom: 0;
                         left: 0;
@@ -2350,7 +2362,7 @@ body {
                         width: 100%;
                         height: 100%;
                         z-index: 2;
-                        border-radius: ~ '58% 15% 36% 60% / 19% 21% 40% 60%';
+                        border-radius: inherit;
 
                         &:after,
                         &:before {
@@ -2370,7 +2382,7 @@ body {
                             width: 100%;
                             height: 100%;
                             border-radius: inherit;
-                            box-shadow: inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset -9em 8em 57em -14em #885a4d;
+                            box-shadow: inset 0em -6em 14em 0em rgba(23, 5, 0, 0.09), inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset -9em 8em 57em -14em #885a4d;
                         }
 
                         .centershine {
