@@ -173,6 +173,45 @@ body {
                     background-image: radial-gradient(ellipse at 45% -2%, #dbd1ac 5%, #8e8150 24%, #665f44 53%, #4b4532 62%);
                 }
 
+                .sash {
+                    width: 142%;
+                    height: 17%;
+                    left: -13%;
+                    top: -26%;
+                    transform: rotate(3deg);
+                    border-radius: ~'0 0 50% 50% / 0 0 54% 74%';
+                    .bottom {
+                        border-radius: inherit;
+                        width: 100%;
+                        height: 85%;
+                        box-shadow: inset 0 -5em 10em -8em darken(@dresscolor, 19%), inset 0 -16em 2em -1em darken(@dresscolor, 11%), 11em 6em 2em -4em darken(@dresscolor, 15%), inset 0 -22em 3em -5em rgba(26,8,8,0.25), 0 11em 5em -5em rgba(26,8,8,0.25);
+                    }
+                    .mid {
+                        width: 86%;
+                        height: 93%;
+                        box-shadow: inset 0 -6em 15em -4em darken(@dresscolor, 14%), inset 0 -20em 2em -1em darken(@dresscolor, 5%);
+                        border-radius: ~'0 0 29% 50% / 0 0 26% 76%';
+                    }
+                    .left {
+                        width: 11%;
+                        height: 57%;
+                        top: 3%;
+                        left: -4%;
+                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
+                        transform: rotate(-41deg);
+                        box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 8%);
+                    }
+                    .right {
+                        width: 11%;
+                        height: 57%;
+                        top: 6%;
+                        right: -4%;
+                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
+                        transform: rotate(41deg);
+                        box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 15%);
+                    }
+                }
+
                 .pearlstring {
                     border-radius: ~ '0 0 50% 50% / 0 0 100% 100%';
                     border-color: rgba(107, 78, 29, 0.5);
@@ -180,42 +219,39 @@ body {
                     border-width: 0 1em 1em 1em;
 
                     &.left {
-                        top: -21%;
+                        top: -18%;
                         left: -12%;
-                        width: 87%;
+                        width: 66%;
                         -webkit-transform: rotate(8deg);
 
                         &.short {
-                            height: 18%;
+                            height: 14%;
                         }
 
                         &.long {
-                            height: 5%;
+                            height: 26%;
                         }
 
                         .pearl0 {
-                            background: #7c6f58;
+                            background-color: darken(@wrapcolor, 15%);
                         }
 
                         .pearl1 {
-                            background: #8d8473;
+                            background-color: darken(@wrapcolor, 12%);
                         }
 
                         .pearl2 {
-                            background: #969189;
+                            background-color: darken(@wrapcolor, 9%);
                         }
 
                         .pearl3 {
-                            background: #bbb9b6;
+                            background-color: darken(@wrapcolor, 6%);
                         }
 
                         .pearl4 {
-                            background: #bfbdb9;
+                            background-color: darken(@wrapcolor, 3%);
                         }
 
-                        .pearl5 {
-                            background: #d8d7d6;
-                        }
                     }
 
                     &.mid {
@@ -232,55 +268,54 @@ body {
                     }
 
                     &.right {
-                        width: 77%;
-                        left: 84%;
+                        width: 60%;
+                        left: 114%;
                         top: -24%;
-                        -webkit-transform: rotate(-15deg);
+                        -webkit-transform: rotate(-31deg);
 
                         .pearl {
-                            background: #d5ccbc;
+                            background-color: darken(@wrapcolor, 20%);
                         }
 
                         &.short {
                             height: 10%;
 
-                            .pearl13 {
-                                background: #7b7671;
+                            .pearl8 {
+                                background: darken(@wrapcolor, 45%);
+                                box-shadow: none;
                             }
 
-                            .pearl12 {
-                                background: #96908d;
+                            .pearl7 {
+                                background-color: darken(@wrapcolor, 35%);
+                                box-shadow: none;
                             }
                         }
 
                         &.long {
                             height: 21%;
 
-                            .pearl15 {
-                                background: #544d4b;
+                            .pearl11 {
+                                background: darken(@wrapcolor, 45%);
+                                box-shadow: none;
                             }
 
-                            .pearl14 {
-                                background: #7d7977;
+                            .pearl10 {
+                                background: darken(@wrapcolor, 35%);
+                                box-shadow: none;
                             }
                         }
                     }
 
                     .pearl {
-                        width: 8em;
+                        width: 6em;
                         margin-left: -4em;
-                        height: 8em;
+                        height: 6em;
                         bottom: 0;
                         border-radius: 50%;
-                        background: #e4eaed;
-                        box-shadow: inset -2em -3em 4em 1em rgba(78, 52, 1, 0.45), 2em 4em 3em -1em rgba(78, 29, 29, 0.45);
+                        background-color: @wrapcolor;
+                        background-image: radial-gradient(ellipse at 30% 30%, rgba(255, 255, 255, 0.67) 12%, transparent 15%, transparent 51%, rgba(0, 0, 0, 0.45) 70%);
+                        box-shadow: 2em 4em 3em -1em rgba(0, 0, 0, 0.45);
 
-                        &:after {
-                            .pseudoclear;
-                            top: 30%;
-                            left: 30%;
-                            box-shadow: 0 0 2em 1em rgba(255, 255, 255, 0.38);
-                        }
 
                         &.pearl0 {
                             top: 0;
@@ -508,11 +543,13 @@ body {
                         }
 
                         &.left {
-                            left: 12%;
+                            left: 45%;
+                            transform: rotate(3deg) skewX(1deg) skewY(1deg);
                         }
 
                         &.right {
-                            right: 7%;
+                            right: -15%;
+                            transform: rotate(-6deg) skewX(4deg) skewY(13deg);
 
                             .metal {
                                 background-color: #9c842d;
@@ -572,9 +609,8 @@ body {
                         &:after {
                             .pseudoclear;
                             top: 43%;
-                            -webkit-transform: rotate(8deg);
                             margin-top: -1em;
-                            height: 57%;
+                            height: 30%;
                             background-image: radial-gradient(ellipse at top center, rgba(141, 21, 48, 0.44), transparent 43%);
                             box-shadow: inset 0 8em 1em -6em #d5a8a8, -5em -20em 31em -10em rgba(136, 17, 50, 0.62);
                             border-radius: 90%;
@@ -582,7 +618,7 @@ body {
                         }
 
                         .featherside {
-                            border-radius: ~ '0% 50% 0% 0 / 0% 100% 0% 0';
+                            border-radius: ~ '0% 30% 0% 0 / 0% 100% 0% 0';
                             height: 51%;
                             width: 100%;
 
