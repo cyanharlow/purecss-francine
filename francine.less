@@ -180,16 +180,17 @@ body {
                     top: -26%;
                     transform: rotate(3deg);
                     border-radius: ~'0 0 50% 50% / 0 0 54% 74%';
+
                     .bottom {
                         border-radius: inherit;
                         width: 100%;
                         height: 85%;
-                        box-shadow: inset 0 -5em 10em -8em darken(@dresscolor, 19%), inset 0 -16em 2em -1em darken(@dresscolor, 11%), 11em 6em 2em -4em darken(@dresscolor, 15%), inset 0 -22em 3em -5em rgba(26,8,8,0.25), 0 11em 5em -5em rgba(26,8,8,0.25);
+                        box-shadow: inset 0 -5em 10em -8em darken(@dresscolor, 19%), inset 0 -16em 2em -1em darken(@dresscolor, 11%), 11em 6em 2em -4em darken(@dresscolor, 15%), 0 11em 5em -5em rgba(26,8,8,0.25);
                     }
                     .mid {
                         width: 86%;
                         height: 93%;
-                        box-shadow: inset 0 -6em 15em -4em darken(@dresscolor, 14%), inset 0 -20em 2em -1em darken(@dresscolor, 5%);
+                        box-shadow: inset 0 -21em 1em -4em darken(@dresscolor, 3%), inset 0 -20em 2em -1em tint(@dresscolor, 25%);
                         border-radius: ~'0 0 29% 50% / 0 0 26% 76%';
                     }
                     .left {
@@ -209,6 +210,118 @@ body {
                         border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         transform: rotate(41deg);
                         box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 15%);
+                    }
+
+                    .triangle {
+                        &.ta {
+                            left: 30%;
+                            bottom: 0%;
+                            border-bottom: 9em solid tint(@dresscolor, 3%);
+                            border-left: 4em solid transparent;
+                            border-right: 7em solid transparent;
+                        }
+                        &.tb {
+                            left: -1%;
+                            bottom: 0%;
+                            border-bottom: 3em solid tint(@dresscolor, 3%);
+                            border-left: 7em solid transparent;
+                            border-right: 14em solid transparent;
+                        }
+                        &.tc {
+                            left: 43%;
+                            bottom: 0%;
+                            border-bottom: 7em solid tint(@dresscolor, 3%);
+                            border-left: 21em solid transparent;
+                            border-right: 14em solid transparent;
+                        }
+                        &.t0 {
+                            bottom: 39%;
+                            left: 4%;
+                            width: 9%;
+                            height: 38%;
+                            overflow: hidden;
+                            transform: skewX(-46deg) skewY(12deg);
+                            background: linear-gradient(163deg, tint(@dresscolor, 26%), darken(@dresscolor, 6%) 40%, darken(@dresscolor, 6%) 75%, darken(@dresscolor, 20%));
+                        }
+                        &.t1 {
+                            bottom: 26%;
+                            left: 11%;
+                            width: 9%;
+                            height: 38%;
+                            transform: skewX(-46deg) skewY(12deg);
+                            background: linear-gradient(to bottom, tint(@dresscolor, 19%), tint(@dresscolor, 2%), tint(@dresscolor, 25%));
+                        }
+                        &.t2 {
+                            bottom: 19%;
+                            left: 18%;
+                            width: 9%;
+                            height: 40%;
+                            transform: skewX(-46deg) skewY(6deg);
+                            background: linear-gradient(165deg, tint(@dresscolor, 19%), tint(@dresscolor, 9%), tint(@dresscolor, 25%) 66%);
+                            box-shadow: inset -7em 0 5em -3em tint(@dresscolor, 5%);
+                        }
+                        &.t3 {
+                            left: 33%;
+                            bottom: 21%;
+                            border-top: 14em solid @dresscolor;
+                            border-left: 7em solid transparent;
+                        }
+                        &.t4 {
+                            left: 28%;
+                            bottom: 10%;
+                            height: 43%;
+                            width: 23%;
+                            transform: skewX(-41deg) skewY(3deg);
+                            background: linear-gradient(74deg, darken(@dresscolor, 5%) 35%, darken(@dresscolor, 10%) 43%, darken(@dresscolor, 5%) 53%);
+                        }
+                        &.t5 {
+                            left: 19%;
+                            bottom: 25%;
+                            border-top: 17em solid tint(@dresscolor, 2%);
+                            border-left: 2em solid transparent;
+                            border-right: 2em solid transparent;
+                            transform: rotate(34deg);
+                        }
+                        &.t6 {
+                            left: 35.5%;
+                            bottom: 21%;
+                            border-top: 14em solid tint(@dresscolor, 6%);
+                            border-right: 7em solid transparent;
+                        }
+                    }
+                    .shad {
+                        &.s1 {
+                            left: 3%;
+                            bottom: 21%;
+                            width: 27%;
+                            height: 32%;
+                            transform: rotate(9deg);
+                            border-radius: ~'0 0 50% 50% / 0 0 99% 99%';
+                            box-shadow: 0 0 6em 3em rgba(42, 19, 19, 0.66);
+                        }
+                        &.s2 {
+                            left: 7%;
+                            top: 36%;
+                            width: 29%;
+                            height: 19%;
+                            border-radius: ~'25% 75% 0 0 / 99% 99% 0 0';
+                            box-shadow: 0 0 6em 3em rgba(42, 19, 19, 0.66);
+                        }
+                        &.s3 {
+                            right: 2%;
+                            top: 42%;
+                            width: 18%;
+                            transform: rotate(-20deg);
+                            box-shadow: 0 0 4em 6em rgba(42, 19, 19, 0.33);
+                        }
+                        &.s4 {
+                            left: 49%;
+                            top: 46%;
+                            width: 29%;
+                            height: 19%;
+                            border-radius: ~'25% 75% 0 0 / 99% 99% 0 0';
+                            box-shadow: 0 0 3em 5em rgba(42,19,19,0.33);
+                        }
                     }
                 }
 
