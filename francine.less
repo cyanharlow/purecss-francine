@@ -251,7 +251,7 @@ body {
                             height: 38%;
                             overflow: hidden;
                             transform: skewX(-46deg) skewY(12deg);
-                            background: linear-gradient(163deg, tint(@dresscolor, 26%), darken(@dresscolor, 6%) 30%, darken(@dresscolor, 6%) 69%, darken(@dresscolor, 13%));
+                            background: linear-gradient(163deg, tint(@dresscolor, 25%), darken(@dresscolor, 6%) 30%, darken(@dresscolor, 6%) 69%, darken(@dresscolor, 11%));
                         }
                         &.t1 {
                             bottom: 26%;
@@ -317,9 +317,9 @@ body {
                     }
                     .shad {
                         &.s1 {
-                            left: 3%;
-                            bottom: 21%;
-                            width: 27%;
+                            left: 9%;
+                            bottom: 15%;
+                            width: 35%;
                             height: 32%;
                             transform: rotate(9deg);
                             border-radius: ~'0 0 50% 50% / 0 0 99% 99%';
@@ -327,7 +327,7 @@ body {
                         }
                         &.s2 {
                             left: 7%;
-                            top: 36%;
+                            top: 37%;
                             width: 29%;
                             height: 19%;
                             border-radius: ~'25% 75% 0 0 / 99% 99% 0 0';
@@ -353,22 +353,23 @@ body {
 
                 .pearlstring {
                     border-radius: ~ '0 0 50% 50% / 0 0 100% 100%';
-                    border-color: rgba(107, 78, 29, 0.5);
+                    border-color: #a9864b;
                     // border-style: solid;
                     border-width: 0 1em 1em 1em;
 
                     &.left {
+                        border-style: solid;
                         top: -18%;
                         left: -12%;
                         width: 66%;
                         -webkit-transform: rotate(8deg);
 
                         &.short {
-                            height: 14%;
+                            height: 10%;
                         }
 
                         &.long {
-                            height: 26%;
+                            height: 23%;
                         }
 
                         .pearl0 {
@@ -413,7 +414,7 @@ body {
                         -webkit-transform: rotate(-31deg);
 
                         .pearl {
-                            background-color: darken(@wrapcolor, 20%);
+                            background-color: darken(@wrapcolor, 30%);
                         }
 
                         &.short {
@@ -434,13 +435,11 @@ body {
                             height: 21%;
 
                             .pearl11 {
-                                background: darken(@wrapcolor, 45%);
                                 box-shadow: none;
+                                background: darken(@wrapcolor, 55%);
                             }
-
                             .pearl10 {
-                                background: darken(@wrapcolor, 35%);
-                                box-shadow: none;
+                                background-color: darken(@wrapcolor, 45%);
                             }
                         }
                     }
@@ -750,8 +749,8 @@ body {
                             top: 43%;
                             margin-top: -1em;
                             height: 30%;
-                            background-image: radial-gradient(ellipse at top center, rgba(141, 21, 48, 0.44), transparent 43%);
-                            box-shadow: inset 0 8em 1em -6em #d5a8a8, -5em -20em 31em -10em rgba(136, 17, 50, 0.62);
+                            background-image: radial-gradient(ellipse at top center, rgba(141,21,48,0.44), transparent 43%);
+                            box-shadow: inset -6em 8em 1em -6em #af7373, -5em -20em 31em -10em rgba(136,17,50,0.62);
                             border-radius: 90%;
                             width: 100%;
                         }
@@ -784,7 +783,7 @@ body {
                                 background: none;
                                 border-right-style: double;
                                 border-right-width: 7em;
-                                border-color: #dcadb5;
+                                border-color: #ab636f;
                                 -webkit-transform-origin: 100% 100%;
                                 max-width: 74%;
                                 bottom: 0;
@@ -795,7 +794,7 @@ body {
                                 opacity: 0.6;
 
                                 &:nth-of-type(odd) {
-                                    border-color: #e692b3;
+                                    border-color: #9a4c6b;
                                 }
 
                                 &.feath1 {
@@ -2035,7 +2034,7 @@ body {
                                 bottom: 45%;
                                 right: 1%;
                                 margin: auto;
-                                width: 30%;
+                                width: 28%;
                                 height: 45%;
                                 overflow: hidden;
                                 z-index: 99999999999999999;
@@ -2045,7 +2044,7 @@ body {
                             &.segment3 {
                                 bottom: 87%;
                                 right: 7%;
-                                width: 23%;
+                                width: 21%;
                                 height: 33%;
                                 z-index: 99999999999999999;
                                 border-radius: ~ '80% 20% 15% 40% / 70% 10% 15% 20%';
@@ -2807,7 +2806,17 @@ body {
                             opacity: 0.4;
                             height: 57%;
                             border-radius: 20% 20% 20% 50%;
-                            -webkit-transform: rotate(-40deg);
+                            -webkit-transform: rotate(-40defg);
+                        }
+
+                        &:after {
+                            .pseudoclear;
+                            border-radius: ~'0 0 50% 50% / 0 0 91% 93%';
+                            top: 59%;
+                            left: 47%;
+                            width: 44%;
+                            height: 15%;
+                            box-shadow: 0 4em 5em -4em rgba(98, 62, 56, 0.2), inset 0 -4em 5em -4em rgba(98, 62, 56, 0.11);
                         }
                     }
                 }
@@ -2928,6 +2937,60 @@ body {
                     }
                 }
             }
+
+            .tuft {
+                top: -15%;
+                left: -4%;
+                width: 36%;
+                height: 14%;
+                .strand {
+                    height: 150%;
+                    width: 100%;
+                    transform: rotate(11deg);
+                    border-radius: ~'0 0 22% 75% / 0 0 32% 93%';
+                    border-style: solid;
+                    border-width: 0 0 1.5em 0;
+                    border-color: #bfb5a0;
+                    &.strand1 {
+                        right: 20%;
+                        border-color: #e8e1cd;
+                    }
+                    &.strand2 {
+                        top: 10%;
+                        right: 20%;
+                        border-color: #dcd4bd;
+                    }
+                    &.strand3 {
+                        right: 25%;
+                        top: 20%;
+                        border-color: #dcd4bd;
+                    }
+                    &.strand4 {
+                        right: 30%;
+                        top: 30%;
+                        border-color: #c1b697;
+                    }
+                    &.strand5 {
+                        right: 30%;
+                        top: 40%;
+                        border-color: #dcd4bd;
+                    }
+                    &.strand6 {
+                        right: 40%;
+                        top: 50%;
+                        border-color: #dcd4bd;
+                    }
+                    &.strand7 {
+                        right: 40%;
+                        top: 60%;
+                    }
+                    &.strand8 {
+                        right: 40%;
+                        top: 70%;
+                    }
+                }
+            }
+
             .eyeridge {
                 right: 3%;
                 top: 0;
