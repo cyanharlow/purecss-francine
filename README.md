@@ -13,4 +13,4 @@ Because of the artistic nature of this project I have not concerned myself with 
 
 [cyanharlow.github.io/purecss-francine](https://cyanharlow.github.io/purecss-francine/)
 
-![alt text](https://raw.githubusercontent.com/cyanharlow/purecss-francine/master/preview.jpg)
+![alt text](https://raw.githubusercontent.com/cyanharlow/purecss-francine/master/preview.png)
