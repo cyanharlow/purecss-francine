@@ -312,7 +312,7 @@ body {
                             height: 45%;
                             width: 23%;
                             transform: skewX(-41deg) skewY(-3deg);
-                            background: linear-gradient(46deg, darken(@dresscolor, 4%) 10%, tint(@dresscolor, 15%) 38%, darken(@dresscolor, 5%) 53%, darken(@dresscolor, 5%) 52%, darken(@dresscolor, 20%));
+                            background: linear-gradient(39deg, darken(@dresscolor, 4%) 25%, tint(@dresscolor, 15%) 44%, darken(@dresscolor, 5%) 50%, darken(@dresscolor, 5%) 52%, darken(@dresscolor, 20%));
                         }
                     }
                     .shad {
@@ -1824,7 +1824,7 @@ body {
                         height: 55%;
                         -webkit-transform: rotate(21deg);
                         border-radius: ~ '38% 61% 50% 50%/ 33% 63% 35% 47%';
-                        box-shadow: inset 0 -2em 4em 2em tint(@dresscolor, 15%), inset 5em 27em 7em 0em darken(@dresscolor, 22%), 0 5em 17em 2em tint(@dresscolor, 15%);
+                        box-shadow: inset 0 -2em 3em 5em tint(@dresscolor, 10%), inset 5em 27em 7em 0em darken(@dresscolor, 22%), 0 5em 17em 2em tint(@dresscolor, 15%);
                     }
 
                     &.wrinkle22 {
@@ -3256,7 +3256,7 @@ body {
                         }
 
                         .eyeball {
-                            border-bottom: 3em solid #ceb9a9;
+                            border-bottom: 3em solid #cca8aa;
                             border-left: 0;
                             border-right: 0;
                             overflow: hidden;
@@ -3264,7 +3264,6 @@ body {
                             width: 100%;
                             top: 0;
                             bottom: 0;
-                            box-shadow: inset -5em 3em 2em -1em rgba(74, 8, 8, 0.49), inset 8em 0 5em -2em #a5756e, inset -3em 0 5em -2em #9a515e, -5em 2em 2em -3em #fff;
                             border-radius: inherit;
 
                             .iris {
@@ -3289,6 +3288,10 @@ body {
                             -webkit-transform: scaleX(-1) rotate(16deg);
                             left: 28%;
 
+                            .eyeball {
+                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em 0 5em -2em #a5756e, inset -2em 0 5em -2em #9a515e, 7em 1em 4em 1em rgba(245, 231, 231, 0.53);
+                            }
+
                             .iris {
                                 right: 20%;
 
@@ -3311,7 +3314,7 @@ body {
                             }
                         }
                         // eye.right
-                        &.right {
+                        &.eright {
                             -webkit-transform: rotate(16deg) rotateY(-41deg);
                             right: 2%;
                             top: 41%;
@@ -3323,6 +3326,8 @@ body {
 
                             .eyeball {
                                 background-image: linear-gradient(to right, #d4c0a8 53%, #73533f 90%) !important;
+                                border-color: #a07373;
+                                box-shadow: inset -5em 3em 2em -1em rgba(74, 8, 8, 0.49), inset 8em 0 5em -2em #a5756e, inset -3em 0 5em -2em #9a515e, -5em 2em 2em -3em #fff;
                             }
 
                             .iris {
