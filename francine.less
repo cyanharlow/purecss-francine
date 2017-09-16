@@ -200,7 +200,7 @@ body {
                         left: -4%;
                         border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         transform: rotate(-41deg);
-                        box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 8%);
+                        box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 18%);
                     }
                     .right {
                         width: 11%;
@@ -223,16 +223,26 @@ body {
                         &.tb {
                             left: -1%;
                             bottom: 0%;
-                            border-bottom: 3em solid tint(@dresscolor, 3%);
+                            border-bottom: 3em solid tint(@dresscolor, 14%);
                             border-left: 7em solid transparent;
                             border-right: 14em solid transparent;
                         }
                         &.tc {
                             left: 43%;
                             bottom: 0%;
-                            border-bottom: 7em solid tint(@dresscolor, 3%);
+                            border-bottom: 7em solid tint(@dresscolor, 8%);
                             border-left: 21em solid transparent;
                             border-right: 14em solid transparent;
+                        }
+                        &.t00 {
+                            bottom: 59%;
+                            left: -3%;
+                            width: 10%;
+                            height: 38%;
+                            overflow: hidden;
+                            border-radius: 25% 0 0 75%;
+                            transform: skewX(-46deg) skewY(18deg);
+                            background: linear-gradient(113deg, darken(@dresscolor, 23%), darken(@dresscolor, 6%) 66%);
                         }
                         &.t0 {
                             bottom: 39%;
@@ -241,7 +251,7 @@ body {
                             height: 38%;
                             overflow: hidden;
                             transform: skewX(-46deg) skewY(12deg);
-                            background: linear-gradient(163deg, tint(@dresscolor, 26%), darken(@dresscolor, 6%) 40%, darken(@dresscolor, 6%) 75%, darken(@dresscolor, 20%));
+                            background: linear-gradient(163deg, tint(@dresscolor, 26%), darken(@dresscolor, 6%) 30%, darken(@dresscolor, 6%) 69%, darken(@dresscolor, 13%));
                         }
                         &.t1 {
                             bottom: 26%;
@@ -287,6 +297,22 @@ body {
                             bottom: 21%;
                             border-top: 14em solid tint(@dresscolor, 6%);
                             border-right: 7em solid transparent;
+                        }
+                        &.t7 {
+                            left: 47%;
+                            bottom: 12%;
+                            height: 40%;
+                            width: 15%;
+                            transform: skewX(-41deg) skewY(-1deg);
+                            background: linear-gradient(74deg, darken(@dresscolor, 16%) 35%, tint(@dresscolor, 1%) 75%);
+                        }
+                        &.t8 {
+                            left: 61%;
+                            bottom: 11%;
+                            height: 45%;
+                            width: 23%;
+                            transform: skewX(-41deg) skewY(-3deg);
+                            background: linear-gradient(46deg, darken(@dresscolor, 4%) 10%, tint(@dresscolor, 15%) 38%, darken(@dresscolor, 5%) 53%, darken(@dresscolor, 5%) 52%, darken(@dresscolor, 20%));
                         }
                     }
                     .shad {
