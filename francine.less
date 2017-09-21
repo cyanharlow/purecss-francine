@@ -2172,7 +2172,7 @@ body {
                             height: 186%;
                             top: -17%;
                             width: 100%;
-                            background-image: linear-gradient(124deg, rgba(78,42,36,0.32) 24%, rgba(0,0,0,0) 27%, rgba(0,0,0,0) 48%, rgba(78,42,36,0.67) 63%),radial-gradient(ellipse farthest-corner at 24% 42%, #eacdcd 2%, #c1a2a2 28%, #9c6868, #674742 61%);
+                            background-image: linear-gradient(124deg, rgba(78,42,36,0.15) 24%, rgba(0,0,0,0) 27%, rgba(0,0,0,0) 48%, rgba(78,42,36,0.67) 63%),radial-gradient(ellipse farthest-corner at 24% 42%, #eacdcd 2%, #c1a2a2 28%, #9c6868, #674742 61%);
 
                             &:before {
                                 .pseudoclear;
@@ -2486,10 +2486,45 @@ body {
                         }
 
                         .wrapinner {
+                            width: 27%;
                             background-color: #a5cacb;
-                            box-shadow: inset -1em -4em 3em -1em fade(darken(@wrapcolor, 30%), 30%), 0 2em 3em -1em fade(darken(@wrapcolor, 30%), 30%);
-                            background-image: radial-gradient(ellipse closest-side at 40% 33%, transparent 84%, fade(shade(@wrapcolor, 50%), 30%) 191%), linear-gradient(99deg, lighten(@wrapcolor, 15%),
-                            lighten(@wrapcolor, 20%), lighten(@wrapcolor, 5%) 36%, lighten(@wrapcolor, 5%) 45%, lighten(@wrapcolor, 15%), @wrapcolor);
+                            border-radius: ~'25% 4% 83% 13% / 66% 66% 14% 20%';
+                            box-shadow: inset 0 -9em 3em -6em rgba(74,124,154,0.3), 0 2em 3em -1em rgba(74,124,154,0.3);
+                            background-image: linear-gradient(to right, @wrapcolor, lighten(@wrapcolor, 9%), lighten(@wrapcolor, 5%));
+
+                            &.wrbase {
+                                width: 100%;
+                                height: 100%;
+                                border-radius: inherit;
+                                background-image: radial-gradient(ellipse closest-side at 40% 33%, transparent 84%, fade(shade(@wrapcolor, 50%), 30%) 191%), linear-gradient(99deg, lighten(@wrapcolor, 15%), lighten(@wrapcolor, 20%), lighten(@wrapcolor, 5%) 36%, lighten(@wrapcolor, 5%) 45%, lighten(@wrapcolor, 15%), @wrapcolor);
+
+                                &:after {
+                                    width: 105%;
+                                }
+                            }
+
+                            &.wr1 {
+                                left: 70%;
+                                top: -36%;
+                                transform: rotate(-40deg);
+                            }
+                            &.wr2 {
+                                left: 58%;
+                                top: -10%;
+                                transform: rotate(-16deg);
+                            }
+                            &.wr3 {
+                                left: 40%;
+                            }
+                            &.wr4 {
+                                left: 20%;
+                            }
+                            &.wr5 {
+                                left: 0;
+                                width: 33%;
+                                background-image: linear-gradient(to right, @wrapcolor, lighten(@wrapcolor, 20%) 33%, lighten(@wrapcolor, 9%));
+
+                            }
                         }
                     }
 
@@ -2557,7 +2592,7 @@ body {
 
                         &:after {
                             .pseudoclear;
-                            width: 105%;
+                            width: 115%;
                             height: 100%;
                             left: -5%;
                             border-radius: inherit;
@@ -2638,7 +2673,7 @@ body {
                             width: 100%;
                             height: 100%;
                             border-radius: inherit;
-                            box-shadow: inset 0 -6em 14em 0 rgba(23,5,0,0.09), inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset 14em 2em 33em -18em rgba(136, 90, 77, 0.49);
+                            box-shadow: inset 0 -6em 14em 0 rgba(23,5,0,0.09), inset -32em -16em 20em -27em rgba(115,77,69,0.98), inset 14em 2em 33em -18em rgba(136, 90, 77, 0.19);
                         }
 
                         .centershine {
@@ -2658,7 +2693,7 @@ body {
                             height: 35%;
                             top: 86%;
                             left: 39%;
-                            box-shadow: 0 7em 1em 0.2em rgba(97,15,15,0.97), 3em 4em 20em 3em #5b160e, -5em -15em 29em 6em rgba(88,34,3,0.1), 0 -15em 56em 22em #c09894, 44em 5em 45em 34em rgba(222,212,207,0.38), -74em -6em 54em 51em #ede2e2;
+                            box-shadow: 0 7em 1em 0.1em rgba(97,15,15,0.97), 3em 4em 18em 2em #5b160e, -5em -15em 29em 6em rgba(88,34,3,0.1), 0 -15em 56em 22em #c09894, 44em 5em 45em 34em rgba(222,212,207,0.38), -55em -6em 54em 51em #ede2e2;
                             border-radius: 90%;
                             -webkit-transform: rotate(38deg);
                         }
@@ -2679,9 +2714,9 @@ body {
                             &.right {
                                 bottom: -13%;
                                 right: 31%;
-                                border-right: 1em solid #560d0d;
+                                border-right: 1em solid rgba(49, 6, 6, 0.47);
                                 transform: rotate(34deg);
-                                box-shadow: 3em -7em 14em 2em rgba(78,24,11,0.84), -4em 4em 16em 2em rgb(161, 113, 101), 24em -23em 56em 22em rgba(99,49,36,0.95);
+                                box-shadow: 1em -7em 14em 2em rgba(78,24,11,0.84), -4em 4em 16em 2em rgb(161, 113, 101), 24em -23em 56em 22em rgba(99,49,36,0.95);
                             }
                         }
 
@@ -3172,7 +3207,7 @@ body {
                             height: 86%;
                             z-index: 9999999999999;
                             border-radius: ~ '7% 5% 50% 50% / 5% 6% 88% 92%';
-                            box-shadow: -1em 3em 5em 0 #5a0404, inset 11em -5em 5em -5em #740909;
+                            box-shadow: -1em 3em 1em 0 #5a0404, inset 11em -5em 5em -5em #740909;
                         }
 
                         .lash {
@@ -3256,7 +3291,7 @@ body {
                         }
 
                         .eyeball {
-                            border-bottom: 3em solid #cca8aa;
+                            border-bottom: 3em solid #ddc1c2;
                             border-left: 0;
                             border-right: 0;
                             overflow: hidden;
@@ -3289,7 +3324,7 @@ body {
                             left: 28%;
 
                             .eyeball {
-                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em 0 5em -2em #a5756e, inset -2em 0 5em -2em #9a515e, 7em 1em 4em 1em rgba(245, 231, 231, 0.53);
+                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em 0 5em -2em #a5756e, inset -2em 0 5em -2em #9a515e, 9em 0 4em 0 rgba(245,231,231,0.53), -4em 11em 1em -5em rgba(152, 105, 98, 0.24);
                             }
 
                             .iris {
