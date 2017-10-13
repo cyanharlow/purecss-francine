@@ -2274,6 +2274,55 @@ body {
                     width: 78%;
                     clip-path: polygon(0 0%, 100% 0, 95% 41%, 90% 55%, 83% 100%, 29% 100%);
 
+                    .beltshadow {
+                        box-shadow: 0 14em 23em 0 #000000, inset 0 -10em 4em -10em #000000;
+                        width: 71%;
+                        height: 7%;
+                        left: 21%;
+                        bottom: 20%;
+                        opacity: 0.1;
+                        border-radius: ~'0 0 66% 32% / 0 0 100% 100%';
+                    }
+                    .belt {
+                        width: 72%;
+                        height: 26%;
+                        bottom: 0;
+                        right: 8%;
+                        background-color: @wrapcolor;
+                        background-image: linear-gradient(70deg, darken(@wrapcolor, 60%) 10%,  darken(@wrapcolor, 40%) 16%, transparent 35%), linear-gradient(-80deg, darken(@wrapcolor, 65%), darken(@wrapcolor, 35%) 12%, transparent 62%);
+                        clip-path: url("#belt-shape");
+                        border-radius: ~ '0 0 50% 50% / 0 0 75% 55%';
+
+                        &:after {
+                            content: "";
+                            .pseudoclear;
+                            width: 93%;
+                            height: 117%;
+                            left: 5%;
+                            border-radius: ~'0 0 60% 40% / 0 0 59% 60%';
+                            bottom: 4%;
+                            border-bottom: 1em dashed rgba(2, 33, 41, 0.37);
+                        }
+
+                        &:before {
+                            .pseudoclear;
+                            width: 93%;
+                            height: 45%;
+                            left: 5%;
+                            border-radius: ~'0 0 60% 40% / 0 0 59% 43%';
+                            bottom: 72%;
+                            border-bottom: 1em dashed rgba(9,68,84,0.4);
+                        }
+
+                        .uppershadow {
+                            width: 100%;
+                            height: 85%;
+                            border-radius: ~'0 0 48% 47% / 0 0 61% 32%';
+                            box-shadow: 0 5em 14em 1em rgba(255,255,255,0.09);
+                            bottom: 77%;
+                        }
+                    }
+
                     .shirt {
                         width: 100%;
                         height: 100%;
@@ -2282,55 +2331,6 @@ body {
                         border-radius: ~ '0 29% 50% 50% / 0 39% 30% 79%';
                         background-color: #4c9396;
                         background-image: linear-gradient(170deg, tint(@dresscolor, 19%), @dresscolor 63%);
-
-                        .beltshadow {
-                            box-shadow: 0 14em 23em 0 #000000, inset 0 -10em 4em -10em #000000;
-                            width: 71%;
-                            height: 7%;
-                            left: 21%;
-                            bottom: 20%;
-                            opacity: 0.1;
-                            border-radius: ~'0 0 66% 32% / 0 0 100% 100%';
-                        }
-                        .belt {
-                            width: 72%;
-                            height: 26%;
-                            bottom: 0;
-                            right: 8%;
-                            background-color: @wrapcolor;
-                            background-image: linear-gradient(70deg, darken(@wrapcolor, 60%) 10%,  darken(@wrapcolor, 40%) 16%, transparent 35%), linear-gradient(-80deg, darken(@wrapcolor, 65%), darken(@wrapcolor, 35%) 12%, transparent 62%);
-                            clip-path: url("#belt-shape");
-                            border-radius: ~ '0 0 50% 50% / 0 0 75% 55%';
-
-                            &:after {
-                                content: "";
-                                .pseudoclear;
-                                width: 93%;
-                                height: 117%;
-                                left: 5%;
-                                border-radius: ~'0 0 60% 40% / 0 0 59% 60%';
-                                bottom: 4%;
-                                border-bottom: 1em dashed rgba(2, 33, 41, 0.37);
-                            }
-
-                            &:before {
-                                .pseudoclear;
-                                width: 93%;
-                                height: 45%;
-                                left: 5%;
-                                border-radius: ~'0 0 60% 40% / 0 0 59% 43%';
-                                bottom: 72%;
-                                border-bottom: 1em dashed rgba(9,68,84,0.4);
-                            }
-
-                            .uppershadow {
-                                width: 100%;
-                                height: 85%;
-                                border-radius: ~'0 0 48% 47% / 0 0 61% 32%';
-                                box-shadow: 0 5em 14em 1em rgba(255,255,255,0.09);
-                                bottom: 77%;
-                            }
-                        }
 
                         .armhole {
                             &.left {
@@ -2860,12 +2860,19 @@ body {
 
                 .neck {
                     top: -7%;
-                    left: 30.5%;
-                    width: 33%;
+                    left: 36.5%;
+                    width: 23%;
                     height: 27%;
-                    clip-path: url("#neck-shape");
                     transform: rotate(3deg);
 
+                    .leftneck {
+                        width: 40%;
+                        height: 80%;
+                        border-radius: ~'0 0 70% 0 / 0 0 60% 0';
+                        left: -40%;
+                        top: -9%;
+                        box-shadow: 22em 18em 23em -3em #d0afaa;
+                    }
                     .inner {
                         background-color: #ebd4d5;
                         margin: auto;
@@ -2873,7 +2880,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: ~ '1% 8% 13% 62% / 27% 90% 7% 48%';
-                        box-shadow: inset -52em 11em 16em -18em #613b35, inset 0 -16em 22em 1em #d4b8b7, inset -61em 0 57em 0 #8e6962, inset 39em 43em 35em 4em rgba(165,125,118,0.66), inset 81em 36em 35em -9em #e6cfcf, inset 26em -40em 19em -32em #d5b9b7, -19em 42em 13em -30em #d5b9b8;
+                        box-shadow: inset -31em 11em 16em -18em #613b35, inset 0 -16em 22em 1em #d2b2b1, inset -50em 0 57em 0 #8e6962, inset 17em 43em 35em 4em rgba(165,125,118,0.66), inset 26em -40em 19em -32em #d5b9b7, -19em 42em 13em -30em #d5b9b8;
 
                         &:before {
                             .pseudoclear;
