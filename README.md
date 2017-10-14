@@ -1,6 +1,5 @@
 # Pure CSS Francine
 
-
 An ongoing series in which I create art using only CSS and HTML.
 
 Rules I have for myself:
