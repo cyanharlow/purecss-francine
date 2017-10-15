@@ -1725,7 +1725,7 @@ body {
                 .wrinkle {
                     &.wrink1 {
                         overflow: hidden;
-                        width: 94%;
+                        width: 101%;
                         height: 65%;
                         top: 3%;
                         border-radius: 0 0 99% 0;
@@ -2239,17 +2239,18 @@ body {
                     }
 
                     .forearm {
-                        width: 93%;
+                        width: 90%;
                         height: 90%;
                         top: 87%;
-                        left: -18%;
+                        left: -16%;
+                        border-radius: ~'5% 5% 5% 50% / 5% 5% 5% 117%';
                         transform: rotate(10deg);
+                        overflow: hidden;
 
                         .forearmin {
                             width: 100%;
                             height: 100%;
                             border-radius: ~'9% 68% 73% 28% / 8% 4% 87% 10%';
-                            -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 100%, 30% 100%);
                             background: #e1e0e0;
                             background-image: linear-gradient(94deg, transparent 48%, #767676 74%, #5a5a5a 80%), linear-gradient(85deg, #a5a5a5 22%, #ccc8c8 32%, transparent 40%);
 
@@ -2271,26 +2272,17 @@ body {
                     left: 8%;
                     height: 55%;
                     width: 78%;
-                    -webkit-clip-path: polygon(0 0%, 100% 0, 95% 41%, 90% 55%, 83% 100%, 29% 100%);
 
-                    .beltshadow {
-                        box-shadow: 0 14em 23em 0 #000000, inset 0 -10em 4em -10em #000000;
-                        width: 71%;
-                        height: 7%;
-                        left: 21%;
-                        bottom: 20%;
-                        opacity: 0.1;
-                        border-radius: ~'0 0 66% 32% / 0 0 100% 100%';
-                    }
                     .belt {
-                        width: 72%;
-                        height: 26%;
+                        width: 64%;
+                        height: 28%;
                         bottom: 0;
-                        right: 8%;
+                        overflow: hidden;
+                        box-shadow: 0 3em 4em -1em rgba(0, 0, 0, 0.3);
+                        right: 15%;
                         background-color: @wrapcolor;
                         background-image: linear-gradient(70deg, darken(@wrapcolor, 60%) 10%,  darken(@wrapcolor, 40%) 16%, transparent 35%), linear-gradient(-80deg, darken(@wrapcolor, 65%), darken(@wrapcolor, 35%) 12%, transparent 62%);
-                        -webkit-clip-path: url("#belt-shape");
-                        border-radius: ~ '0 0 50% 50% / 0 0 75% 55%';
+                        border-radius: ~ '0 0 50% 50% / 0 0 43% 55%';
 
                         &:after {
                             content: "";
@@ -2325,11 +2317,28 @@ body {
                     .shirt {
                         width: 100%;
                         height: 100%;
-                        overflow: hidden;
-                        box-shadow: 0 3em 4em -1em rgba(0, 0, 0, 0.5);
                         border-radius: ~ '0 29% 50% 50% / 0 39% 30% 79%';
-                        background-color: #4c9396;
-                        background-image: linear-gradient(170deg, tint(@dresscolor, 19%), @dresscolor 63%);
+
+                        .leftshirt {
+                            background-image: linear-gradient(94deg, @dresscolor 87%, transparent);
+                            box-shadow: 0em 6em 2em -4em fade(@wrapcolor, 30%), inset 0 -2em 4em 0em darken(@dresscolor, 15%);
+                            width: 62%;
+                            height: 84%;
+                            left: 17%;
+                            border-radius: ~'0 0 21% 78% / 0 0 4% 24%';
+                            transform: rotate(-11deg);
+                            overflow: hidden;
+                        }
+
+                        .rightshirt {
+                            background-image: linear-gradient(73deg, transparent 41%, @dresscolor 51%);
+                            width: 29%;
+                            height: 82%;
+                            right: 9%;
+                            border-radius: ~'0 26% 96% 4% / 0 55% 18% 0%';
+                            transform: rotate(15deg);
+                            overflow: hidden;
+                        }
 
                         .armhole {
                             &.left {
@@ -2362,40 +2371,36 @@ body {
                                 width: 8%;
                                 top: 17%;
                                 height: 85%;
-                                left: 14%;
-                                transform: rotate(-14deg);
+                                left: 1%;
                                 border-radius: ~ '0 90% 0 0 / 0 50% 0 0';
                             }
                         }
 
                         .armshadow {
                             top: 29%;
-                            bottom: 30%;
-                            left: 19%;
-                            transform: rotate(4deg);
+                            bottom: 0%;
+                            left: -5%;
                             box-shadow: 0 0 14em 17em darken(@dresscolor, 25%);
                         }
 
                         .leftshirtshadow {
                             top: 34%;
                             bottom: 0;
-                            left: 22%;
-                            transform: rotate(-10deg);
+                            left: -2%;
                             box-shadow: 0 0 17em 20em darken(@dresscolor, 17%), 0 0 42em 45em darken(@dresscolor, 10%), 101em 0 70em 25em tint(@dresscolor, 45%);
                         }
 
                         .sideshadow {
                             bottom: 0;
                             height: 73%;
-                            right: 11%;
-                            transform: rotate(18deg);
+                            right: 1%;
                             box-shadow: 0 0 11em 5em darken(@dresscolor, 20%), 0 0 55em 27em darken(@dresscolor, 15%);
                         }
 
                         .boob {
                             left: 42%;
-                            right: 0%;
-                            top: 52%;
+                            width: 32%;
+                            top: 56%;
                             transform: rotate(-9deg);
                             box-shadow: 0 0 60em 26em fade(darken(@dresscolor, 25%), 30%), 0 -50em 40em 26em fade(tint(@dresscolor, 65%), 40%);
                         }
@@ -2450,10 +2455,10 @@ body {
                             }
 
                             &.right {
-                                right: -2%;
-                                bottom: 21%;
+                                right: 29%;
+                                bottom: -1%;
                                 height: 26%;
-                                width: 23%;
+                                width: 42%;
                                 transform: rotate(2deg);
                             }
                         }
@@ -2625,7 +2630,7 @@ body {
 
                         .wrapinner {
                             background-color: #a5cacb;
-                            background-image: linear-gradient(71deg, @wrapcolor, darken(@wrapcolor, 12%) 54%, darken(@wrapcolor, 28%) 67%, darken(@wrapcolor, 35%) 74%, darken(@wrapcolor, 20%) 91%);
+                            background-image: linear-gradient(71deg, @wrapcolor, darken(@wrapcolor, 12%) 54%, darken(@wrapcolor, 28%) 67%, darken(@wrapcolor, 35%) 74%, darken(@wrapcolor, 30%) 91%);
                             box-shadow: inset -1em -4em 3em -1em fade(darken(@wrapcolor, 30%), 30%), inset -6em 15em 19em -3em darken(@wrapcolor, 45%), 0 2em 3em -1em fade(darken(@wrapcolor, 30%), 30%);
                         }
                     }
