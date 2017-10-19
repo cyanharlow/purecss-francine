@@ -1889,7 +1889,7 @@ body {
                         top: 33%;
                         height: 24%;
                         border-radius: ~ '0 100% 50% 50%/ 0 75% 26% 50%';
-                        box-shadow: inset 0 -2em 4em 3em tint(@dresscolor, 10%), inset 2em 8em 7em 2em darken(@dresscolor, 20%), 0 5em 7em 2em tint(@dresscolor, 10%);
+                        box-shadow: inset 0 -2em 4em 3em tint(@dresscolor, 10%), inset 2em 8em 7em 2em darken(@dresscolor, 20%), 0 5em 7em 2em tint(@dresscolor, 10%), 0 26em 15em -5em tint(@dresscolor, 28%);
                     }
 
                     &.wrinkle24 {
@@ -1964,7 +1964,7 @@ body {
 
                 .leftarm {
                     width: 20%;
-                    height: 61%;
+                    height: 60%;
                     z-index: -3;
                     transform: rotate(1deg);
                     right: 15%;
@@ -2285,7 +2285,7 @@ body {
                         right: 14.5%;
                         background-color: @wrapcolor;
                         background-image: linear-gradient(70deg, darken(@wrapcolor, 60%) 10%,  darken(@wrapcolor, 40%) 16%, transparent 35%), linear-gradient(-80deg, darken(@wrapcolor, 65%), darken(@wrapcolor, 35%) 12%, transparent 62%);
-                        border-radius: ~ '4% 2% 50% 50% / 5% 22% 43% 55%';
+                        border-radius: ~ '4% 2% 50% 50% / 5% 22% 57% 55%';
 
                         &:after {
                             content: "";
@@ -2404,10 +2404,10 @@ body {
 
                         .boob {
                             left: 42%;
-                            width: 32%;
-                            top: 56%;
+                            width: 14%;
+                            top: 59%;
                             transform: rotate(-9deg);
-                            box-shadow: 0 0 60em 26em fade(darken(@dresscolor, 25%), 30%), 0 -50em 40em 26em fade(tint(@dresscolor, 65%), 40%);
+                            box-shadow: 80em 0 60em 26em fade(darken(@dresscolor, 25%), 30%), 0 -50em 40em 26em fade(tint(@dresscolor, 65%), 40%);
                         }
 
                         .stitches {
@@ -2483,7 +2483,7 @@ body {
                         box-shadow: 20em -5em 4em -13em rgba(0, 0, 0, 0.29), 22em 10em 5em -13em rgba(0,0,0,0.15);
 
                         .wrinka {
-                            left: -1.1%;
+                            left: -1%;
                             top: 0%;
                             height: 56%;
                             width: 12%;
@@ -2495,7 +2495,7 @@ body {
                             top: 56%;
                             width: 6%;
                             border-radius: 50%;
-                            box-shadow: 0 0 5em 4em lighten(@wrapcolor, 6%), 11em 6em 12em 9em lighten(@wrapcolor, 9%);
+                            box-shadow: 0 0 5em 2em lighten(@wrapcolor, 6%), 13em 5em 16em 9em lighten(@wrapcolor, 9%);
                         }
                         .wrinkc {
                             top: 16%;
@@ -2663,7 +2663,7 @@ body {
 
                         .wrapinner {
                             background-color: #a5cacb;
-                            background-image: linear-gradient(71deg, @wrapcolor, darken(@wrapcolor, 12%) 54%, darken(@wrapcolor, 28%) 67%, darken(@wrapcolor, 35%) 74%, darken(@wrapcolor, 30%) 91%);
+                            background-image: linear-gradient(71deg, @wrapcolor, darken(@wrapcolor, 12%) 54%, darken(@wrapcolor, 28%) 67%, darken(@wrapcolor, 18%) 74%, darken(@wrapcolor, 30%) 91%);
                             box-shadow: inset -1em -4em 3em -1em fade(darken(@wrapcolor, 30%), 30%), inset -6em 15em 19em -3em darken(@wrapcolor, 45%), 0 2em 3em -1em fade(darken(@wrapcolor, 30%), 30%);
                         }
                     }
@@ -2688,13 +2688,13 @@ body {
                 }
 
                 .pin {
-                    width: 9%;
-                    height: 5%;
-                    left: 63%;
-                    top: 42%;
+                    width: 7%;
+                    height: 4%;
+                    left: 63.5%;
+                    top: 42.3%;
                     transform: rotate(-26deg);
                     border-radius: ~'18% 28% 29% 33% / 49% 50% 32% 31%';
-                    box-shadow: 4em 4em 4em -1em rgba(21,1,1,0.32), 3em 6em 4em -1em rgba(21,1,1,0.25);
+                    box-shadow: 1em 4em 4em -1em rgba(21,1,1,0.32), -1em 6em 4em 3em rgba(21,1,1,0.25);
 
                     .midpin {
                         border-radius: inherit;
@@ -2730,7 +2730,7 @@ body {
                         left: 0;
                         right: 0;
                         background-color: #dacec7;
-                        box-shadow: -5em 5em 3em -1em rgba(247, 250, 251, 0.18);
+                        box-shadow: -12em 70em 9em -65em @wrapcolor, -16em 5em 3em -8em rgba(247, 250, 251, 0.42), 1em 27em 2em -23em darken(@wrapcolor, 20%);
                         background-image: linear-gradient(108deg, #e1d0d0 29%, #c7a09d 70%, #af857f 80%, #f3ebea);
                         margin: auto;
                         overflow: hidden;
@@ -2749,6 +2749,20 @@ body {
                             top: 48%;
                             transform: rotate(-33deg);
                             box-shadow: 0 -15em 29em 37em #4f332c;
+                        }
+
+                        .trapezoid {
+                            filter: blur(3em);
+                            background: #401a1a;
+                            width: 20%;
+                            height: 20%;
+
+                            &.right {
+                                opacity: .4;
+                                right: 20%;
+                                bottom: -17%;
+                                transform: skew(27deg) rotate(-14deg);
+                            }
                         }
 
                         .shouldershadow {
@@ -2785,7 +2799,7 @@ body {
                             border-radius: 90%;
 
                             &.left {
-                                bottom: 22%;
+                                bottom: 20%;
                                 height: 47%;
                                 left: -17%;
                                 box-shadow: 0 0 1em 0.2em #5f0606, -2em -5em 14em 3em #9f564d, -3em -18em 21em 5em #c49089, 3em -86em 41em 22em #d1b3af, -41em -64em 39em 15em rgba(255,255,255,0.7);
