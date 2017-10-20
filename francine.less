@@ -1962,12 +1962,163 @@ body {
                     }
                 }
 
+                .hand {
+                    top: -24%;
+                    right: 0%;
+                    width: 66%;
+                    height: 33%;
+                    transform: rotate(-8deg);
+                    transform-origin: 100% 100%;
+
+                    .palm {
+                        right: 0;
+                        width: 84%;
+                        height: 100%;
+                        transform: rotate(-3deg);
+                        transform-origin: 100% 0;
+                        border-radius: ~ '50% 50% 50% 50% / 80% 80% 20% 20%';
+                        background: #cccccc;
+                        box-shadow: inset -28em -14em 13em -19em #484848, inset 13em -6em 20em -5em #908e8e, 5em 16em 4em -11em rgba(76,76,76,0.81);
+                    }
+
+                    .segment {
+                        box-shadow: inset -8em 2em 5em -5em #797777, inset 11em 2em 9em -6em #918f8f;
+                        background: #cecece;
+
+                        &.segment1 {
+                            bottom: 0;
+                            right: 1%;
+                            width: 39%;
+                            height: 56%;
+                            border-radius: ~ '40% 15% 39% 40% / 40% 15% 12% 29%';
+                        }
+
+                        &.segment2 {
+                            bottom: 45%;
+                            right: 1%;
+                            margin: auto;
+                            width: 28%;
+                            height: 45%;
+                            overflow: hidden;
+                            border-radius: ~ '40% 15% 15% 40% / 40% 15% 14% 32%';
+                        }
+
+                        &.segment3 {
+                            bottom: 87%;
+                            right: 7%;
+                            width: 21%;
+                            height: 33%;
+                            border-radius: ~ '80% 20% 15% 40% / 70% 10% 15% 20%';
+                            box-shadow: inset 6em 12em 5em -9em #b6b6b6, inset -8em 2em 5em -5em #707070, inset 11em 2em 9em -6em #919090;
+                        }
+                    }
+
+                    .thumb {
+                        bottom: -7%;
+                        left: 8%;
+                        width: 90%;
+                        height: 73%;
+                        border-radius: ~ '24% 49% 80% 22% / 85% 30% 60% 22%';
+                        transform: rotate(-15deg);
+
+                        .flex {
+                            background-color: #c1bfbf;
+                            width: 102%;
+                            height: 100%;
+                            border-radius: inherit;
+                            box-shadow: inset -1em -10em 10em 7em #757373;
+                        }
+
+                        .segment {
+                            &.segment1 {
+                                top: -65%;
+                                left: 28%;
+                                width: 38%;
+                                height: 46%;
+                                transform: rotate(9deg);
+                                border-radius: 50% 50% 0 0;
+                            }
+
+                            &.segment2 {
+                                top: -76%;
+                                left: -7%;
+                                width: 52%;
+                                height: 33%;
+                                transform: rotate(7deg);
+                                border-radius: 27%;
+                            }
+                        }
+                    }
+
+                    .finger {
+                        width: 100%;
+                        height: 72%;
+                        transform: rotate(-53deg);
+                        transform-origin: 100% 100%;
+                        bottom: 97%;
+                        right: 21%;
+
+                        &.finger1 {
+                            transform: rotate(-65deg);
+                            height: 70%;
+                            right: 31%;
+
+                            .segment3 {
+                                transform: rotate(-31deg);
+                                bottom: 89%;
+                            }
+                        }
+
+                        &.finger2 {
+                            right: 17%;
+                            height: 90%;
+                        }
+
+                        &.finger3 {
+                            right: 18%;
+                            height: 102%;
+                            transform: rotate(-37deg);
+                        }
+
+                        &.finger4 {
+                            right: 27%;
+                            height: 93%;
+                            transform: rotate(-26deg);
+
+                            .segment2 {
+                                &:after {
+                                    .pseudoclear;
+                                    top: 70%;
+                                    left: -20%;
+                                    width: 120%;
+                                    opacity: 0.5;
+                                    transform: rotate(45deg);
+                                    box-shadow: 0 0 2em 3em #821818);
+                                }
+                            }
+                        }
+
+                        .segment1 {
+                            transform: rotate(7deg);
+                        }
+
+                        .segment2 {
+                            transform: rotate(-10deg);
+                        }
+
+                        .segment3 {
+                            transform: rotate(-17deg);
+                            transform-origin: 100% 100%;
+                        }
+                    }
+                }
+
                 .leftarm {
-                    width: 20%;
-                    height: 58%;
-                    transform: rotate(1deg);
-                    right: 15%;
-                    top: 24%;
+                    width: 19%;
+                    height: 50%;
+                    transform: rotate(18deg);
+                    right: 22%;
+                    top: 31%;
                     border-radius: ~ '0 72% 64% 41% / 5% 21% 30% 29%';
 
                     .upperarm {
@@ -1982,7 +2133,7 @@ body {
                             height: 101%;
                             margin-top: 2%;
                             background-color: #5ba0a3;
-                            background-image: radial-gradient(ellipse farthest-side at 66% 33%, #bb9b96 9%, #522f2c 100%);
+                            background-image: radial-gradient(ellipse farthest-side at 66% 33%, #7e615c 9%, #3f1a16 100%);
                             box-shadow: inset -5em -17em 14em -3em #462922;
 
                             .uppershadow {
@@ -1996,10 +2147,10 @@ body {
                     }
 
                     .lowerarm {
-                        bottom: 14%;
+                        bottom: 20%;
                         width: 82%;
-                        height: 79%;
-                        right: 8%;
+                        height: 89%;
+                        right: -7%;
                         transform: rotate(36deg);
                         transform-origin: 0 100%;
 
@@ -2047,162 +2198,12 @@ body {
                         }
                     }
 
-                    .hand {
-                        top: -24%;
-                        right: 0%;
-                        width: 62%;
-                        height: 33%;
-                        transform: rotate(-8deg);
-                        transform-origin: 100% 100%;
-
-                        .palm {
-                            right: 0;
-                            width: 84%;
-                            height: 100%;
-                            transform: rotate(-3deg);
-                            transform-origin: 100% 0;
-                            border-radius: ~ '50% 50% 50% 50% / 80% 80% 20% 20%';
-                            background: #cccccc;
-                            box-shadow: inset -28em -14em 13em -19em #484848, inset 13em -6em 20em -5em #908e8e, 5em 16em 4em -11em rgba(76,76,76,0.81);
-                        }
-
-                        .segment {
-                            box-shadow: inset -8em 2em 5em -5em #797777, inset 11em 2em 9em -6em #918f8f;
-                            background: #cecece;
-
-                            &.segment1 {
-                                bottom: 0;
-                                right: 1%;
-                                width: 39%;
-                                height: 56%;
-                                border-radius: ~ '40% 15% 39% 40% / 40% 15% 12% 29%';
-                            }
-
-                            &.segment2 {
-                                bottom: 45%;
-                                right: 1%;
-                                margin: auto;
-                                width: 28%;
-                                height: 45%;
-                                overflow: hidden;
-                                border-radius: ~ '40% 15% 15% 40% / 40% 15% 14% 32%';
-                            }
-
-                            &.segment3 {
-                                bottom: 87%;
-                                right: 7%;
-                                width: 21%;
-                                height: 33%;
-                                border-radius: ~ '80% 20% 15% 40% / 70% 10% 15% 20%';
-                                box-shadow: inset 6em 12em 5em -9em #b6b6b6, inset -8em 2em 5em -5em #707070, inset 11em 2em 9em -6em #919090;
-                            }
-                        }
-
-                        .thumb {
-                            bottom: 6%;
-                            left: 2%;
-                            width: 98%;
-                            height: 73%;
-                            border-radius: ~ '24% 49% 80% 22% / 85% 30% 60% 22%';
-                            transform: rotate(-15deg);
-
-                            .flex {
-                                background-color: #c1bfbf;
-                                width: 102%;
-                                height: 100%;
-                                border-radius: inherit;
-                                box-shadow: inset -1em -10em 10em 7em #757373;
-                            }
-
-                            .segment {
-                                &.segment1 {
-                                    top: -65%;
-                                    left: 28%;
-                                    width: 38%;
-                                    height: 46%;
-                                    transform: rotate(9deg);
-                                    border-radius: 50% 50% 0 0;
-                                }
-
-                                &.segment2 {
-                                    top: -76%;
-                                    left: -7%;
-                                    width: 52%;
-                                    height: 33%;
-                                    transform: rotate(7deg);
-                                    border-radius: 27%;
-                                }
-                            }
-                        }
-
-                        .finger {
-                            width: 100%;
-                            height: 72%;
-                            transform: rotate(-53deg);
-                            transform-origin: 100% 100%;
-                            bottom: 97%;
-                            right: 21%;
-
-                            &.finger1 {
-                                transform: rotate(-65deg);
-                                height: 70%;
-                                right: 31%;
-
-                                .segment3 {
-                                    transform: rotate(-31deg);
-                                    bottom: 89%;
-                                }
-                            }
-
-                            &.finger2 {
-                                right: 17%;
-                                height: 90%;
-                            }
-
-                            &.finger3 {
-                                right: 18%;
-                                height: 102%;
-                                transform: rotate(-37deg);
-                            }
-
-                            &.finger4 {
-                                right: 27%;
-                                height: 93%;
-                                transform: rotate(-26deg);
-
-                                .segment2 {
-                                    &:after {
-                                        .pseudoclear;
-                                        top: 70%;
-                                        left: -20%;
-                                        width: 120%;
-                                        opacity: 0.5;
-                                        transform: rotate(45deg);
-                                        box-shadow: 0 0 2em 3em #821818);
-                                    }
-                                }
-                            }
-
-                            .segment1 {
-                                transform: rotate(7deg);
-                            }
-
-                            .segment2 {
-                                transform: rotate(-10deg);
-                            }
-
-                            .segment3 {
-                                transform: rotate(-17deg);
-                                transform-origin: 100% 100%;
-                            }
-                        }
-                    }
                 }
 
                 .rightarm {
                     top: 41%;
-                    left: -1%;
-                    width: 20.5%;
+                    left: -2%;
+                    width: 21.5%;
                     height: 46%;
                     transform: rotate(9deg);
                     border-radius: ~'0% 0% 15% 25% / 0% 0% 82% 86%';
@@ -2217,21 +2218,21 @@ body {
                             height: 186%;
                             top: -17%;
                             width: 100%;
-                            background-image: linear-gradient(124deg, rgba(78,42,36,0.1) 16%, rgba(0,0,0,0) 18%, rgba(0,0,0,0) 48%, rgba(78,42,36,0.67) 63%),radial-gradient(ellipse farthest-corner at 24% 42%, #eedfdb 2%, #c1a2a2 28%, #9c6868, #674742 61%);
+                            background-image: linear-gradient(124deg, rgba(78,42,36,0.1) 18%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 48%, rgba(78,42,36,0.67) 63%),radial-gradient(ellipse farthest-corner at 24% 42%, #eedfdb 2%, #c1a2a2 28%, #9c6868, #674742 61%);
 
                             &:before {
                                 .pseudoclear;
-                                top: 17%;
-                                transform: rotate(43deg);
+                                top: 20%;
+                                transform: rotate(36deg);
                                 left: 0;
                                 right: 0;
-                                box-shadow: 0 0 6em 13em rgba(103, 71, 66, 0.27);
+                                box-shadow: 0 0 6em 13em rgba(81, 43, 37, 0.27);
                             }
 
                             &:after {
                                 .pseudoclear;
                                 bottom: 4%;
-                                left: 48%;
+                                left: 32%;
                                 height: 44%;
                                 width: 0;
                                 box-shadow: 0 0 30em 13em rgba(233, 208, 202, 0.73);
@@ -2335,11 +2336,11 @@ body {
                         .rightshirt {
                             background-image: linear-gradient(63deg, transparent 41%, @dresscolor 51%);
                             width: 45%;
-                            height: 84%;
-                            right: 9%;
-                            border-radius: ~'0 26% 96% 4% / 0 55% 25% 0%';
-                            transform: rotate(17deg);
-                            box-shadow: 11em -16em 14em -2em rgba(77, 35, 35, 0.71);
+                            height: 80%;
+                            bottom: 17%;
+                            right: 11%;
+                            border-radius: ~'0 13% 100% 0% / 0 70% 22% 6%';
+                            transform: rotate(12deg);
                             overflow: hidden;
                         }
 
@@ -2474,11 +2475,11 @@ body {
 
                     &.left {
                         width: 62%;
-                        border-radius: ~ '9% 33% 53% 3% / 90% 5% 95% 18%';
-                        transform: rotate(16deg);
-                        left: 2%;
-                        top: 35%;
-                        height: 18%;
+                        border-radius: ~'9% 33% 53% 2% / 90% 5% 95% 9%';
+                        transform: rotate(13deg);
+                        left: 1.5%;
+                        top: 36%;
+                        height: 20%;
                         box-shadow: 20em -5em 4em -13em rgba(0, 0, 0, 0.29), 22em 10em 5em -13em rgba(0,0,0,0.15);
 
                         .wrinka {
@@ -2567,7 +2568,7 @@ body {
                             background-color: #a5cacb;
                             border-radius: ~'10% 4% 59% 40% / 35% 86% 16% 20%';
                             box-shadow: inset 0 -9em 3em -6em rgba(74,124,154,0.3), 0 2em 3em -1em rgba(74,124,154,0.3);
-                            background-image: radial-gradient(ellipse farthest-corner at 63% 90%, lighten(@wrapcolor, 9%) 4%, lighten(@wrapcolor, 2%) 44%);
+                            background-image: radial-gradient(ellipse farthest-corner at 63% 90%, lighten(@wrapcolor, 2%) 4%, darken(@wrapcolor, 1%) 44%);
 
                             &.wrbase {
                                 width: 100%;
@@ -2595,7 +2596,7 @@ body {
                             }
                             &.wr4 {
                                 left: 20%;
-                                background-image: linear-gradient(to right, darken(@wrapcolor, 5%) 62%,  lighten(@wrapcolor, 3%));
+                                background-image: linear-gradient(to right, darken(@wrapcolor, 5%) 62%,  darken(@wrapcolor, 1%));
                                 border-radius: ~'10% 4% 82% 13% / 35% 86% 6% 20%';
                             }
                             &.wr5 {
@@ -2608,12 +2609,12 @@ body {
                     }
 
                     &.right {
-                        right: 14%;
-                        top: 30%;
+                        right: 15%;
+                        top: 29%;
                         width: 27%;
-                        height: 17%;
+                        height: 16%;
                         border-radius: ~'0 15% 4% 80% / 0 37% 49% 95%';
-                        transform: rotate(-1deg);
+                        transform: rotate(7deg);
                         box-shadow: -27em 19em 8em -13em rgba(0,0,0,0.15);
                         .wrinkb {
                             top: 49%;
@@ -2711,8 +2712,8 @@ body {
                     left: 21%;
                     width: 50%;
                     height: 39%;
-                    transform: rotate(-24deg) skewX(39deg) skewY(-8deg);
-                    border-radius: ~ '133% 15% 36% 60% / 18% 21% 40% 60%';
+                    transform: rotate(-27deg) skewX(39deg) skewY(-8deg);
+                    border-radius: ~'133% 15% 29% 60% / 18% 21% 46% 60%';
 
                     &:after {
                         .pseudoclear;
@@ -2758,7 +2759,7 @@ body {
 
                             &.right {
                                 opacity: .4;
-                                right: 22%;
+                                right: 25%;
                                 bottom: -19%;
                                 transform: skew(27deg) rotate(-14deg);
                             }
@@ -2787,10 +2788,10 @@ body {
                         .cleavage {
                             height: 35%;
                             top: 86%;
-                            left: 32%;
+                            left: 24%;
                             box-shadow: 0 7em 1em 0.1em rgba(97,15,15,0.97), 3em 4em 18em 2em #5b160e, 0 -15em 51em 20em #b38783, 44em 5em 45em 34em #ebe1dc, -55em -6em 54em 51em #ede2e2;
                             border-radius: 90%;
-                            transform: rotate(38deg);
+                            transform: rotate(44deg);
                         }
 
                         .armpit {
@@ -2808,9 +2809,9 @@ body {
 
                             &.right {
                                 bottom: -13%;
-                                right: 31%;
+                                right: 35%;
                                 border-right: 1em solid rgba(49, 6, 6, 0.47);
-                                transform: rotate(34deg);
+                                transform: rotate(46deg);
                                 box-shadow: 2em 4em 2em 3em #664037, 1em -7em 14em 2em rgba(89, 42, 30, 0.84), -4em 4em 16em 2em #9b7870, 7em -6em 56em 22em rgba(97, 56, 45, 0.95);
                             }
                         }
