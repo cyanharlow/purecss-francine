@@ -1668,7 +1668,7 @@ body {
                     top: 62%;
                     transform: rotate(-4deg);
                     border-radius: ~ '50% 50% 12% 89% / 50% 46% 22% 50%';
-                    box-shadow: inset -3em -3em 1em 5em #aa8782, inset 0 -9em 3em 6em #9c716a, 3em 11em 15em 1em rgba(84, 43, 22, 0.66);
+                    box-shadow: inset -3em -3em 4em 5em #c79c9b, inset 0 -9em 3em 6em #925c53, 3em 11em 15em 1em rgba(88, 16, 16, 0.66);
 
                     .earring {
                         width: 73%;
@@ -2958,17 +2958,15 @@ body {
                         border-radius: ~ '1% 8% 13% 62% / 27% 90% 7% 48%';
                         box-shadow: inset -31em 11em 16em -18em #613b35, inset 0 -16em 22em 1em #d2b2b1, inset -50em 0 57em 0 #8e6962, inset 2em -40em 19em -32em #d5b9b7, -19em 42em 13em -30em #d5b9b8;
 
-                        &:before {
-                            .pseudoclear;
-                            width: 48%;
-                            left: 47%;
-                            background: #613b35;
-                            box-shadow: 0 0 10em 6em #613b35;
-                            top: 10%;
-                            opacity: 0.5;
+                        .neckshadow {
+                            filter: blur(6em);
+                            width: 60%;
+                            left: 44%;
+                            background: #63362f;
+                            top: 14%;
+                            opacity: 0.8;
                             height: 52%;
                             border-radius: 20% 20% 20% 75%;
-                            transform: rotate(-40defg);
                         }
 
                         &:after {
@@ -3254,7 +3252,7 @@ body {
                 left: 37.5%;
                 width: 23%;
                 height: 28%;
-                box-shadow: -7em -12em 6em -9em #dbd1cc, 6em -15em 6em -12em rgba(172,144,127,0.53), -23em -30em 21em -16em rgba(248,244,236,0.39), 64em -61em 21em -53em rgba(95,58,22,0.32), -14em 12em 2em -16em rgba(137,93,85,0.23), -31em 20em 4em -30em #c39289, -10em 16em 4em -15em #a37062;
+                box-shadow: -7em -12em 6em -9em #dbd1cc, 6em -15em 6em -12em rgba(172,144,127,0.53), -23em -30em 21em -16em rgba(248,244,236,0.39), 64em -61em 21em -53em rgba(95,58,22,0.32), -14em 12em 2em -16em rgba(137,93,85,0.23), -32em 23em 4em -34em #c7a4a0;
                 border-radius: ~ '42% 30% 41% 55% / 44% 38% 59% 54%';
                 transform: rotate(-6deg);
 
@@ -3275,7 +3273,7 @@ body {
                     overflow: hidden;
                     width: 100%;
                     height: 100%;
-                    box-shadow: inset -15em -3em 9em -12em rgba(83,58,43,0.98), inset 31em 53em 26em -46em #dacec8, inset -38em -8em 29em -21em rgba(82,48,37,0.34), inset -9em -38em 16em -24em #ac8576, inset 31em 9em 16em -25em rgba(172,151,139,0.83);
+                    box-shadow: inset -9em -33em 8em -24em rgba(74, 0, 0, 0.38), inset 12em -5em 3em -9em #d2b1af, inset -15em -3em 9em -12em rgb(83, 58, 43), inset 31em 53em 26em -46em #dacec8, inset -38em -8em 29em -21em rgba(82,48,37,0.34);
                     border-radius: inherit;
 
                     &:after,
@@ -3385,47 +3383,61 @@ body {
                     }
 
                     .eyeshadow {
-                        height: 9%;
-                        border-radius: 90%;
 
                         &.right {
-                            box-shadow: 16em -5em 5em -5em #603c3c, inset -3em 1em 1em 0 rgba(62,27,27,0.63), 4em 16em 3em -5em rgba(90,39,29,0.3);
-                            transform: rotate(-8deg);
-                            width: 26%;
-                            right: 0%;
-                            top: 38.5%;
-                            background-image: linear-gradient(to right, rgba(85, 38, 38, 0.96) 13%, rgba(255, 255, 255, 0.68), rgba(255, 255, 255, 0.63) 62%, rgba(144, 104, 100, 0.99) 74%, #54211b 84%);
+                            box-shadow: 16em -5em 5em -5em #603c3c, inset -3em 1em 1em 0 rgba(62,27,27,0.63), 4em 16em 3em -5em rgba(90,39,29,0.3), 1em -6em 11em 3em rgba(99, 22, 37, 0.29);
+                            background-image: linear-gradient(to right, #552626 13%, #b79391, #906b6b 62%, #884e46 74%, #54211b 84%);
+                            transform: rotate(-23deg);
+                            border-radius: ~'15% 81% 0 0 / 100% 100% 0 0';
+                            bottom: 72%;
+                            left: -24%;
+                            right: -20%;
+                            height: 82%;
+                            margin: auto;
                         }
 
                         &.left {
-                            box-shadow: inset 1em 2em 1em -1em rgba(62, 27, 27, 0.33);
+                            box-shadow: inset 1em 2em 1em -1em rgba(62,27,27,0.33), -4em -2em 11em 3em rgba(123, 29, 47, 0.31);
+                            background-image: linear-gradient(to right, #c09d95 18%, #d8b8b1, #ebd9d4, #d8a4a0 89%);
                             transform: rotate(-3deg);
-                            width: 29%;
-                            left: 28%;
-                            top: 38.2%;
-                            background-image: linear-gradient(to right, rgba(189, 147, 147, 0.24) 18%, rgba(249, 246, 246, 0.97), rgba(255, 255, 255, 0.63), rgba(134, 60, 60, 0.47) 89%);
-                            border-radius: 63% 59% 0 0;
+                            border-radius: ~'63% 59% 0 0 / 100% 100% 0 0';
+                            bottom: 67%;
+                            left: -1%;
+                            right: -20%;
+                            height: 88%;
+                            margin: auto;
+                        }
+                    }
+                    .eyebag {
+                        height: 138%;
+                        margin: auto;
+                        &.right {
+                            box-shadow: inset 2em 0 1em 1em #bf8c81;
+                            background-image: linear-gradient(to right, #865757 4%, #b38982, #7f514a 80%);
+                            transform: rotate(-23deg);
+                            border-radius: ~'0 0 30% 70% / 0 0 100% 100%';
+                            top: 28%;
+                            left: -3%;
+                            right: -12%;
+                        }
+
+                        &.left {
+                            box-shadow: inset 0em 0em 1em 1em rgba(218, 175, 170, 0.4);
+                            background-image: linear-gradient(to right, #865757 4%, #b38982, #713b33 80%);
+                            transform: rotate(-3deg);
+                            border-radius: ~'0 0 63% 59% / 0 0 100% 100%';
+                            top: 47%;
+                            left: 1%;
+                            right: -24%;
                         }
                     }
 
                     .eye {
                         top: 41%;
                         background: #9e8683;
-                        height: 7.5%;
+                        height: 6.8%;
                         z-index: 3;
                         border-radius: ~'64% 34% 50% 44% / 88% 0% 86% 0%';
-                        box-shadow: 4em -1em 6em -1em rgba(57, 4, 4, 0.45), 2em 9em 9em 3em rgba(229, 229, 228, 0.17), -3em 1em 5em 3em rgba(253, 253, 253, 0.35), 0 -6em 1em 0 rgba(251, 239, 242, 0.1), 1em -6em 11em 7em rgba(99, 22, 37, 0.29), inset 0 7em 3em -6em rgba(0, 0, 0, 0.47);
-
-                        &:after {
-                            .pseudoclear;
-                            opacity: 0.13;
-                            width: 115%;
-                            top: 53%;
-                            left: -12%;
-                            height: 86%;
-                            border-radius: ~ '7% 5% 50% 50% / 5% 6% 88% 92%';
-                            box-shadow: -1em 3em 1em 0 #5a0404, inset 11em -5em 5em -5em #740909;
-                        }
 
                         .lash {
                             border-right-style: solid;
@@ -3513,7 +3525,7 @@ body {
                         }
 
                         .eyeball {
-                            border-bottom: 3em solid #ddc1c2;
+                            border-bottom: 2.5em solid;
                             border-left: 0;
                             border-right: 0;
                             overflow: hidden;
@@ -3542,13 +3554,14 @@ body {
                         }
 
                         &.eleft {
-                            transform: scaleX(-1) rotate(16deg);
+                            transform: scaleX(-1) rotate(14deg);
                             left: 33%;
                             width: 23.5%;
                             top: 41.2%;
 
                             .eyeball {
-                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em -3em 5em -2em #9c6d66, inset -2em 0 5em -2em #7c2c3a, 9em 0 4em 0 rgba(245,231,231,0.53), -4em 11em 1em -5em rgba(152,105,98,0.24);
+                                border-color: #ddc1c2;
+                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em -3em 5em -2em #9c6d66, inset -2em 0 5em -2em #7c2c3a;
                             }
 
                             .iris {
@@ -3560,23 +3573,10 @@ body {
                                     top: 34%;
                                 }
                             }
-
-                            &:before {
-                                .pseudoclear;
-                                position: absolute;
-                                height: 275%;
-                                width: 153%;
-                                top: -93%;
-                                right: -24%;
-                                z-index: 7;
-                                opacity: 0.8;
-                                box-shadow: inset 6em -11em 7em -10em #e5e2e1, -10em 10em 9em -5em #ebe0e0;
-                                border-radius: 53% 0 45% 50%;
-                            }
                         }
                         // eye.right
                         &.eright {
-                            transform: rotate(20deg) rotateY(-32deg) scale(0.95);
+                            transform: rotate(15deg) rotateY(-32deg) scale(0.95);
                             right: 0%;
                             top: 41.5%;
                             width: 24.5%;
@@ -3589,7 +3589,7 @@ body {
                             .eyeball {
                                 background-image: radial-gradient(circle farthest-side at 50% 50%, #a48174 7%, #876459 47%, #663d31 77%) !important;
                                 border-color: #a07373;
-                                box-shadow: inset -5em 3em 2em -1em rgba(74, 8, 8, 0.43), inset 8em 3em 5em -2em rgba(72, 23, 15, 0.28), inset -3em 0 5em -2em rgba(154, 81, 94, 0.57), -5em 2em 2em -3em #fff;
+                                box-shadow: inset -5em 3em 2em -1em rgba(74,8,8,0.43), inset 8em 3em 5em -2em rgba(72,23,15,0.28), inset -3em 0 5em -2em rgba(154,81,94,0.57);
                             }
 
                             .iris {
@@ -3600,7 +3600,7 @@ body {
                                 box-shadow: inset 2em 10em 3em -3em rgba(34,34,33,0.68), inset 0 0 2em 1em #272838, inset 0 0 0 5.5em #7a7184;
 
                                 &:after {
-                                    left: 31%;
+                                    left: 19%;
                                     top: 42%;
                                 }
                             }
