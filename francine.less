@@ -2759,7 +2759,7 @@ body {
                             height: 6%;
                             top: 48%;
                             transform: rotate(-33deg);
-                            box-shadow: 0 -15em 29em 37em #4f332c;
+                            box-shadow: 0 -15em 29em 37em #6b413e;
                         }
 
                         .trapezoid {
@@ -2969,7 +2969,7 @@ body {
                         width: 100%;
                         height: 100%;
                         border-radius: ~ '1% 8% 13% 62% / 27% 90% 7% 48%';
-                        box-shadow: inset -25em 11em 11em -18em #613b35, inset 21em -27em 23em -25em #d8afae, inset -39em 0 57em 0 #9c6767, -19em 42em 13em -30em #dab6b5;
+                        box-shadow: inset -23em 11em 11em -18em #613b35, inset 21em -27em 23em -25em #d8afae, inset -39em 0 57em 0 #9c6767, -19em 42em 13em -30em #dab6b5;
 
                         .neckshadow {
                             filter: blur(5em);
@@ -3021,13 +3021,22 @@ body {
                 .sternal {
 
                     &.right {
+                        overflow: hidden;
                         height: 31%;
                         width: 27%;
                         bottom: -5%;
                         right: -26%;
                         transform: rotate(-19deg);
                         border-radius: 52%;
-                        box-shadow: -11em -5em 15em -7em #5f3530, -11em 11em 15em -8em #5f3530, -21em 9em 15em 2em #9e7070, -42em 3em 19em -3em #bc8c87;
+                        box-shadow: -13em 1em 9em -10em #6d423c, -8em 7em 9em -7em #724641, -16em 12em 9em -2em #b98d86, -30em 3em 19em -3em #a1756f;
+                        &:before {
+                            .pseudoclear;
+                            left: 4%;
+                            bottom: 7%;
+                            height: 35%;
+                            transform: rotate(-3deg);
+                            box-shadow: 0 0 6em 3em #5b3434;
+                        }
                     }
                 }
 
@@ -3582,7 +3591,7 @@ body {
 
                             .eyeball {
                                 border-color: #ddc1c2;
-                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em -3em 5em -2em #9c6d66, inset -2em 0 5em -2em #7c2c3a;
+                                box-shadow: inset -1em 3em 2em -1em rgba(74,8,8,0.49), inset 8em -3em 5em -2em #9c6d66, inset -2em 0 5em -2em #7c2c3a, 2em 5em 3em -2em rgba(120, 62, 54, 0.14);
                             }
 
                             .iris {
@@ -3609,8 +3618,8 @@ body {
 
                             .eyeball {
                                 background-image: radial-gradient(circle farthest-side at 50% 50%, #a48174 7%, #876459 47%, #663d31 77%) !important;
-                                border-color: #a07373;
-                                box-shadow: inset -5em 3em 2em -1em rgba(74,8,8,0.43), inset 8em 3em 5em -2em rgba(72,23,15,0.28), inset -3em 0 5em -2em rgba(154,81,94,0.57);
+                                border-color: #b88d8d;
+                                box-shadow: inset -5em 3em 2em -1em rgba(74,8,8,0.43), inset 8em 3em 5em -2em rgba(72,23,15,0.28), inset -3em 0 5em -2em rgba(154,81,94,0.57), 2em 6em 3em -4em rgba(121, 53, 39, 0.46);
                             }
 
                             .iris {
@@ -3831,21 +3840,21 @@ body {
                                 }
 
                                 &.right {
-                                    left: 57%;
-                                    top: 49%;
-                                    box-shadow: inset 0 3em 3em -2em rgb(206, 171, 161);
-                                    border-radius: 50%;
+                                    left: 63%;
+                                    top: 45%;
+                                    box-shadow: inset 1em -2em 4em -1em #956357;
+                                    border-radius: 40%;
                                     width: 27%;
-                                    background: linear-gradient(104deg, #a51b4b, #790624 55%, #000);
-                                    transform: rotate(17deg);
+                                    background: linear-gradient(-60deg, #a51b4b, #790624 55%, #000);
+                                    transform: rotate(165deg);
                                 }
                             }
                         }
 
                         .bottomlip {
-                            border-radius: ~ '0 0 31% 66% / 2% 2% 91% 91%';
+                            border-radius: ~ '0 0 5% 69% / 2% 2% 91% 91%';
                             border-top: 2em solid #350202;
-                            height: 43%;
+                            height: 50%;
                             width: 74%;
                             top: 44%;
                             z-index: 888;
@@ -3853,25 +3862,24 @@ body {
                             left: 0;
                             right: 0;
                             margin: auto;
-                            box-shadow: 3em 10em 6em -2em rgba(127, 65, 48, 0.46), 1em 36em 9em -4em rgba(111, 52, 37, 0.38);
+                            box-shadow: 3em 10em 6em -2em rgba(127,65,48,0.46), 1em 36em 9em -4em rgba(111,52,37,0.38);
 
                             &:after {
                                 .pseudoclear;
                                 box-shadow: 0 0 6em 4em #940f3e;
                                 height: 19%;
                                 top: 0;
-                                right: 41%;
+                                right: 33%;
                                 border-radius: 60%;
                             }
 
                             .lipbottom {
-                                box-shadow: inset 2em -4em 2em -3em #d8c2c0, inset -3em 11em 5em -2em #5a0715, inset -5em 19em 9em -3em rgba(115,5,5,0.68), inset -17em -16em 11em -14em #8c0a38, inset 0 11em 5em -1em rgba(154, 6, 58, 0.97);
+                                border-radius: ~'0 17% 38% 60% / 0 33% 70% 99%';
+                                box-shadow: inset 2em -4em 2em -3em #d8c2c0, inset -12em -3em 11em -6em #5a0715, inset 0em -6em 13em -1em #8c0a38, inset 0 4em 4em -1em rgba(154, 5, 57, 0.97);
                                 width: 90%;
-                                height: 259%;
-                                border-radius: 42%;
-                                background: #ffa4c7;
-                                transform: rotate(26deg);
-                                bottom: 7%;
+                                height: 140%;
+                                background: #d97990;
+                                bottom: 0;
                                 left: 10%;
                             }
                         }
