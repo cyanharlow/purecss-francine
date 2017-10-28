@@ -3816,7 +3816,7 @@ body {
                             border-radius: ~ '0 0 50% 50% / 0 0 12% 24%';
                             box-shadow: 0 13em 5em -11em #7b1b0f;
                             bottom: 53%;
-                            z-index: 5555555555555;
+                            z-index: 555;
                             overflow: hidden;
 
                             &:after {
@@ -3831,26 +3831,34 @@ body {
                                 height: 92%;
 
                                 &.left {
+                                    border-radius: ~ '0% 23% 10% 0% / 0% 50% 38% 0%';
                                     right: 30%;
                                     top: 76%;
                                     width: 68%;
                                     height: 65%;
                                     box-shadow: -6em -3em 4em 0 rgba(251, 249, 247, 0.57), inset 0 2em 2em 0 rgba(255, 255, 255, 0.45);
-                                    border-radius: ~ '0% 23% 10% 0% / 0% 50% 38% 0%';
-                                    background-image: linear-gradient(-174deg, #c54258, #770135);
+                                    background-image: linear-gradient(-174deg, #c54258, #8d2c35);
                                     transform: rotate(-39deg);
                                 }
 
                                 &.right {
+                                    border-radius: 40%;
                                     left: 63%;
                                     top: 45%;
                                     box-shadow: inset 1em -2em 4em -1em #956357;
-                                    border-radius: 40%;
                                     width: 27%;
-                                    background: linear-gradient(-26deg, #a51b4b, #790624 38%, #000);
+                                    background: linear-gradient(-26deg, #bb3664, #7e1a34 38%, #000);
                                     transform: rotate(165deg);
                                 }
                             }
+                        }
+
+                        .centershadow {
+                            box-shadow: 0 0 4em 3em rgba(100, 28, 28, 0.6);
+                            top: 42%;
+                            left: 21%;
+                            right: 15%;
+                            z-index: 666;
                         }
 
                         .bottomlip {
@@ -3859,7 +3867,7 @@ body {
                             height: 50%;
                             width: 74%;
                             top: 44%;
-                            z-index: 888;
+                            z-index: 88;
                             overflow: hidden;
                             left: 0;
                             right: 0;
