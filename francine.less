@@ -3415,14 +3415,14 @@ body {
 
                         &.right {
                             border-radius: ~'15% 81% 0 0 / 100% 100% 0 0';
-                            box-shadow: 16em -5em 5em -5em #603c3c, inset -3em 1em 1em 0 rgba(62,27,27,0.63), 4em 16em 3em -5em rgba(90,39,29,0.3), 1em -6em 11em 3em rgba(99, 22, 37, 0.29);
-                            background-image: linear-gradient(to right, #552626 13%, #b79391, #906b6b 62%, #884e46 74%, #54211b 84%);
+                            box-shadow: 23em 0em 5em -2em #653232, inset -3em 1em 1em 0 rgba(62,27,27,0.63), 4em 16em 3em -5em rgba(90,39,29,0.3), 1em -6em 11em 3em rgba(99,22,37,0.29);
+                            background-image: linear-gradient(to right, #552626 13%, #b79391, #906b6b 62%, #884e46 74%, #652a23 84%);
                             transform: rotate(-23deg);
-                            border-top: 1em solid rgba(60, 8, 8, 0.79);
-                            bottom: 72%;
+                            border-top: 1em solid rgba(60,8,8,0.79);
+                            bottom: 31%;
                             left: -24%;
-                            right: -20%;
-                            height: 82%;
+                            right: -7%;
+                            height: 126%;
                             margin: auto;
                         }
 
@@ -3813,6 +3813,31 @@ body {
                         transform: skewY(-3deg) rotate(4deg);
                         box-shadow: -9em 31em 12em -14em rgba(249, 236, 233, 0.55);
 
+                        &:after,
+                        &:before {
+                            .pseudoclear;
+                            z-index: 21;
+                        }
+
+                        &:after {
+                            border-radius: 100% 0;
+                            box-shadow: 0em 0em 7em 3em rgba(248, 241, 241, 0.33), -9em 0em 6em 5em rgba(74, 7, 7, 0.66);
+                            transform: rotate(7deg);
+                            top: 38%;
+                            right: -1%;
+                            height: 1%;
+                        }
+
+                        &:before {
+                            border-radius: 0 100%;
+                            box-shadow: -1em -1em 5em 2em rgba(100, 27, 21, 0.55), -2em 4em 6em 2em rgba(253,247,233,0.79);
+                            transform: rotate(-41deg);
+                            top: 42%;
+                            left: 8%;
+                            width: 11%;
+                            border-top: 2em solid #381c1c;
+                        }
+
                         .toplips {
                             width: 100%;
                             height: 74%;
@@ -3857,8 +3882,8 @@ body {
                         }
 
                         .centershadow {
-                            box-shadow: 0 0 4em 3em rgba(100, 28, 28, 0.6);
-                            top: 42%;
+                            box-shadow: 0 0 4em 3em rgba(116, 3, 3, 0.6);
+                            top: 44%;
                             left: 21%;
                             right: 15%;
                             z-index: 666;
@@ -3897,29 +3922,6 @@ body {
                             }
                         }
 
-                        &:after,
-                        &:before {
-                            .pseudoclear;
-                            z-index: 21;
-                            border-top: 2em solid #381c1c;
-                            width: 11%;
-                        }
-
-                        &:after {
-                            border-radius: 100% 0;
-                            box-shadow: -2em -6em 6em 2em rgba(233, 228, 228, 0.33), -1em 6em 6em 6em rgba(69, 22, 7, 0.66), 7em 8em 5em 9em rgba(126, 83, 70, 0.33);
-                            transform: rotate(97deg);
-                            top: 45%;
-                            right: 6%;
-                        }
-
-                        &:before {
-                            border-radius: 0 100%;
-                            box-shadow: -1em -1em 5em 2em rgba(102, 50, 45, 0.55), -2em 4em 6em 2em rgba(253, 247, 233, 0.79);
-                            transform: rotate(-41deg);
-                            top: 42%;
-                            left: 8%;
-                        }
                     }
 
                     .freckle {
