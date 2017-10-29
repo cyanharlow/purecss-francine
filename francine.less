@@ -196,17 +196,17 @@ body {
                 }
 
                 .sash {
+                    border-radius: ~'0 0 49% 51% / 0 0 54% 74%';
                     width: 142%;
                     height: 17%;
                     left: -13%;
                     top: -26%;
                     transform: rotate(3deg);
-                    border-radius: ~'0 0 49% 51% / 0 0 54% 74%';
 
                     .rightsash {
+                        border-radius: ~'0 90% 90% 0 / 0 50% 50% 0';
                         height: 57%;
                         width: 4%;
-                        border-radius: ~'0 90% 90% 0 / 0 50% 50% 0';
                         background: darken(@dresscolor, 22%);
                         right: -3%;
                         top: 4%;
@@ -218,26 +218,26 @@ body {
                         box-shadow: inset 0 -5em 10em -8em darken(@dresscolor, 19%), inset 0 -16em 2em -1em darken(@dresscolor, 22%), 11em 6em 2em -4em darken(@dresscolor, 25%), 0 11em 5em -5em rgba(26,8,8,0.25);
                     }
                     .mid {
+                        border-radius: ~'0 0 29% 50% / 0 0 26% 76%';
                         width: 86%;
                         height: 93%;
                         box-shadow: inset 0 -21em 1em -4em darken(@dresscolor, 3%), inset 0 -20em 2em -1em tint(@dresscolor, 25%);
-                        border-radius: ~'0 0 29% 50% / 0 0 26% 76%';
                     }
                     .left {
+                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         width: 11%;
                         height: 57%;
                         top: 3%;
                         left: -4%;
-                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         transform: rotate(-41deg);
                         box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 18%);
                     }
                     .right {
+                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         width: 11%;
                         height: 57%;
                         top: 6%;
                         right: -4%;
-                        border-radius: ~'50% 50% 0 0 / 100% 100% 0 0';
                         transform: rotate(41deg);
                         box-shadow: inset 0 22em 2em -3em darken(@dresscolor, 15%);
                     }
@@ -347,20 +347,20 @@ body {
                     }
                     .shad {
                         &.s1 {
+                            border-radius: ~'0 0 50% 50% / 0 0 99% 99%';
                             left: 9%;
                             bottom: 15%;
                             width: 35%;
                             height: 32%;
                             transform: rotate(9deg);
-                            border-radius: ~'0 0 50% 50% / 0 0 99% 99%';
                             box-shadow: 0 0 6em 3em rgba(42, 19, 19, 0.66);
                         }
                         &.s2 {
+                            border-radius: ~'25% 75% 0 0 / 99% 99% 0 0';
                             left: 7%;
                             top: 37%;
                             width: 29%;
                             height: 19%;
-                            border-radius: ~'25% 75% 0 0 / 99% 99% 0 0';
                             box-shadow: 0 0 6em 3em rgba(42, 19, 19, 0.66);
                         }
                         &.s3 {
@@ -371,11 +371,11 @@ body {
                             box-shadow: 0 0 4em 6em rgba(42, 19, 19, 0.33);
                         }
                         &.s4 {
+                            border-radius: ~'0 0 25% 75% / 0 0 99% 99%';
                             left: 49%;
                             top: 71%;
                             width: 29%;
                             height: 19%;
-                            border-radius: ~'0 0 25% 75% / 0 0 99% 99%';
                             box-shadow: 0 0 3em 5em rgba(42,19,19,0.33);
                         }
                     }
@@ -618,10 +618,10 @@ body {
                 .body,
                 .hairdo {
                     .band {
+                        border-radius: ~ '92% 8% 9% 9% / 59% 90% 11% 15%';
                         z-index: 2;
                         height: 10%;
                         box-shadow: inset -3em 1em 0 0 rgba(23, 105, 114, 0.28), inset -3em 2em 0 0 rgba(255, 255, 255, 0.2), inset -7em -3em 0 -1em rgba(11, 40, 50, 0.14), 7em 1em 5em 1em rgba(87, 63, 37, 0.51);
-                        border-radius: ~ '92% 8% 9% 9% / 59% 90% 11% 15%';
 
                         &.left {
                             width: 132%;
@@ -1462,20 +1462,20 @@ body {
                     }
 
                     .hair {
-                        &:after {
-                            .pseudoclear;
-                        }
+                        border-radius: ~ '15% 85% 100% 0% / 39% 35% 65% 35%';
                         bottom: 21%;
                         height: 114%;
                         width: 83%;
-                        border-radius: ~ '15% 85% 100% 0% / 39% 35% 65% 35%';
+                        &:after {
+                            .pseudoclear;
+                        }
 
                         &.rightback {
+                            border-radius: ~ '13% 70% 37% 12%/ 99% 90% 6% 0';
                             right: -29%;
                             top: -52%;
                             height: 40%;
                             width: 78%;
-                            border-radius: ~ '13% 70% 37% 12%/ 99% 90% 6% 0';
 
                             &:after {
                                 box-shadow: inset -70em 29em 40em -31em rgba(72, 51, 24, 0.72);
@@ -1483,12 +1483,12 @@ body {
                         }
 
                         &.leftback {
+                            border-radius: ~ '28% 70% 37% 12%/ 99% 90% 11% 0';
                             transform: scaleX(-1) rotate(-8deg);
                             left: -12%;
                             top: -55%;
                             height: 40%;
                             width: 95%;
-                            border-radius: ~ '28% 70% 37% 12%/ 99% 90% 11% 0';
 
                             &:after {
                                 right: 5%;
@@ -1497,12 +1497,12 @@ body {
                         }
 
                         &.right {
+                            border-radius: ~ '54% 42% 37% 19% / 39% 38% 59% 52%';
                             transform: rotate(16deg);
                             right: -53%;
                             bottom: 20%;
                             width: 142%;
                             height: 104%;
-                            border-radius: ~ '54% 42% 37% 19% / 39% 38% 59% 52%';
 
                             &:after {
                                 background-color: rgba(87, 68, 40, 0.67);
@@ -1550,30 +1550,30 @@ body {
                         }
 
                         &.curl1 {
+                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
                             top: 6%;
                             left: 15%;
                             width: 31%;
                             height: 8%;
                             transform: rotate(-46deg);
-                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
                         }
 
                         &.curl2 {
+                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
                             top: 4%;
                             right: 18%;
                             width: 31%;
                             height: 9%;
                             transform: rotate(50deg) scaleX(-1);
-                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
                         }
 
                         &.curl3 {
+                            border-radius: ~ '0% 95% 96% 0% / 0% 50% 50% 0%';
                             top: 32%;
                             left: -19%;
                             width: 71%;
                             height: 80%;
                             transform: rotate(-55deg) scaleX(-1);
-                            border-radius: ~ '0% 95% 96% 0% / 0% 50% 50% 0%';
 
                             &:after {
                                 background: rgba(114, 93, 64, 0.62);
@@ -1582,12 +1582,12 @@ body {
                         }
 
                         &.curl5 {
+                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
                             top: -3%;
                             left: 35%;
                             width: 42%;
                             height: 11%;
                             transform: rotate(54deg) scaleY(-1);
-                            border-radius: ~ '18% 18% 18% 18% / 50% 50% 50% 50%';
 
                             .strand {
                                 background: rgba(104, 81, 49, 0.56);
@@ -1595,12 +1595,12 @@ body {
                         }
 
                         &.curl6 {
+                            border-radius: ~ '0% 97% 97% 0% / 0% 50% 50% 0%';
                             top: -30%;
                             left: -24%;
                             width: 85%;
                             height: 108%;
                             transform: rotate(-13deg) scaleX(-1);
-                            border-radius: ~ '0% 97% 97% 0% / 0% 50% 50% 0%';
 
                             &:after {
                                 box-shadow: inset -32em -29em 30em -13em rgba(92, 75, 46, 0.33);
@@ -1608,12 +1608,12 @@ body {
                         }
 
                         &.curl7 {
+                            border-radius: ~ '0% 89% 99% 0% / 0% 50% 51% 0%';
                             top: -20%;
                             left: -51%;
                             width: 110%;
                             height: 108%;
                             transform: rotate(-36deg) scaleX(-1);
-                            border-radius: ~ '0% 89% 99% 0% / 0% 50% 51% 0%';
                             box-shadow: -13em 35em 30em -9em rgba(98, 77, 45, 0.74);
 
                             &:after {
@@ -1622,12 +1622,12 @@ body {
                         }
 
                         &.curl8 {
+                            border-radius: ~ '0% 95% 96% 0% / 0% 50% 50% 0%';
                             top: 62%;
                             left: 11%;
                             width: 51%;
                             height: 90%;
                             transform: rotate(-5deg) scaleX(-1);
-                            border-radius: ~ '0% 95% 96% 0% / 0% 50% 50% 0%';
 
                             &:after {
                                 background: rgba(113, 90, 59, 0.56);
@@ -1636,11 +1636,11 @@ body {
                         }
 
                         &.leftbottom {
+                            border-radius: ~ '30% 30% 30% 30% / 50% 50% 50% 50%';
                             top: 54%;
                             width: 50%;
                             height: 14%;
                             left: -49%;
-                            border-radius: ~ '30% 30% 30% 30% / 50% 50% 50% 50%';
                             transform: scaleX(-1) rotate(-10deg);
                         }
 
@@ -3442,9 +3442,9 @@ body {
                     .eyebag {
                         margin: auto;
                         &.right {
+                            border-radius: ~'0 0 30% 70% / 0 0 100% 100%';
                             box-shadow: inset 2em 0 1em 1em #a07970, -2em 4em 2em -1em #a97370;
                             background-image: linear-gradient(to right, #865757 4%, #b38982, #7f514a 80%);
-                            border-radius: ~'0 0 30% 70% / 0 0 100% 100%';
                             transform: rotate(-14deg);
                             top: 46%;
                             left: -3%;
@@ -3453,10 +3453,10 @@ body {
                         }
 
                         &.left {
+                            border-radius: ~'0 0 63% 59% / 0 0 100% 100%';
                             box-shadow: inset 0 0 2em 1em #e2bfbb;
                             background-image: linear-gradient(to right, #bd8a8a 4%, #dac1bd, #dabbb6 80%);
                             transform: rotate(-3deg);
-                            border-radius: ~'0 0 63% 59% / 0 0 100% 100%';
                             top: 47%;
                             left: -2%;
                             right: -22%;
@@ -3664,12 +3664,12 @@ body {
                     }
 
                     .noseshadow {
+                        border-radius: ~ '60% 0 0 0 / 47% 0 0 0';
                         height: 10%;
                         width: 13%;
                         opacity: 0.9;
                         top: 37%;
                         left: 76%;
-                        border-radius: ~ '60% 0 0 0 / 47% 0 0 0';
                         box-shadow: inset 7em -8em 9em -2em rgba(77, 36, 14, 0.86), -6em -2em 4em -2em rgba(84, 35, 8, 0.83);
                         transform: rotate(-16deg);
                     }
@@ -3705,11 +3705,11 @@ body {
                         }
 
                         .bridge {
+                            border-radius: ~ '61% 35% 26% 67% / 62% 34% 16% 8%';
                             background-color: #f4e6e2;
                             margin: auto;
                             width: 49%;
                             height: 86%;
-                            border-radius: ~ '61% 35% 26% 67% / 62% 34% 16% 8%';
                             right: 27%;
                             bottom: 5%;
                             transform: rotate(-14deg);
@@ -3728,9 +3728,9 @@ body {
                         }
 
                         .side {
+                            border-radius: ~ '50% 50% 35% 35% / 60% 60% 30% 30%';
                             width: 47%;
                             height: 35%;
-                            border-radius: ~ '50% 50% 35% 35% / 60% 60% 30% 30%';
                             box-shadow: inset 0 -5em 5em 1em rgba(247, 230, 228, 0.22), inset -2em -8em 6em -4em rgba(123, 55, 55, 0.87), inset 0 -5em 3em 2em rgba(154, 123, 76, 0.22), inset 0 -10em 4em 0 rgba(247, 234, 216, 0.55);
                             background-color: #f1e1df;
                             margin: auto;
@@ -3839,9 +3839,9 @@ body {
                         }
 
                         .toplips {
+                            border-radius: ~ '0 0 50% 50% / 0 0 12% 24%';
                             width: 100%;
                             height: 65%;
-                            border-radius: ~ '0 0 50% 50% / 0 0 12% 24%';
                             box-shadow: 0 13em 5em -11em #7b1b0f;
                             bottom: 53%;
                             z-index: 555;
