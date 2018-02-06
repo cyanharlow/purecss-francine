@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 .linksection {
-    display: none;
+    display: none !important;
 }
