@@ -20,7 +20,9 @@
 }
 
 div,
-svg {
+svg,
+ul,
+li {
     position: absolute;
     print-color-adjust: exact;
     filter:opacity(1);
@@ -31,9 +33,14 @@ html {
     min-width: 665px;
 }
 
+@xpos: `Math.random() * 600`;
+@ypos: `Math.random() * 1000`;
+@pixels: px;
+
 body {
     font-size: 1px;
     background-color: #281b11;
+    background-image: linear-gradient(to bottom, #2c3521, #0b0e07);
     padding: 33em 5em 66em;
 
     .linksection {
@@ -42,23 +49,23 @@ body {
         position: static;
         padding: 0 0 67px;
         font-family: 'Century Gothic', Arial, sans-serif;
-        color: #7f6849;
+        color: #68705e;
 
         .separator {
             padding: 0 5px;
         }
 
         a {
-            color: #a5864e;
+            color: #788d6a;
         }
     }
 
     .paper {
         position: relative;
         margin: auto;
-        background-color: #4e5442;
-        background-image: radial-gradient(circle farthest-corner at 126% 36%, rgba(0, 0, 0, 0) 65%, #060000 81%), radial-gradient(circle farthest-corner at 54% 50%, #6c533f, #0d0d10 95%);
-        box-shadow: 0 0 5em 11em #251a0b, 0 0 5em 20em #47311c, 0 0 14em 34em #372915, 0 0 0 40em #21170d;
+        background-color: #242c1a;
+        background-image: radial-gradient(circle farthest-corner at 126% 36%, rgba(0,0,0,0) 65%, #000206 81%),radial-gradient(circle farthest-corner at 47% 50%, #48727f 9%, #062931 76%);
+        box-shadow: 0 0 10em 8em #251e0b, 0 0 5em 20em #473c1c, 0 0 14em 34em #2e2613, 0 0 0 40em #261e0f;
         overflow: hidden;
         box-sizing: content-box;
         width: 650em;
@@ -76,6 +83,21 @@ body {
                 width: 100%;
                 background: rgba(198, 103, 68, 0.1);
                 pointer-events: none;
+            }
+
+            .tree {
+                width: 100%;
+                height: 100%;
+                .leaf001 {
+                    left: 56%;
+                    top: 2%;
+                    width: 7%;
+                    height: 4%;
+                    border-radius: 50%;
+                    background: #0d370a;
+                    color: #042a11;
+                    box-shadow: 0 0 15em 8em, inset 0 0 20em 9em;
+                }
             }
 
             .square {
