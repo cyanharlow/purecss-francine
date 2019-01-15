@@ -1,0 +1,86 @@
+#!/usr/bin/env ruby
+require "bundler/inline"
+
+gemfile do
+  source 'https://rubygems.org' do
+    gem "capybara-screenshot"
+    gem "selenium-webdriver"
+  end
+end
+
+require "capybara-screenshot"
+require "selenium/webdriver"
+
+HTML_FILE = "index.html"
+CSS_FILE = "francine.css"
+SCREENSHOTS_DIR = "screenshots"
+
+def configure_capybara
+  Capybara.register_driver :selenium do |app|
+    Capybara::Selenium::Driver.new(
+      app,
+      browser: :chrome,
+      options: Selenium::WebDriver::Chrome::Options.new(
+        args: %w[headless disable-gpu window-size=722,1246],
+      )
+    )
+  end
+
+  Capybara.configure do |config|
+    config.run_server = false
+    config.default_driver = :selenium
+    config.app_host = 'file://'
+  end
+
+  Capybara::Screenshot.capybara_tmp_path = "#{Dir.pwd}/#{SCREENSHOTS_DIR}"
+  Capybara::Screenshot.append_timestamp = false
+end
+
+def create_screenshots_dir
+  `mkdir -p screenshots`
+end
+
+def all_commits
+  @all_commits ||= `git log --format=format:%H`.split("\n").reverse
+end
+
+def files_exist?(sha)
+  [HTML_FILE, CSS_FILE].each do |file|
+    `rm #{file} 2> /dev/null`
+    `git checkout #{sha} -- #{file} 2> /dev/null`
+    return false unless File.exist?(file)
+  end
+  true
+end
+
+def print_progress(current, total)
+  print "#{current}/#{total}", 13.chr;
+end
+
+def save_screenshot(file_name)
+  Capybara.current_session.visit("#{Dir.pwd}/#{HTML_FILE}")
+  saver = Capybara::Screenshot.new_saver(Capybara, Capybara.page, false, file_name)
+  saver.save
+end
+
+def reset
+  `git reset --hard HEAD`
+end
+
+if $0 == __FILE__
+  Signal.trap("SIGINT") do
+    print "stopping..."
+    reset
+    exit
+  end
+
+  configure_capybara
+  create_screenshots_dir
+  all_commits.each_with_index do |sha, index|
+    print_progress(index, all_commits.length)
+    if files_exist?(sha)
+      save_screenshot("#{index}_#{sha}")
+    end
+  end
+  reset
+end
