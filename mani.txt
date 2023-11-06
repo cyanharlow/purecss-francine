@@ -1,0 +1,1354 @@
+<html>
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119193338-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-119193338-2');
+    </script>
+
+    <title>Francine</title>
+    <meta name="description" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow" />
+
+    <meta property="og:description" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow" />
+    <meta property="og:title" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow">
+    <meta property="og:image" content="https://raw.githubusercontent.com/cyanharlow/purecss-francine/master/preview.jpg">
+    <meta property="og:url" content="https://diana-adrianne.com/purecss-francine/">
+
+    <meta property="twitter:title" content="Pure CSS Oil Painting - by Diana Smith aka cyanHarlow">
+    <meta property="twitter:image" content="https://raw.githubusercontent.com/cyanharlow/purecss-francine/master/francine-prev-thumb.jpg">
+    <meta name="twitter:description" content="An ongoing series in which I create art using only CSS and HTML. Made for Chrome.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@cyanharlow">
+    <meta name="twitter:creator" content="@cyanharlow" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=722" />
+    <meta name="author" content="Diana Smith">
+    <meta name="keywords" content="cyanharlow, diana, css, art" />
+    <link rel="stylesheet" href="francine.css" type="text/css">
+    <link rel="stylesheet" href="disabled1.css" type="text/css">
+    <link rel="stylesheet" href="disabled2.css" type="text/css">
+</head>
+
+<body>
+    <div id="linksection" class="linksection">
+        By Diana Smith
+        <span class="separator">|</span>
+        <a href="https://github.com/cyanharlow" target="_blank">GitHub.com/cyanHarlow</a>
+        <span class="separator">|</span>
+        <a href="http://diana-adrianne.com" target="_blank">Website</a>
+    </div>
+    <div class="paper">
+        <div class="container">
+            <div class="tree">
+                    <div class="leaf leaf001"></div>
+                    <div class="leaf leaf002"></div>
+                    <div class="leaf leaf003"></div>
+                    <div class="leaf leaf004"></div>
+                    <div class="leaf leaf005"></div>
+                    <div class="leaf leaf006"></div>
+                    <div class="leaf leaf007"></div>
+                    <div class="leaf leaf008"></div>
+                    <div class="leaf leaf009"></div>
+                    <div class="leaf leaf010"></div>
+                    <div class="leaf leaf011"></div>
+                    <div class="leaf leaf012"></div>
+                    <div class="leaf leaf013"></div>
+                    <div class="leaf leaf014"></div>
+                    <div class="leaf leaf015"></div>
+                    <div class="leaf leaf016"></div>
+                    <div class="leaf leaf017"></div>
+                    <div class="leaf leaf018"></div>
+                    <div class="leaf leaf019"></div>
+                    <div class="leaf leaf020"></div>
+                    <div class="leaf leaf021"></div>
+                    <div class="leaf leaf022"></div>
+                    <div class="leaf leaf023"></div>
+                    <div class="leaf leaf024"></div>
+                    <div class="leaf leaf025"></div>
+                    <div class="leaf leaf026"></div>
+                    <div class="leaf leaf027"></div>
+                    <div class="leaf leaf028"></div>
+                    <div class="leaf leaf029"></div>
+                    <div class="leaf leaf030"></div>
+                    <div class="leaf leaf031"></div>
+                    <div class="leaf leaf032"></div>
+                    <div class="leaf leaf033"></div>
+                    <div class="leaf leaf034"></div>
+                    <div class="leaf leaf035"></div>
+                    <div class="leaf leaf036"></div>
+                    <div class="leaf leaf037"></div>
+                    <div class="leaf leaf038"></div>
+                    <div class="leaf leaf039"></div>
+                    <div class="leaf leaf040"></div>
+                    <div class="leaf leaf041"></div>
+                    <div class="leaf leaf042"></div>
+                    <div class="leaf leaf043"></div>
+                    <div class="leaf leaf044"></div>
+                    <div class="leaf leaf045"></div>
+                    <div class="leaf leaf046"></div>
+                    <div class="leaf leaf047"></div>
+                    <div class="leaf leaf048"></div>
+                    <div class="leaf leaf049"></div>
+                    <div class="leaf leaf050"></div>
+                    <div class="leaf leaf051"></div>
+                    <div class="leaf leaf052"></div>
+                    <div class="leaf leaf053"></div>
+                    <div class="leaf leaf054"></div>
+                    <div class="leaf leaf055"></div>
+                    <div class="leaf leaf056"></div>
+                    <div class="leaf leaf057"></div>
+                    <div class="leaf leaf058"></div>
+                    <div class="leaf leaf059"></div>
+                    <div class="leaf leaf060"></div>
+                    <div class="leaf leaf061"></div>
+                    <div class="leaf leaf062"></div>
+                    <div class="leaf leaf063"></div>
+                    <div class="leaf leaf064"></div>
+                    <div class="leaf leaf065"></div>
+                    <div class="leaf leaf066"></div>
+                    <div class="leaf leaf067"></div>
+                    <div class="leaf leaf068"></div>
+                    <div class="leaf leaf069"></div>
+                    <div class="leaf leaf070"></div>
+                    <div class="leaf leaf071"></div>
+                    <div class="leaf leaf072"></div>
+                    <div class="leaf leaf073"></div>
+                    <div class="leaf leaf074"></div>
+                    <div class="leaf leaf075"></div>
+                    <div class="leaf leaf076"></div>
+                    <div class="leaf leaf077"></div>
+                    <div class="leaf leaf078"></div>
+                    <div class="leaf leaf079"></div>
+                    <div class="leaf leaf080"></div>
+                    <div class="leaf leaf081"></div>
+                    <div class="leaf leaf082"></div>
+                    <div class="leaf leaf083"></div>
+                    <div class="leaf leaf084"></div>
+                    <div class="leaf leaf085"></div>
+                    <div class="leaf leaf086"></div>
+                    <div class="leaf leaf087"></div>
+                    <div class="leaf leaf088"></div>
+                    <div class="leaf leaf089"></div>
+                    <div class="leaf leaf090"></div>
+                    <div class="leaf leaf091"></div>
+                    <div class="leaf leaf092"></div>
+                    <div class="leaf leaf093"></div>
+                    <div class="leaf leaf094"></div>
+                    <div class="leaf leaf095"></div>
+                    <div class="leaf leaf096"></div>
+                    <div class="leaf leaf097"></div>
+                    <div class="leaf leaf098"></div>
+                    <div class="leaf leaf099"></div>
+                    <div class="leaf leaf100"></div>
+
+
+                </div>
+
+
+
+            <div class="square">
+                <div class="hairdo">
+                    <div class="sash">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                    <div class="feather feather2">
+                        <div class="featherside left">
+                            <div class="feath feath1"></div>
+                            <div class="feath feath2"></div>
+                            <div class="feath feath3"></div>
+                            <div class="feath feath4"></div>
+                            <div class="feath feath6"></div>
+                            <div class="feath feath7"></div>
+                            <div class="feath feath8"></div>
+                            <div class="feath feath10"></div>
+                            <div class="feath feath11"></div>
+                            <div class="feath feath12"></div>
+                            <div class="feath feath13"></div>
+                            <div class="feath feath14"></div>
+                            <div class="feath feath15"></div>
+                            <div class="feath feath16"></div>
+                            <div class="feath feath17"></div>
+                            <div class="feath feath18"></div>
+                            <div class="feath feath19"></div>
+                            <div class="feath feath21"></div>
+                            <div class="feath feath22"></div>
+                            <div class="feath feath23"></div>
+                            <div class="feath feath24"></div>
+                            <div class="feath feath25"></div>
+                            <div class="feath feath26"></div>
+                            <div class="feath feath27"></div>
+                            <div class="feath feath28"></div>
+                            <div class="feath feath29"></div>
+                            <div class="feath feath30"></div>
+                            <div class="feath feath31"></div>
+                            <div class="feath feath32"></div>
+                            <div class="feath feath33"></div>
+                            <div class="feath feath34"></div>
+                            <div class="feath feath35"></div>
+                            <div class="feath feath36"></div>
+                            <div class="feath feath37"></div>
+                            <div class="feath feath38"></div>
+                            <div class="feath feath39"></div>
+                            <div class="feath feath40"></div>
+                            <div class="feath feath41"></div>
+                            <div class="feath feath42"></div>
+                            <div class="feath feath43"></div>
+                            <div class="feath feath44"></div>
+                            <div class="feath feath45"></div>
+                            <div class="feath feath46"></div>
+                            <div class="feath feath47"></div>
+                            <div class="feath feath48"></div>
+                            <div class="feath feath49"></div>
+                            <div class="feath feath50"></div>
+                        </div>
+
+                        <div class="featherside right">
+                            <div class="feath feath1"></div>
+                            <div class="feath feath2"></div>
+                            <div class="feath feath3"></div>
+                            <div class="feath feath4"></div>
+                            <div class="feath feath6"></div>
+                            <div class="feath feath7"></div>
+                            <div class="feath feath8"></div>
+                            <div class="feath feath10"></div>
+                            <div class="feath feath11"></div>
+                            <div class="feath feath12"></div>
+                            <div class="feath feath13"></div>
+                            <div class="feath feath14"></div>
+                            <div class="feath feath15"></div>
+                            <div class="feath feath16"></div>
+                            <div class="feath feath17"></div>
+                            <div class="feath feath18"></div>
+                            <div class="feath feath19"></div>
+                            <div class="feath feath21"></div>
+                            <div class="feath feath22"></div>
+                            <div class="feath feath23"></div>
+                            <div class="feath feath24"></div>
+                            <div class="feath feath25"></div>
+                            <div class="feath feath26"></div>
+                            <div class="feath feath27"></div>
+                            <div class="feath feath28"></div>
+                            <div class="feath feath29"></div>
+                            <div class="feath feath30"></div>
+                            <div class="feath feath31"></div>
+                            <div class="feath feath32"></div>
+                            <div class="feath feath33"></div>
+                            <div class="feath feath34"></div>
+                            <div class="feath feath35"></div>
+                            <div class="feath feath36"></div>
+                            <div class="feath feath37"></div>
+                            <div class="feath feath38"></div>
+                            <div class="feath feath39"></div>
+                            <div class="feath feath40"></div>
+                            <div class="feath feath41"></div>
+                            <div class="feath feath42"></div>
+                            <div class="feath feath43"></div>
+                            <div class="feath feath44"></div>
+                            <div class="feath feath45"></div>
+                            <div class="feath feath46"></div>
+                            <div class="feath feath47"></div>
+                            <div class="feath feath48"></div>
+                            <div class="feath feath49"></div>
+                            <div class="feath feath50"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="curl curl8">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+
+                    <div class="curl curl3">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand12"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand17"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+                    <div class="hair rightpouf">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand12"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand17"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+
+                    </div>
+
+                </div>
+
+                <!-- hairdo -->
+
+                <div class="body">
+                    <div class="skirtback"></div>
+
+                    <div class="leftarm" style="display: none;">
+                        <div class="upperarm">
+                            <div class="skin">
+                                <div class="uppershadow"></div>
+
+                            </div>
+                        </div>
+
+                        <div class="lowerarm">
+                            <div class="wrinkle wrinklea"></div>
+                            <div class="wrinkle wrinkleb"></div>
+
+                            <div class="forearm">
+                                <div class="forearmin">
+                                    <div class="wrinkle wrinkle5"></div>
+                                    <div class="wrinkle wrinkle6"></div>
+                                    <div class="wrinkle wrinkle7"></div>
+                                </div>
+                            </div>
+                            <div class="hand">
+                                <div class="wrist"></div>
+                                <div class="thumb">
+                                    <div class="segment segment1"></div>
+                                    <div class="segment segment2"></div>
+                                    <div class="flex"></div>
+                                </div>
+
+                                <div class="finger finger4">
+                                    <div class="segment segment1"></div>
+                                    <div class="segment segment2"></div>
+                                    <div class="segment segment3"></div>
+                                </div>
+
+                                <div class="flower">
+                                    <div class="stem st1"></div>
+                                    <div class="stem st2"></div>
+                                    <div class="leaf leaf1"></div>
+                                    <div class="leaf leaf2"></div>
+                                    <div class="flowerbody f1">
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="bud"></div>
+
+                                    </div>
+
+                                    <div class="flowerbody f2">
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="petal"></div>
+                                        <div class="bud"></div>
+
+                                    </div>
+                                </div>
+
+                                <div class="finger finger3">
+                                    <div class="segment segment1"></div>
+                                    <div class="segment segment2"></div>
+                                    <div class="segment segment3"></div>
+                                </div>
+
+                                <div class="finger finger2">
+                                    <div class="segment segment1"></div>
+                                    <div class="segment segment2"></div>
+                                    <div class="segment segment3"></div>
+                                </div>
+                                <div class="palm front"></div>
+
+                                <div class="finger finger1">
+                                    <div class="segment segment1"></div>
+                                    <div class="segment segment2"></div>
+                                    <div class="segment segment3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="skirt">
+                        <div class="wrinkle wrinkle26"></div>
+                        <div class="wrinkle wrinkle25"></div>
+
+                        <div class="wrinkle wrinkle22"></div>
+                        <div class="wrinkle wrinkle20"></div>
+                        <div class="wrinkle wrinkle24"></div>
+                        <div class="wrinkle wrinkle21"></div>
+                        <div class="wrinkle wrinkle23"></div>
+                        <div class="forearmshadow"></div>
+                    </div>
+
+                    <div class="waist">
+                        <div class="shirt">
+                            <div class="belt">
+
+                                <div class="uppershadow"></div>
+                                <div class="wrinkle wrink1">
+                                    <div class="wrinkle wrink2"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="leftshirt">
+
+                                <div class="leftshirtshadow"></div>
+                                <div class="armshadow"></div>
+                                <div class="wrinkle wrinkle9"></div>
+                                <div class="wrinkle wrinkle10"></div>
+                                <div class="wrinkle wrinkle11"></div>
+                                <div class="wrinkle wrinkle12"></div>
+                                <div class="wrinkle wrinkle13"></div>
+                                <div class="wrinkle wrinkle14"></div>
+                                <div class="wrinkle wrinkle15"></div>
+                                <div class="wrinkle wrinkle16"></div>
+
+                                <div class="seam left"></div>
+                                <div class="stitches right">
+                                    <div class="stitch four"></div>
+                                    <div class="stitch three"></div>
+                                    <div class="stitch two"></div>
+                                    <div class="stitch one"></div>
+                                </div>
+                            </div>
+
+                            <div class="rightshirt">
+                                <div class="sideshadow"></div>
+                            </div>
+                            <div class="boob"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="rightarm">
+                        <div class="upperarm">
+                            <div class="skin"></div>
+                        </div>
+                        <div class="forearm right">
+
+                            <div class="wrinkle wrinkle0"></div>
+                            <div class="wrinkle wrinkle1"></div>
+                            <div class="forearmin behind">
+                                <div class="wrinkle wrinkle2"></div>
+                                <div class="wrinkle wrinkle3"></div>
+                                <div class="wrinkle wrinkle4"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="wrap right">
+                        <div class="lace lace13"></div>
+                        <div class="lace lace14"></div>
+                        <div class="lace lace15"></div>
+                        <div class="wrapinner"></div>
+                        <div class="wrinkle wrinkc"></div>
+                        <div class="wrinkle wrinkb"></div>
+                    </div>
+
+                    <div class="wrap left">
+                        <div class="lace lace0"></div>
+                        <div class="lace lace1"></div>
+                        <div class="lace lace2"></div>
+                        <div class="lace lace3"></div>
+                        <div class="lace lace4"></div>
+                        <div class="lace lace5"></div>
+                        <div class="lace lace6"></div>
+                        <div class="lace lace7"></div>
+                        <div class="lace lace8"></div>
+                        <div class="lace lace9"></div>
+                        <div class="wrapinner wrbase"></div>
+                        <div class="wrapinner wr1"></div>
+                        <div class="wrapinner wr2"></div>
+                        <div class="wrapinner wr3"></div>
+                        <div class="wrapinner wr4"></div>
+                        <div class="wrapinner wr5"></div>
+                        <div class="wrinkle wrinka"></div>
+                        <div class="wrinkle wrinkb"></div>
+                        <div class="wrinkle wrinkc"></div>
+                        <div class="wrinkle wrinkd"></div>
+                        <div class="wrinkle wrinke"></div>
+
+                    </div>
+
+                    <div class="upperbody">
+                        <div class="shoulders">
+                            <div class="cleavage"></div>
+                            <div class="armpit left"></div>
+                            <div class="armpit right"></div>
+                            <div class="vein vein0"></div>
+                            <div class="vein vein1"></div>
+                            <div class="vein vein2"></div>
+                            <div class="vein vein3"></div>
+                            <div class="vein vein4"></div>
+                            <div class="mole"></div>
+
+                            <div class="collarshadow"></div>
+                            <div class="shouldershadow"></div>
+
+                            <div class="trapezoid right"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                    </div>
+
+                    <div class="metal pin">
+                        <div class="metal midpin"></div>
+                    </div>
+
+                    <div class="neck">
+                        <div class="inner">
+                            <div class="neckshadow"></div>
+                        </div>
+                        <div class="leftneck"></div>
+                        <div class="cord"></div>
+
+                        <div class="notch"></div>
+                        <div class="sternal left"></div>
+                        <div class="sternal right"></div>
+                    </div>
+
+
+                    <div class="collarbone left"></div>
+                    <div class="collarbone right"></div>
+                </div>
+                <!-- /body -->
+
+                <div class="hairdo front">
+                    <div class="ear left"></div>
+
+                    <div class="curl curl7">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand12"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand17"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+
+                    <div class="hair left" style="display:none">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand12"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand17"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+
+                    </div>
+
+                    <div class="curl curl6">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+
+                    <div class="hair mid">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+
+                    </div>
+
+                    <div class="hair rightback">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+
+                    <div class="hair leftback">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand11"></div>
+                        <div class="strand strand13"></div>
+                        <div class="strand strand14"></div>
+                        <div class="strand strand15"></div>
+                        <div class="strand strand16"></div>
+                        <div class="strand strand18"></div>
+                        <div class="strand strand19"></div>
+                        <div class="strand strand20"></div>
+                        <div class="strand strand21"></div>
+                        <div class="strand strand22"></div>
+                        <div class="strand strand23"></div>
+                        <div class="strand strand24"></div>
+                        <div class="strand strand25"></div>
+                        <div class="strand strand26"></div>
+                        <div class="strand strand27"></div>
+                        <div class="strand strand28"></div>
+                        <div class="strand strand29"></div>
+                        <div class="strand strand30"></div>
+                        <div class="strand strand31"></div>
+                        <div class="strand strand32"></div>
+                        <div class="strand strand33"></div>
+                        <div class="strand strand34"></div>
+                        <div class="strand strand35"></div>
+                        <div class="strand strand36"></div>
+                        <div class="strand strand37"></div>
+                        <div class="strand strand38"></div>
+                        <div class="strand strand39"></div>
+                        <div class="strand strand40"></div>
+                        <div class="strand strand41"></div>
+                        <div class="strand strand42"></div>
+                        <div class="strand strand43"></div>
+                        <div class="strand strand44"></div>
+                        <div class="strand strand45"></div>
+                        <div class="strand strand46"></div>
+                        <div class="strand strand47"></div>
+                        <div class="strand strand48"></div>
+                        <div class="strand strand49"></div>
+                        <div class="strand strand50"></div>
+                    </div>
+
+
+                    <div class="pearlstring right long">
+                        <div class="pearl pearl0"></div>
+                        <div class="pearl pearl1"></div>
+                        <div class="pearl pearl2"></div>
+                        <div class="pearl pearl3"></div>
+                        <div class="pearl pearl4"></div>
+                        <div class="pearl pearl5"></div>
+                        <div class="pearl pearl6"></div>
+                        <div class="pearl pearl7"></div>
+                        <div class="pearl pearl8"></div>
+                        <div class="pearl pearl9"></div>
+                        <div class="pearl pearl11"></div>
+                        <div class="pearl pearl10"></div>
+                    </div>
+
+                    <div class="pearlstring right short">
+                        <div class="pearl pearl0"></div>
+                        <div class="pearl pearl1"></div>
+                        <div class="pearl pearl2"></div>
+                        <div class="pearl pearl3"></div>
+                        <div class="pearl pearl4"></div>
+                        <div class="pearl pearl5"></div>
+                        <div class="pearl pearl6"></div>
+                        <div class="pearl pearl7"></div>
+                        <div class="pearl pearl8"></div>
+
+                    </div>
+
+                    <div class="pearlstring left long">
+                        <div class="pearl pearl0"></div>
+                        <div class="pearl pearl1"></div>
+                        <div class="pearl pearl2"></div>
+                        <div class="pearl pearl3"></div>
+                        <div class="pearl pearl4"></div>
+                        <div class="pearl pearl5"></div>
+                        <div class="pearl pearl6"></div>
+                        <div class="pearl pearl7"></div>
+                        <div class="pearl pearl8"></div>
+                        <div class="pearl pearl9"></div>
+
+                        <div class="pearl pearl23"></div>
+                        <div class="pearl pearl22"></div>
+                        <div class="pearl pearl21"></div>
+                        <div class="pearl pearl20"></div>
+                        <div class="pearl pearl19"></div>
+                        <div class="pearl pearl18"></div>
+                        <div class="pearl pearl17"></div>
+                        <div class="pearl pearl16"></div>
+                        <div class="pearl pearl15"></div>
+                        <div class="pearl pearl14"></div>
+                        <div class="pearl pearl13"></div>
+                        <div class="pearl pearl12"></div>
+                        <div class="pearl pearl11"></div>
+                        <div class="pearl pearl10"></div>
+                    </div>
+
+                    <div class="pearlstring left short">
+                        <div class="pearl pearl0"></div>
+                        <div class="pearl pearl1"></div>
+                        <div class="pearl pearl2"></div>
+                        <div class="pearl pearl3"></div>
+                        <div class="pearl pearl4"></div>
+                        <div class="pearl pearl5"></div>
+                        <div class="pearl pearl6"></div>
+                        <div class="pearl pearl7"></div>
+                        <div class="pearl pearl8"></div>
+                        <div class="pearl pearl9"></div>
+
+                        <div class="pearl pearl23"></div>
+                        <div class="pearl pearl22"></div>
+                        <div class="pearl pearl21"></div>
+                        <div class="pearl pearl20"></div>
+                        <div class="pearl pearl19"></div>
+                        <div class="pearl pearl18"></div>
+                        <div class="pearl pearl17"></div>
+                        <div class="pearl pearl16"></div>
+                        <div class="pearl pearl15"></div>
+                        <div class="pearl pearl14"></div>
+                        <div class="pearl pearl13"></div>
+                        <div class="pearl pearl12"></div>
+                        <div class="pearl pearl11"></div>
+                        <div class="pearl pearl10"></div>
+                    </div>
+
+                    <div class="feather feather1">
+                        <div class="featherside left">
+                            <div class="feath feath1"></div>
+                            <div class="feath feath2"></div>
+                            <div class="feath feath3"></div>
+                            <div class="feath feath4"></div>
+                            <div class="feath feath6"></div>
+                            <div class="feath feath7"></div>
+                            <div class="feath feath8"></div>
+                            <div class="feath feath10"></div>
+                            <div class="feath feath11"></div>
+                            <div class="feath feath12"></div>
+                            <div class="feath feath13"></div>
+                            <div class="feath feath14"></div>
+                            <div class="feath feath15"></div>
+                            <div class="feath feath16"></div>
+                            <div class="feath feath17"></div>
+                            <div class="feath feath18"></div>
+                            <div class="feath feath19"></div>
+                            <div class="feath feath21"></div>
+                            <div class="feath feath22"></div>
+                            <div class="feath feath23"></div>
+                            <div class="feath feath24"></div>
+                            <div class="feath feath25"></div>
+                            <div class="feath feath26"></div>
+                            <div class="feath feath27"></div>
+                            <div class="feath feath28"></div>
+                            <div class="feath feath29"></div>
+                            <div class="feath feath30"></div>
+                            <div class="feath feath31"></div>
+                            <div class="feath feath32"></div>
+                            <div class="feath feath33"></div>
+                            <div class="feath feath34"></div>
+                            <div class="feath feath35"></div>
+                            <div class="feath feath36"></div>
+                            <div class="feath feath37"></div>
+                            <div class="feath feath38"></div>
+                            <div class="feath feath39"></div>
+                            <div class="feath feath40"></div>
+                            <div class="feath feath41"></div>
+                            <div class="feath feath42"></div>
+                            <div class="feath feath43"></div>
+                            <div class="feath feath44"></div>
+                            <div class="feath feath45"></div>
+                            <div class="feath feath46"></div>
+                            <div class="feath feath47"></div>
+                            <div class="feath feath48"></div>
+                            <div class="feath feath49"></div>
+                            <div class="feath feath50"></div>
+                        </div>
+
+                        <div class="featherside right">
+                            <div class="feath feath1"></div>
+                            <div class="feath feath2"></div>
+                            <div class="feath feath3"></div>
+                            <div class="feath feath4"></div>
+                            <div class="feath feath6"></div>
+                            <div class="feath feath7"></div>
+                            <div class="feath feath8"></div>
+                            <div class="feath feath10"></div>
+                            <div class="feath feath11"></div>
+                            <div class="feath feath12"></div>
+                            <div class="feath feath13"></div>
+                            <div class="feath feath14"></div>
+                            <div class="feath feath15"></div>
+                            <div class="feath feath16"></div>
+                            <div class="feath feath17"></div>
+                            <div class="feath feath18"></div>
+                            <div class="feath feath19"></div>
+                            <div class="feath feath21"></div>
+                            <div class="feath feath22"></div>
+                            <div class="feath feath23"></div>
+                            <div class="feath feath24"></div>
+                            <div class="feath feath25"></div>
+                            <div class="feath feath26"></div>
+                            <div class="feath feath27"></div>
+                            <div class="feath feath28"></div>
+                            <div class="feath feath29"></div>
+                            <div class="feath feath30"></div>
+                            <div class="feath feath31"></div>
+                            <div class="feath feath32"></div>
+                            <div class="feath feath33"></div>
+                            <div class="feath feath34"></div>
+                            <div class="feath feath35"></div>
+                            <div class="feath feath36"></div>
+                            <div class="feath feath37"></div>
+                            <div class="feath feath38"></div>
+                            <div class="feath feath39"></div>
+                            <div class="feath feath40"></div>
+                            <div class="feath feath41"></div>
+                            <div class="feath feath42"></div>
+                            <div class="feath feath43"></div>
+                            <div class="feath feath44"></div>
+                            <div class="feath feath45"></div>
+                            <div class="feath feath46"></div>
+                            <div class="feath feath47"></div>
+                            <div class="feath feath48"></div>
+                            <div class="feath feath49"></div>
+                            <div class="feath feath50"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="sash">
+                        <div class="rightsash"></div>
+                        <div class="shad s1"></div>
+                        <div class="shad s2"></div>
+                        <div class="shad s3"></div>
+                        <div class="shad s4"></div>
+                        <div class="bottom"></div>
+                        <div class="mid"></div>
+
+                        <div class="triangle t00"></div>
+                        <div class="triangle t0">
+                            <div class="triangle ta"></div>
+                        </div>
+                        <div class="triangle t1"></div>
+                        <div class="triangle t2"></div>
+                        <div class="triangle t4">
+                            <div class="triangle tb"></div>
+                            <div class="triangle tc"></div>
+                        </div>
+                        <div class="triangle t3"></div>
+                        <div class="triangle t5"></div>
+                        <div class="triangle t6"></div>
+                        <div class="triangle t7"></div>
+                        <div class="triangle t8"></div>
+                    </div>
+
+                    <div class="medallion left">
+
+                        <div class="metal arrow one"></div>
+                        <div class="metal arrow two"></div>
+                        <div class="metal arrow three"></div>
+                        <div class="metal arrow four"></div>
+                        <div class="metal arrow five"></div>
+
+                        <div class="metal back"></div>
+                        <div class="metal middle"></div>
+                        <div class="beads"></div>
+                        <div class="pearlback metal">
+                            <div class="pearl"></div>
+                        </div>
+                    </div>
+                    <div class="medallion right">
+
+                        <div class="metal arrow one"></div>
+                        <div class="metal arrow two"></div>
+                        <div class="metal arrow three"></div>
+                        <div class="metal arrow four"></div>
+                        <div class="metal arrow five"></div>
+
+                        <div class="metal back"></div>
+                        <div class="metal middle"></div>
+                        <div class="beads"></div>
+                        <div class="pearlback metal">
+                            <div class="pearl"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="head">
+
+
+                    <div class="face">
+                        <div class="browridge"></div>
+                        <div class="forehead"></div>
+                        <div class="foreheadridge"></div>
+                        <div class="noseshadow"></div>
+                        <div class="eyebrow left">
+
+
+                        </div>
+                        <div class="leftarch">
+                        </div>
+                        <div class="eyebrow right"></div>
+                        <div class="eye eleft">
+                            <div class="eyelid left"></div>
+                            <div class="eyebag left"></div>
+                            <div class="eyeliner inner"></div>
+                            <div class="eyeliner outer"></div>
+
+                            <div class="lash bottom lash1"></div>
+                            <div class="lash bottom lash2"></div>
+                            <div class="lash bottom lash3"></div>
+                            <div class="lash bottom lash4"></div>
+                            <div class="lash bottom lash5"></div>
+                            <div class="lash bottom lash6"></div>
+                            <div class="eyeball">
+                                <div class="iris"></div>
+                            </div>
+                            <div class="lash top lash1"></div>
+                            <div class="lash top lash2"></div>
+                            <div class="lash top lash3"></div>
+                            <div class="lash top lash4"></div>
+                            <div class="lash top lash5"></div>
+                            <div class="lash top lash6"></div>
+                        </div>
+
+                        <div class="eye eright">
+                            <div class="eyelid right"></div>
+                            <div class="eyebag right"></div>
+                            <div class="eyeliner inner"></div>
+                            <div class="eyeliner outer"></div>
+
+                            <div class="lash bottom lash1"></div>
+                            <div class="lash bottom lash2"></div>
+                            <div class="lash bottom lash3"></div>
+                            <div class="lash bottom lash4"></div>
+                            <div class="lash bottom lash5"></div>
+                            <div class="lash bottom lash6"></div>
+                            <div class="eyeball">
+                                <div class="iris"></div>
+                            </div>
+                            <div class="lash top lash1"></div>
+                            <div class="lash top lash2"></div>
+                            <div class="lash top lash3"></div>
+                            <div class="lash top lash4"></div>
+                            <div class="lash top lash5"></div>
+                            <div class="lash top lash6"></div>
+                        </div>
+
+                        <div class="nose">
+                            <div class="philtrum"></div>
+                            <div class="side"></div>
+                            <div class="bridge"></div>
+                            <div class="tip">
+                                <div class="nostril"></div>
+                            </div>
+                            <div class="divot"></div>
+                        </div>
+
+                        <div class="smile left"></div>
+                        <div class="smile right"></div>
+                        <div class="mouthshadow"></div>
+                        <div class="mouth">
+                            <div class="toplips">
+                                <div class="toplip left"></div>
+                                <div class="toplip right"></div>
+                            </div>
+                            <div class="bottomlip">
+                                <div class="lipbottom">
+                                </div>
+                            </div>
+                            <div class="centershadow"></div>
+                        </div>
+                        <div class="chin"></div>
+                        <div class="blush left"></div>
+                        <div class="blush right"></div>
+
+                        <div class="cheekbone left"></div>
+                        <div class="cheekshine"></div>
+                        <div class="cheekbone right"></div>
+                    </div>
+                    <div class="sideburn">
+                        <div class="strand strand1"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand4"></div>
+                    </div>
+                    <div class="hairline"></div>
+
+                    <div class="sidetuft">
+                        <div class="strand strand11"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand1"></div>
+                    </div>
+
+                    <div class="tuft">
+                        <div class="strand strand11"></div>
+                        <div class="strand strand10"></div>
+                        <div class="strand strand9"></div>
+                        <div class="strand strand8"></div>
+                        <div class="strand strand7"></div>
+                        <div class="strand strand6"></div>
+                        <div class="strand strand5"></div>
+                        <div class="strand strand4"></div>
+                        <div class="strand strand3"></div>
+                        <div class="strand strand2"></div>
+                        <div class="strand strand1"></div>
+                    </div>
+
+                    <div class="eyeridge"></div>
+                    <div class="cheekridge"></div>
+                    <div class="jawline"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
